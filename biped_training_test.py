@@ -32,17 +32,17 @@ def model_evaluation(model, env, episode_num):
 # model.learn(total_timesteps=1e6)
 # model.save("20191031_biped6DOF_ppo1_1e6_v2")
 
-# for i in range(2, 333):
-#     env = bipedGymEnv_6DOF_Phoenix_20191030.BipedRobot(isGUI=False, demonstration=False, reset_status=True)
-#     env = DummyVecEnv([lambda: env])
-#     if i == 1:
-#         model = PPO1(MlpPolicy, env)
-#     else:
-#         model = PPO1.load('20191031_biped6DOF_ppo1_' + str(i-1) + 'e6_v1')
-#         model.set_env(env)
-#     model.learn(total_timesteps=int(1e6))
-#     model.save("20191031_biped6DOF_ppo1_" + str(i) + "e6_v1")
-#     del model
+for i in range(1, 333):
+    env = bipedGymEnv_6DOF_Phoenix_20191031.BipedRobot(isGUI=False, demonstration=False, reset_status=True)
+    env = DummyVecEnv([lambda: env])
+    if i == 1:
+        model = PPO1(MlpPolicy, env)
+    else:
+        model = PPO1.load('20191031_biped6DOF_ppo1_' + str(i-1) + 'e7_v1')
+        model.set_env(env)
+    model.learn(total_timesteps=int(1e7))
+    model.save("20191031_biped6DOF_ppo1_" + str(i) + "e7_v1")
+    del model
 
 # with open("20191015_biped6DOF_ppo1_1e7_v1_score_report.txt", "a") as f:
 #     f.write("score before training: %s\n" % score_before_training)

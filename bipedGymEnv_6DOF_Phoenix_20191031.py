@@ -2,6 +2,7 @@
 Author: Phoenix Fan
 Date: 31-10-2019
 Specification:  Recover z-axis reward/penalty with coefficient 0.04
+                Modify the z-axis reward/penalty.
 """
 
 import pybullet as p
@@ -61,6 +62,7 @@ class BipedRobot(gym.Env):
         self.previous_position_link = np.zeros([6, 3], dtype=float)
         self.previous_status_joint = np.zeros([6, 2], dtype=float)  # velocity, position
         self.previous_base_status = np.zeros([7, ], dtype=float)  # velocity, orientation
+        self.torso_position = np.zeros([3, ], dtype=float)  # position
         self.center_datum = np.zeros([2, 3, ], dtype=float)  # previous, current
         self.load_bot()
         self.status_record = np.zeros(shape=(100, 42), dtype=float)
@@ -69,7 +71,7 @@ class BipedRobot(gym.Env):
         self.get_limitation_space()
 
     def load_bot(self):
-        loc = '/home/antikythera1/workplace/Exoskeleton/biped_6DOF_20191029.urdf'
+        loc = '/home/antikythera1/workplace/Exoskeleton/biped_6DOF_20191031.urdf'
         self.center_datum[:, :] = 0.
         self.bot_id = self.p.loadURDF(loc,
                                       self.cubeStartPos,
@@ -85,6 +87,7 @@ class BipedRobot(gym.Env):
         self.previous_base_status[5] = self.p.getBasePositionAndOrientation(self.bot_id)[1][2]  # z quaternion
         self.previous_base_status[6] = self.p.getBasePositionAndOrientation(self.bot_id)[1][3]  # w quaternion
         self.center_datum[1] += self.p.getBasePositionAndOrientation(self.bot_id)[0]  # base position
+        self.torso_position = self.p.getBasePositionAndOrientation(self.bot_id)[0]  # store the current base position
 
         for index_link in range(self.number_link):
             self.previous_position_link[index_link] = self.p.getLinkState(self.bot_id, index_link, 1)[0]
@@ -226,7 +229,7 @@ class BipedRobot(gym.Env):
         """
         x_reward = self.center_datum[1, 0] - self.center_datum[0, 0]  # deduct previous position from current position
         y_reward = abs(self.center_datum[0, 1]) - abs(self.center_datum[1, 1])
-        z_reward = -abs(self.center_datum[1, 2] - self.avgTorsoCenterHeight)
+        z_reward = -abs(self.torso_position[2] - self.avgTorsoCenterHeight)
         if dead:
             survival = 0
         else:
@@ -255,6 +258,7 @@ class BipedRobot(gym.Env):
 
         self.p.stepSimulation()
 
+        self.torso_position = self.p.getBasePositionAndOrientation(self.bot_id)[0]  # get the current base position
         self.center_datum[0] = self.center_datum[1].copy()
         for index_link in range(self.number_link):
             self.previous_position_link[index_link] = self.p.getLinkState(self.bot_id, index_link, 1)[0]
