@@ -1,0 +1,2 @@
+score before training: 684.5509263391028
+score after training: 1353.3839211640486
