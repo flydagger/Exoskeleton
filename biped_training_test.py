@@ -24,24 +24,24 @@ def model_evaluation(model, env, episode_num):
 
     return avg_reward / episode_num
 
-#
-# env = bipedGymEnv_6DOF_Phoenix_20191031.BipedRobot(isGUI=False, demonstration=False, reset_status=False)
+
+# env = bipedGymEnv_6DOF_Phoenix_20191031.BipedRobot(isGUI=False, demonstration=False, reset_status=True)
 # # env = DummyVecEnv([lambda: env])
 # # model = PPO2(MlpPolicy(net_arch=[300, 200, 100]), env, learning_rate=0.00008, nminibatches=128000)
 # model = PPO1(MlpPolicy, env)
 # model.learn(total_timesteps=1e6)
-# model.save("20191031_biped6DOF_ppo1_1e6_v2")
+# model.save("20191101_biped6DOF_ppo1_1e6_v1")
 
-for i in range(1, 333):
+for i in range(5, 333):
     env = bipedGymEnv_6DOF_Phoenix_20191031.BipedRobot(isGUI=False, demonstration=False, reset_status=True)
     env = DummyVecEnv([lambda: env])
     if i == 1:
         model = PPO1(MlpPolicy, env)
     else:
-        model = PPO1.load('20191031_biped6DOF_ppo1_' + str(i-1) + 'e7_v1')
+        model = PPO1.load('20191101_biped6DOF_ppo1_' + str(i-1) + 'e6_v1')
         model.set_env(env)
-    model.learn(total_timesteps=int(1e7))
-    model.save("20191031_biped6DOF_ppo1_" + str(i) + "e7_v1")
+    model.learn(total_timesteps=int(1e6))
+    model.save("20191101_biped6DOF_ppo1_" + str(i) + "e6_v1")
     del model
 
 # with open("20191015_biped6DOF_ppo1_1e7_v1_score_report.txt", "a") as f:
@@ -52,7 +52,7 @@ for i in range(1, 333):
 
 # env = bipedGymEnv_6DOF_Phoenix_20191031.BipedRobot(isGUI=True, demonstration=True, reset_status=True)
 # # env = gym.make("RoboschoolHumanoid-v1")
-# model = PPO1.load('20191031_biped6DOF_ppo1_1e6_v2')
+# model = PPO1.load('20191101_biped6DOF_ppo1_4e6_v1')
 # # model.set_env(env)
 # step_counter = 0
 #
