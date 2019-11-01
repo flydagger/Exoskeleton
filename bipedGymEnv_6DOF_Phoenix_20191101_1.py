@@ -236,7 +236,7 @@ class BipedRobot(gym.Env):
         else:
             survival = 0.1
 
-        return 20*x_reward + 0.1*y_reward + 0.01*z_reward + 0.005*survival + 0.005*joint_efficiency
+        return 20*x_reward + 0.1*y_reward + 0.01*z_reward + 0.1*survival + 0.005*joint_efficiency
 
     def done(self):
         """
