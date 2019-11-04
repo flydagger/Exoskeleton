@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<!--    Author: Phoenix Fan
+        Date: 31/10/2019 
+        Update: Modify the mass of upper body to 81.8 with according to the mass radio of matchstick man in pybullet.
+                
+-->
+<robot name="biped_6DOF">
+
+    <material name="white">
+        <color rgba="1 1 1 1"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0.2 0.2 0.2 1"/>
+    </material>
+
+    <material name="blue">
+        <color rgba="0 0 1 1"/>
+    </material>
+
+    <link name="torso">
+        <visual>
+            <geometry>
+                <box size="0.2 0.8 0.2"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <material name="white"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.2 0.8 0.2"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+        </collision>
+        <inertial>
+            <mass value="81.8"/>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <inertia ixx = "4.63533" ixy = "0" ixz = "0" iyy = "0.545333" iyz = "0" izz = "4.63533" />
+        </inertial>
+    </link>
+
+    <link name="right_thigh">
+        <visual>
+            <geometry>
+                <box size="0.2 0.2 0.3"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.2 0.2 0.3"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+        </collision>
+        <inertial>
+            <mass value="12"/>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+            <inertia ixx = "0.13" ixy = "0" ixz = "0" iyy = "0.13" iyz = "0" izz = "0.08" />
+        </inertial>
+    </link>
+    <joint name="torso_to_right_thigh" type="revolute">
+        <parent link="torso"/>
+        <child link="right_thigh"/>
+        <axis xyz="0 1 0"/>
+        <dynamics damping="0.1" friction="0.0001"/>
+        <limit effort="1000.0" lower="-1.39626" upper="1.39626" velocity="12"/>
+        <origin rpy="0 0 0" xyz="0 -0.3 -0.1"/>
+    </joint>
+
+    <link name="right_shank">
+        <visual>
+            <geometry>
+                <box size="0.2 0.2 0.3"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+            <material name="white"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.2 0.2 0.3"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+        </collision>
+        <inertial>
+            <mass value="12"/>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+            <inertia ixx = "0.13" ixy = "0" ixz = "0" iyy = "0.13" iyz = "0" izz = "0.08" />
+        </inertial>
+    </link>
+    <joint name="right_thigh_to_shank" type="revolute">
+        <parent link="right_thigh"/>
+        <child link="right_shank"/>
+        <axis xyz="0 1 0"/>
+        <dynamics damping="0.1" friction="0.0001"/>
+        <limit effort="1000.0" lower="0" upper="2.96706" velocity="12"/>
+        <origin rpy="0 0 0" xyz="0 0 -0.3"/>
+    </joint>
+
+    <link name="right_foot" >
+        <visual>
+            <geometry>
+                <box size="0.3 0.2 0.1"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0.05 0 -0.05"/>
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.3 0.2 0.1"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0.05 0 -0.05"/>
+        </collision>
+        <inertial>
+            <mass value="6"/>
+            <origin rpy="0 0 0" xyz="0.05 0 -0.05"/>
+            <inertia ixx = "0.025" ixy = "0" ixz = "0" iyy = "0.05" iyz = "0" izz = "0.065" />
+        </inertial>
+    </link>
+    <joint name="right_shank_to_foot" type="revolute">
+        <parent link="right_shank"/>
+        <child link="right_foot"/>
+        <axis xyz="0 1 0"/>
+        <dynamics damping="0.1" friction="0.0001"/>
+        <limit effort="1000.0" lower="-0.785398" upper="0.785398" velocity="12"/>
+        <origin rpy="0 0 0" xyz="0 0 -0.3"/>
+    </joint>
+
+<link name="left_thigh">
+        <visual>
+            <geometry>
+                <box size="0.2 0.2 0.3"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.2 0.2 0.3"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+        </collision>
+        <inertial>
+            <mass value="12"/>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+            <inertia ixx = "0.13" ixy = "0" ixz = "0" iyy = "0.13" iyz = "0" izz = "0.08" />
+        </inertial>
+    </link>
+    <joint name="torso_to_left_thigh" type="revolute">
+        <parent link="torso"/>
+        <child link="left_thigh"/>
+        <axis xyz="0 1 0"/>
+        <dynamics damping="0.1" friction="0.0001"/>
+        <limit effort="1000.0" lower="-1.39626" upper="1.39626" velocity="12"/>
+        <origin rpy="0 0 0" xyz="0 0.3 -0.1"/>
+    </joint>
+
+    <link name="left_shank">
+        <visual>
+            <geometry>
+                <box size="0.2 0.2 0.3"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+            <material name="white"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.2 0.2 0.3"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+        </collision>
+        <inertial>
+            <mass value="12"/>
+            <origin rpy="0 0 0" xyz="0 0 -0.15"/>
+            <inertia ixx = "0.13" ixy = "0" ixz = "0" iyy = "0.13" iyz = "0" izz = "0.08" />
+        </inertial>
+    </link>
+    <joint name="left_thigh_to_shank" type="revolute">
+        <parent link="left_thigh"/>
+        <child link="left_shank"/>
+        <axis xyz="0 1 0"/>
+        <dynamics damping="0.1" friction="0.0001"/>
+        <limit effort="1000.0" lower="0" upper="2.96706" velocity="12"/>
+        <origin rpy="0 0 0" xyz="0 0 -0.3"/>
+    </joint>
+
+    <link name="left_foot" >
+        <visual>
+            <geometry>
+                <box size="0.3 0.2 0.1"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0.05 0 -0.05"/>
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.3 0.2 0.1"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0.05 0 -0.05"/>
+        </collision>
+        <inertial>
+            <mass value="6"/>
+            <origin rpy="0 0 0" xyz="0.05 0 -0.05"/>
+            <inertia ixx = "0.025" ixy = "0" ixz = "0" iyy = "0.05" iyz = "0" izz = "0.065" />
+        </inertial>
+    </link>
+    <joint name="left_shank_to_foot" type="revolute">
+        <parent link="left_shank"/>
+        <child link="left_foot"/>
+        <axis xyz="0 1 0"/>
+        <dynamics damping="0.1" friction="0.0001"/>
+        <limit effort="1000.0" lower="-0.785398" upper="0.785398" velocity="12"/>
+        <origin rpy="0 0 0" xyz="0 0 -0.3"/>
+    </joint>
+
+</robot>
