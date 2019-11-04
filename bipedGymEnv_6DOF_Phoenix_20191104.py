@@ -1,8 +1,7 @@
 """
 Author: Phoenix Fan
-Date: 31-10-2019
-Specification:  Recover z-axis reward/penalty with coefficient 0.04
-                Modify the z-axis reward/penalty.
+Date: 04-11-2019
+Specification:  Modify survival coefficient to 0.1, 20 times as before.
 """
 
 import pybullet as p
@@ -18,16 +17,20 @@ import logging
 
 
 class BipedRobot(gym.Env):
-    logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
     def __init__(self, isGUI=True, useFixedBase=False, demonstration=False, reset_status=False,
-                 control_mode=p.POSITION_CONTROL):
+                 control_mode=p.VELOCITY_CONTROL, log_flag=False):
 
         super()
+        self.log_flag = log_flag
+        if self.log_flag is True:
+            logging.basicConfig(filename='logging_Exoskeleton.txt', level=logging.DEBUG,
+                                format='%(asctime)s - %(levelname)s - %(message)s')
+        self.count_episode = 0
         self.number_joint = 0
         self.number_link = 0
         self.nan_recorded = True  # If the status of environment has been recorded, this variable becomes False.
-        self.time_limit = 0  # time_limit is the maximum time of a episode for standing purpose
+        self.time_limit = 1  # time_limit is the maximum time of a episode for standing purpose
         self.step_counter = 0
         self.p = p
         self.bot_id = 0  # the id of the robot in the environment
@@ -62,16 +65,18 @@ class BipedRobot(gym.Env):
         self.previous_position_link = np.zeros([6, 3], dtype=float)
         self.previous_status_joint = np.zeros([6, 2], dtype=float)  # velocity, position
         self.previous_base_status = np.zeros([7, ], dtype=float)  # velocity, orientation
-        self.torso_position = np.zeros([3, ], dtype=float)  # position
+        self.torso_position = np.zeros([2, 3, ], dtype=float)  # previous position, current position
         self.center_datum = np.zeros([2, 3, ], dtype=float)  # previous, current
         self.load_bot()
         self.status_record = np.zeros(shape=(100, 42), dtype=float)
         self.status_start_pointer = 0
         self.seed()
         self.get_limitation_space()
+        self.avg_x_reward, self.avg_y_reward, self.avg_z_reward, self.avg_survival_reward, self.avg_joint_efficiency = 0., 0., 0., 0., 0.
+        self.total_reward = 0.
 
     def load_bot(self):
-        loc = '/home/antikythera1/workplace/Exoskeleton/biped_6DOF_20191031.urdf'
+        loc = '/home/antikythera1/workplace/Exoskeleton/biped_6DOF_20191104.urdf'
         self.center_datum[:, :] = 0.
         self.bot_id = self.p.loadURDF(loc,
                                       self.cubeStartPos,
@@ -87,7 +92,8 @@ class BipedRobot(gym.Env):
         self.previous_base_status[5] = self.p.getBasePositionAndOrientation(self.bot_id)[1][2]  # z quaternion
         self.previous_base_status[6] = self.p.getBasePositionAndOrientation(self.bot_id)[1][3]  # w quaternion
         self.center_datum[1] += self.p.getBasePositionAndOrientation(self.bot_id)[0]  # base position
-        self.torso_position = self.p.getBasePositionAndOrientation(self.bot_id)[0]  # store the current base position
+        self.torso_position[0] = self.p.getBasePositionAndOrientation(self.bot_id)[0]  # store the previous base position
+        self.torso_position[1] = self.p.getBasePositionAndOrientation(self.bot_id)[0]  # store the current base position
 
         for index_link in range(self.number_link):
             self.previous_position_link[index_link] = self.p.getLinkState(self.bot_id, index_link, 1)[0]
@@ -113,7 +119,7 @@ class BipedRobot(gym.Env):
         obs_tmp = np.full([134, 2, ], fill_value=1., dtype=float)  # each column : [lower_limit, upper_limit]
         for joint_index in range(self.number_joint):
             joint_info = self.p.getJointInfo(self.bot_id, joint_index)
-            action_limit[joint_index] = [joint_info[8], joint_info[9]]  # joint position limitation for action_space
+            action_limit[joint_index] = [-joint_info[11], joint_info[11]]  # joint velocity limitation for action_space
             obs_tmp[116 + joint_index * 3] = [-joint_info[11], joint_info[11]]  # [joint lower velocity limit, joint upper velocity limit]
             obs_tmp[116 + joint_index * 3 + 1] = [-joint_info[11]*2, joint_info[11]*2]  # acceleration
             obs_tmp[116 + joint_index * 3 + 2] = [joint_info[8] - joint_info[9], joint_info[9] - joint_info[8]]  # relative_position
@@ -221,32 +227,45 @@ class BipedRobot(gym.Env):
         result = np.concatenate((status_base, status_links, status_joints), axis=0)
         return result
 
-    def reward(self, dead):
+    def reward(self, dead, observations):
         """
         Robot is expected to move towards positive x direction as fast as possible while preventing falling down.
         :param: True means the robot is dead.
         :return:
         """
-        x_reward = self.center_datum[1, 0] - self.center_datum[0, 0]  # deduct previous position from current position
+        x_reward = self.torso_position[1, 0] - self.torso_position[0, 0]  # deduct previous position from current position
         y_reward = abs(self.center_datum[0, 1]) - abs(self.center_datum[1, 1])
-        z_reward = -abs(self.torso_position[2] - self.avgTorsoCenterHeight)
+        z_reward = -abs(self.torso_position[1, 2] - self.avgTorsoCenterHeight)
+        joint_efficiency = -sum([abs(observations[i*3+116]) for i in range(6)]) / 6
         if dead:
             survival = 0
         else:
             survival = 0.1
 
-        return 0.9*x_reward + 0.04*y_reward + 0.04*z_reward + 0.01*survival
+        x_coefficient = 20
+        y_coefficient = 0.1
+        z_coefficient = 0.01
+        survival_coefficient = 0.1
+        joint_efficiency_coefficient = 0.01
+
+        self.avg_x_reward += x_coefficient*x_reward
+        self.avg_y_reward += y_coefficient*y_reward
+        self.avg_z_reward += z_coefficient*z_reward
+        self.avg_survival_reward += survival_coefficient*survival
+        self.avg_joint_efficiency += joint_efficiency_coefficient*joint_efficiency
+        return (x_coefficient*x_reward + y_coefficient*y_reward + z_coefficient*z_reward
+                + survival_coefficient*survival + joint_efficiency_coefficient*joint_efficiency)
 
     def done(self):
         """
         Remove all death criterion except falling down.
         :return:
         """
-        if self.center_datum[1, 2] < self.deadLine or self.time_limit > 240 * 10:
+        if self.torso_position[1, 2] < self.deadLine or self.time_limit > 241 * 10:
             return True
         return False
 
-    def step(self, target_position):
+    def step(self, target_velocity):
         """
         VELOCITY_CONTROL=0; TORQUE_CONTROL=1; POSITION_CONTROL=2
         :return:
@@ -254,11 +273,12 @@ class BipedRobot(gym.Env):
         self.p.setJointMotorControlArray(bodyUniqueId=self.bot_id,
                                          jointIndices=[i for i in range(self.number_joint)],
                                          controlMode=self.control_mode,
-                                         targetPositions=target_position)
+                                         targetVelocities=target_velocity.tolist())
 
         self.p.stepSimulation()
 
-        self.torso_position = self.p.getBasePositionAndOrientation(self.bot_id)[0]  # get the current base position
+        self.torso_position[0] = self.torso_position[1].copy()
+        self.torso_position[1] = self.p.getBasePositionAndOrientation(self.bot_id)[0]  # get the current base position
         self.center_datum[0] = self.center_datum[1].copy()
         for index_link in range(self.number_link):
             self.previous_position_link[index_link] = self.p.getLinkState(self.bot_id, index_link, 1)[0]
@@ -273,20 +293,36 @@ class BipedRobot(gym.Env):
             self.previous_status_joint[index_joint - 1, 1] = self.p.getJointState(self.bot_id, index_joint)[0]
 
         done = self.done()  # True means the robot is dead.
-        observation = self.get_observations()  # np array (42, )
+        observations = self.get_observations()  # np array (42, )
 
-        reward = self.reward(done)
+        reward = self.reward(done, observations)
+        self.total_reward += reward
 
         if self.demonstration:
             time.sleep(1 / 240)
 
         self.time_limit += 1
         self.step_counter += 1
-        return observation, reward, done, {}
+        return observations, reward, done, {}
 
     def reset(self):
         # self.p.setRealTimeSimulation(1)
-        self.time_limit = 0  # initialize the time_limit variable
+
+        # logging
+        self.count_episode += 1
+        if self.log_flag is True and self.count_episode % 100 == 0:
+            logging.debug('Episode: %d' % (self.count_episode / 100))
+            logging.debug('Total reward in this epsisode: %.6f' % self.total_reward)
+            logging.debug('Average x reward: %.6f' % (self.avg_x_reward/self.time_limit))
+            logging.debug('Average y reward: %.6f' % (self.avg_y_reward/self.time_limit))
+            logging.debug('Average z reward: %.6f' % (self.avg_z_reward/self.time_limit))
+            logging.debug('Average survival reward: %.6f' % (self.avg_survival_reward/self.time_limit))
+            logging.debug('Average joint efficiency reward: %.6f' % (self.avg_joint_efficiency/self.time_limit))
+
+        self.avg_x_reward, self.avg_y_reward, self.avg_z_reward, self.avg_survival_reward, self.avg_joint_efficiency = 0., 0., 0., 0., 0.
+        self.total_reward = 0.
+
+        self.time_limit = 1  # initialize the time_limit variable
         self.p.removeBody(self.bot_id)
         self.p.resetSimulation()
         # self.p.setTimeStep(self.timeStep)
