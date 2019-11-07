@@ -3,7 +3,6 @@
         Date: 04/11/2019 
         Update: Modify the velocity limit to 4.17239, 2.18166, 1.0 respectively.
         		Assign 1.0 to Friction coefficient of Contact Coefficients of links.
-        		Add safety_controller.
 -->
 <robot name="biped_6DOF">
 

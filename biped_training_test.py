@@ -8,7 +8,9 @@ from stable_baselines.common.vec_env import DummyVecEnv
 from stable_baselines import PPO2
 from stable_baselines import PPO1
 
-import bipedGymEnv_6DOF_Phoenix_20191104
+# import bipedGymEnv_6DOF_Phoenix_20191107 as bge
+import bipedGymEnv_6DOF_Phoenix_20191107_1 as bge
+date = '20191107'
 
 
 def model_evaluation(model, env, episode_num):
@@ -25,35 +27,43 @@ def model_evaluation(model, env, episode_num):
     return avg_reward / episode_num
 
 
-# env = bipedGymEnv_6DOF_Phoenix_20191104.BipedRobot(isGUI=False, demonstration=False, reset_status=True, log_flag=True)
+
+# env = bge.BipedRobot(isGUI=False, demonstration=False, reset_status=True, log_flag=True,
+#                      log_name='logging_Exoskeleton_' + date)
 # # env = DummyVecEnv([lambda: env])
 # # model = PPO2(MlpPolicy(net_arch=[300, 200, 100]), env, learning_rate=0.00008, nminibatches=128000)
 # model = PPO1(MlpPolicy, env)
-# model.learn(total_timesteps=1e4)
-# model.save("20191104_biped6DOF_ppo1_1e4_v1")
+# model.learn(total_timesteps=1e6)
+# model.save(date + "_biped6DOF_ppo1_1e6_v1")
+# del model  # remove to demonstrate saving and loading
 
-for i in range(1, 333):
-    env = bipedGymEnv_6DOF_Phoenix_20191104.BipedRobot(isGUI=False, demonstration=False, reset_status=True, log_flag=True)
-#      env = DummyVecEnv([lambda: env])
-    if i == 1:
+training_steps = 3
+while True:
+    env = bge.BipedRobot(isGUI=False, demonstration=False, reset_status=True,
+                         log_flag=True, log_name='logging_Exoskeleton_'+date)
+    if training_steps == 1:
         model = PPO1(MlpPolicy, env)
     else:
-        model = PPO1.load('20191104_biped6DOF_ppo1_' + str(i-1) + 'e6_v1')
+        model = PPO1.load(date+'_biped6DOF_ppo1_' + str(training_steps - 1) + 'e6_v1')
         model.set_env(env)
-    model.learn(total_timesteps=int(1e6))
-    model.save("20191104_biped6DOF_ppo1_" + str(i) + "e6_v1")
-    del model
+    try:
+        model.learn(total_timesteps=int(1e6))
+    except FloatingPointError as nan_error:
+        print('Not a number error at: ' + str(training_steps))
+    else:
+        model.save(date+"_biped6DOF_ppo1_" + str(training_steps) + "e6_v1")
+        training_steps += 1
+    finally:
+        del model
 
 
 # with open("20191015_biped6DOF_ppo1_1e7_v1_score_report.txt", "a") as f:
 #     f.write("score before training: %s\n" % score_before_training)
 #     f.write("score after training: %s\n" % score_after_training)
 
-# del model  # remove to demonstrate saving and loading
-#
-# env = bipedGymEnv_6DOF_Phoenix_20191104.BipedRobot(isGUI=True, demonstration=True, reset_status=True)
-# # env = gym.make("RoboschoolHumanoid-v1")
-# model = PPO1.load('20191104_biped6DOF_ppo1_1e4_v1')
+
+# env = bge.BipedRobot(isGUI=True, demonstration=True, reset_status=True)
+# model = PPO1.load(date+'_biped6DOF_ppo1_2e6_v1')
 # # model.set_env(env)
 # step_counter = 0
 #

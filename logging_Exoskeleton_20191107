@@ -1,0 +1,208 @@
+2019-11-07 14:34:13,663 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:57: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-11-07 14:34:13,663 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:66: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-11-07 14:34:13,768 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:115: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-07 14:34:13,768 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/input.py:25: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-07 14:34:13,771 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:560: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-07 14:34:13,790 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fbfb75837f0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fbfb75837f0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-07 14:34:13,795 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/a2c/utils.py:156: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2019-11-07 14:34:14,029 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fbfb754a940>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fbfb754a940>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-07 14:34:14,285 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:151: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-07 14:34:14,431 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:189: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-07 14:34:14,461 - WARNING - From /home/antikythera1/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-07 14:36:42,053 - DEBUG - Episode: 1
+2019-11-07 14:36:42,053 - DEBUG - Total reward in this epsisode: -92.342877
+2019-11-07 14:36:42,053 - DEBUG - Average x reward: 0.017531
+2019-11-07 14:36:42,053 - DEBUG - Average y reward: -0.000003
+2019-11-07 14:36:42,053 - DEBUG - Average z reward: -0.006239
+2019-11-07 14:36:42,053 - DEBUG - Average survival reward: 0.000000
+2019-11-07 14:36:42,053 - DEBUG - Average joint efficiency reward: -0.003118, -0.005733, -0.016754, -0.005470, -0.003193, -0.015307
+2019-11-07 14:39:11,286 - DEBUG - Episode: 2
+2019-11-07 14:39:11,286 - DEBUG - Total reward in this epsisode: -118.473770
+2019-11-07 14:39:11,286 - DEBUG - Average x reward: -0.013351
+2019-11-07 14:39:11,286 - DEBUG - Average y reward: -0.000004
+2019-11-07 14:39:11,286 - DEBUG - Average z reward: -0.005744
+2019-11-07 14:39:11,286 - DEBUG - Average survival reward: 0.000000
+2019-11-07 14:39:11,287 - DEBUG - Average joint efficiency reward: -0.001873, -0.002192, -0.010161, -0.003990, -0.002674, -0.009130
+2019-11-07 14:41:41,175 - DEBUG - Episode: 3
+2019-11-07 14:41:41,175 - DEBUG - Total reward in this epsisode: -152.444145
+2019-11-07 14:41:41,175 - DEBUG - Average x reward: -0.021131
+2019-11-07 14:41:41,175 - DEBUG - Average y reward: -0.000007
+2019-11-07 14:41:41,175 - DEBUG - Average z reward: -0.004652
+2019-11-07 14:41:41,175 - DEBUG - Average survival reward: 0.000000
+2019-11-07 14:41:41,175 - DEBUG - Average joint efficiency reward: -0.001893, -0.002853, -0.016473, -0.002117, -0.005215, -0.008861
+2019-11-07 14:44:11,530 - DEBUG - Episode: 4
+2019-11-07 14:44:11,530 - DEBUG - Total reward in this epsisode: -118.987287
+2019-11-07 14:44:11,530 - DEBUG - Average x reward: -0.019050
+2019-11-07 14:44:11,530 - DEBUG - Average y reward: -0.000006
+2019-11-07 14:44:11,530 - DEBUG - Average z reward: -0.005766
+2019-11-07 14:44:11,530 - DEBUG - Average survival reward: 0.000000
+2019-11-07 14:44:11,530 - DEBUG - Average joint efficiency reward: -0.001846, -0.002105, -0.009562, -0.001778, -0.001394, -0.007824
+2019-11-07 14:46:42,118 - DEBUG - Episode: 5
+2019-11-07 14:46:42,118 - DEBUG - Total reward in this epsisode: -23.786998
+2019-11-07 14:46:42,118 - DEBUG - Average x reward: 0.025555
+2019-11-07 14:46:42,118 - DEBUG - Average y reward: -0.000000
+2019-11-07 14:46:42,118 - DEBUG - Average z reward: -0.005196
+2019-11-07 14:46:42,118 - DEBUG - Average survival reward: 0.000000
+2019-11-07 14:46:42,118 - DEBUG - Average joint efficiency reward: -0.002402, -0.003274, -0.010739, -0.002145, -0.003482, -0.008180
+2019-11-07 14:49:12,160 - DEBUG - Episode: 6
+2019-11-07 14:49:12,160 - DEBUG - Total reward in this epsisode: -28.338375
+2019-11-07 14:49:12,160 - DEBUG - Average x reward: 0.018630
+2019-11-07 14:49:12,160 - DEBUG - Average y reward: -0.000014
+2019-11-07 14:49:12,160 - DEBUG - Average z reward: -0.005949
+2019-11-07 14:49:12,160 - DEBUG - Average survival reward: 0.000000
+2019-11-07 14:49:12,160 - DEBUG - Average joint efficiency reward: -0.001933, -0.002577, -0.009166, -0.001361, -0.003191, -0.006186
+2019-11-07 14:51:41,415 - DEBUG - Episode: 7
+2019-11-07 14:51:41,415 - DEBUG - Total reward in this epsisode: -15.011043
+2019-11-07 14:51:41,415 - DEBUG - Average x reward: 0.025804
+2019-11-07 14:51:41,415 - DEBUG - Average y reward: -0.000010
+2019-11-07 14:51:41,415 - DEBUG - Average z reward: -0.005695
+2019-11-07 14:51:41,416 - DEBUG - Average survival reward: 0.000000
+2019-11-07 14:51:41,416 - DEBUG - Average joint efficiency reward: -0.002225, -0.001466, -0.006524, -0.001537, -0.004907, -0.009663
+2019-11-07 14:54:10,067 - DEBUG - Episode: 8
+2019-11-07 14:54:10,067 - DEBUG - Total reward in this epsisode: -120.524110
+2019-11-07 14:54:10,067 - DEBUG - Average x reward: -0.017649
+2019-11-07 14:54:10,067 - DEBUG - Average y reward: -0.000007
+2019-11-07 14:54:10,067 - DEBUG - Average z reward: -0.005999
+2019-11-07 14:54:10,067 - DEBUG - Average survival reward: 0.000000
+2019-11-07 14:54:10,067 - DEBUG - Average joint efficiency reward: -0.001623, -0.001450, -0.006594, -0.001384, -0.003576, -0.011685
+2019-11-07 15:10:13,180 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:57: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-11-07 15:10:13,180 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:66: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-11-07 15:10:13,281 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:115: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-07 15:10:13,281 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/input.py:25: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-07 15:10:13,283 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:560: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-07 15:10:13,299 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f16e1860d68>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f16e1860d68>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-07 15:10:13,303 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/a2c/utils.py:156: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2019-11-07 15:10:13,573 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f16e1770f98>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f16e1770f98>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-07 15:10:13,843 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:151: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-07 15:10:13,985 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:189: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-07 15:10:14,014 - WARNING - From /home/antikythera1/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-07 15:12:43,119 - DEBUG - Episode: 1
+2019-11-07 15:12:43,119 - DEBUG - Total reward in this epsisode: -185.655385
+2019-11-07 15:12:43,119 - DEBUG - Average x reward: -0.034861
+2019-11-07 15:12:43,119 - DEBUG - Average y reward: -0.000001
+2019-11-07 15:12:43,119 - DEBUG - Average z reward: -0.005229
+2019-11-07 15:12:43,119 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:12:43,119 - DEBUG - Average joint efficiency reward: -0.002207, -0.004718, -0.013632, -0.002444, -0.005414, -0.008467
+2019-11-07 15:15:12,825 - DEBUG - Episode: 2
+2019-11-07 15:15:12,825 - DEBUG - Total reward in this epsisode: -24.555059
+2019-11-07 15:15:12,839 - DEBUG - Average x reward: 0.024240
+2019-11-07 15:15:12,839 - DEBUG - Average y reward: -0.000004
+2019-11-07 15:15:12,839 - DEBUG - Average z reward: -0.006001
+2019-11-07 15:15:12,839 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:15:12,839 - DEBUG - Average joint efficiency reward: -0.002421, -0.001624, -0.008890, -0.002070, -0.006167, -0.007244
+2019-11-07 15:17:43,257 - DEBUG - Episode: 3
+2019-11-07 15:17:43,257 - DEBUG - Total reward in this epsisode: -59.645850
+2019-11-07 15:17:43,257 - DEBUG - Average x reward: 0.014437
+2019-11-07 15:17:43,257 - DEBUG - Average y reward: -0.000001
+2019-11-07 15:17:43,258 - DEBUG - Average z reward: -0.005941
+2019-11-07 15:17:43,258 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:17:43,258 - DEBUG - Average joint efficiency reward: -0.003284, -0.003503, -0.012788, -0.002659, -0.002428, -0.008562
+2019-11-07 15:20:14,012 - DEBUG - Episode: 4
+2019-11-07 15:20:14,012 - DEBUG - Total reward in this epsisode: -57.655133
+2019-11-07 15:20:14,012 - DEBUG - Average x reward: 0.011598
+2019-11-07 15:20:14,012 - DEBUG - Average y reward: -0.000003
+2019-11-07 15:20:14,012 - DEBUG - Average z reward: -0.006074
+2019-11-07 15:20:14,013 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:20:14,013 - DEBUG - Average joint efficiency reward: -0.002809, -0.002900, -0.010937, -0.002765, -0.002334, -0.007679
+2019-11-07 15:22:44,342 - DEBUG - Episode: 5
+2019-11-07 15:22:44,342 - DEBUG - Total reward in this epsisode: -50.696408
+2019-11-07 15:22:44,342 - DEBUG - Average x reward: 0.015521
+2019-11-07 15:22:44,342 - DEBUG - Average y reward: -0.000007
+2019-11-07 15:22:44,342 - DEBUG - Average z reward: -0.006103
+2019-11-07 15:22:44,343 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:22:44,343 - DEBUG - Average joint efficiency reward: -0.001551, -0.001622, -0.006673, -0.003390, -0.004577, -0.012618
+2019-11-07 15:25:14,979 - DEBUG - Episode: 6
+2019-11-07 15:25:14,979 - DEBUG - Total reward in this epsisode: -35.777968
+2019-11-07 15:25:14,979 - DEBUG - Average x reward: 0.026498
+2019-11-07 15:25:14,979 - DEBUG - Average y reward: -0.000019
+2019-11-07 15:25:14,979 - DEBUG - Average z reward: -0.005904
+2019-11-07 15:25:14,979 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:25:14,979 - DEBUG - Average joint efficiency reward: -0.002116, -0.001313, -0.007390, -0.003712, -0.004468, -0.016410
+2019-11-07 15:27:45,772 - DEBUG - Episode: 7
+2019-11-07 15:27:45,772 - DEBUG - Total reward in this epsisode: -133.291606
+2019-11-07 15:27:45,772 - DEBUG - Average x reward: -0.013931
+2019-11-07 15:27:45,772 - DEBUG - Average y reward: -0.000001
+2019-11-07 15:27:45,772 - DEBUG - Average z reward: -0.006041
+2019-11-07 15:27:45,772 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:27:45,772 - DEBUG - Average joint efficiency reward: -0.001637, -0.002055, -0.009572, -0.004280, -0.005119, -0.012627
+2019-11-07 15:30:17,371 - DEBUG - Episode: 8
+2019-11-07 15:30:17,371 - DEBUG - Total reward in this epsisode: -49.373622
+2019-11-07 15:30:17,371 - DEBUG - Average x reward: 0.021049
+2019-11-07 15:30:17,371 - DEBUG - Average y reward: -0.000006
+2019-11-07 15:30:17,371 - DEBUG - Average z reward: -0.004055
+2019-11-07 15:30:17,371 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:30:17,371 - DEBUG - Average joint efficiency reward: -0.002233, -0.001236, -0.009079, -0.004243, -0.003884, -0.016784
+2019-11-07 15:31:05,878 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f16e1860ef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f16e1860ef0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-07 15:31:06,116 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1668f51b38>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f1668f51b38>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-07 15:33:37,024 - DEBUG - Episode: 1
+2019-11-07 15:33:37,024 - DEBUG - Total reward in this epsisode: -55.763227
+2019-11-07 15:33:37,024 - DEBUG - Average x reward: 0.014221
+2019-11-07 15:33:37,024 - DEBUG - Average y reward: -0.000001
+2019-11-07 15:33:37,024 - DEBUG - Average z reward: -0.005944
+2019-11-07 15:33:37,024 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:33:37,024 - DEBUG - Average joint efficiency reward: -0.002374, -0.002556, -0.009774, -0.002544, -0.002829, -0.011318
+2019-11-07 15:36:10,492 - DEBUG - Episode: 2
+2019-11-07 15:36:10,492 - DEBUG - Total reward in this epsisode: -78.447020
+2019-11-07 15:36:10,492 - DEBUG - Average x reward: 0.010119
+2019-11-07 15:36:10,492 - DEBUG - Average y reward: -0.000002
+2019-11-07 15:36:10,492 - DEBUG - Average z reward: -0.006107
+2019-11-07 15:36:10,492 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:36:10,492 - DEBUG - Average joint efficiency reward: -0.002970, -0.001088, -0.009810, -0.004121, -0.005124, -0.013421
+2019-11-07 15:38:44,765 - DEBUG - Episode: 3
+2019-11-07 15:38:44,765 - DEBUG - Total reward in this epsisode: -50.615412
+2019-11-07 15:38:44,765 - DEBUG - Average x reward: 0.017553
+2019-11-07 15:38:44,765 - DEBUG - Average y reward: -0.000001
+2019-11-07 15:38:44,765 - DEBUG - Average z reward: -0.005945
+2019-11-07 15:38:44,765 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:38:44,765 - DEBUG - Average joint efficiency reward: -0.003279, -0.003507, -0.009062, -0.001817, -0.003973, -0.010954
+2019-11-07 15:41:16,154 - DEBUG - Episode: 4
+2019-11-07 15:41:16,154 - DEBUG - Total reward in this epsisode: -52.037595
+2019-11-07 15:41:16,154 - DEBUG - Average x reward: 0.015072
+2019-11-07 15:41:16,154 - DEBUG - Average y reward: -0.000003
+2019-11-07 15:41:16,155 - DEBUG - Average z reward: -0.006006
+2019-11-07 15:41:16,155 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:41:16,155 - DEBUG - Average joint efficiency reward: -0.003354, -0.002952, -0.009467, -0.001948, -0.003599, -0.009317
+2019-11-07 15:43:47,414 - DEBUG - Episode: 5
+2019-11-07 15:43:47,414 - DEBUG - Total reward in this epsisode: -43.976807
+2019-11-07 15:43:47,415 - DEBUG - Average x reward: 0.020593
+2019-11-07 15:43:47,415 - DEBUG - Average y reward: -0.000015
+2019-11-07 15:43:47,415 - DEBUG - Average z reward: -0.005897
+2019-11-07 15:43:47,415 - DEBUG - Average survival reward: 0.000000
+2019-11-07 15:43:47,415 - DEBUG - Average joint efficiency reward: -0.003261, -0.002369, -0.010269, -0.001889, -0.005346, -0.009779
+2019-11-07 16:05:54,163 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:57: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-11-07 16:05:54,163 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:66: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-11-07 16:05:54,252 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:115: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-07 16:05:54,253 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/input.py:25: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-07 16:05:54,255 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:560: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-07 16:05:54,271 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f4da4d99f98>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f4da4d99f98>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-07 16:05:54,275 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/a2c/utils.py:156: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2019-11-07 16:05:54,515 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f4da2636eb8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f4da2636eb8>>: AttributeError: module 'gast' has no attribute 'Num'

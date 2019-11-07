@@ -1,0 +1,2091 @@
+2019-11-04 19:41:29,546 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:57: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-11-04 19:41:29,547 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:66: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-11-04 19:41:29,632 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:115: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-04 19:41:29,633 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/input.py:25: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-04 19:41:29,638 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:560: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-04 19:41:29,678 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f95b84a0c88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f95b84a0c88>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 19:41:29,688 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/a2c/utils.py:156: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2019-11-04 19:41:30,057 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f957c8e2cc0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f957c8e2cc0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 19:41:30,464 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:151: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-04 19:41:30,709 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:189: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-04 19:41:30,779 - WARNING - From /home/antikythera1/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-04 19:41:40,080 - DEBUG - Episode: 1.0
+2019-11-04 19:41:40,080 - DEBUG - Total reward in this epsisode: -7.999320
+2019-11-04 19:41:40,080 - DEBUG - Average x reward: -0.035734
+2019-11-04 19:41:40,080 - DEBUG - Average y reward: -0.000001
+2019-11-04 19:41:40,080 - DEBUG - Average z reward: -0.000907
+2019-11-04 19:41:40,080 - DEBUG - Average survival reward: 0.009915
+2019-11-04 19:41:40,080 - DEBUG - Average joint efficiency reward: -0.007168
+2019-11-04 19:41:46,584 - DEBUG - Episode: 2.0
+2019-11-04 19:41:46,584 - DEBUG - Total reward in this epsisode: 6.540249
+2019-11-04 19:41:46,584 - DEBUG - Average x reward: 0.021034
+2019-11-04 19:41:46,584 - DEBUG - Average y reward: -0.000066
+2019-11-04 19:41:46,584 - DEBUG - Average z reward: -0.001123
+2019-11-04 19:41:46,584 - DEBUG - Average survival reward: 0.009932
+2019-11-04 19:41:46,584 - DEBUG - Average joint efficiency reward: -0.007455
+2019-11-04 19:41:51,833 - DEBUG - Episode: 3.0
+2019-11-04 19:41:51,833 - DEBUG - Total reward in this epsisode: -6.602159
+2019-11-04 19:41:51,833 - DEBUG - Average x reward: -0.033915
+2019-11-04 19:41:51,833 - DEBUG - Average y reward: -0.000057
+2019-11-04 19:41:51,833 - DEBUG - Average z reward: -0.001382
+2019-11-04 19:41:51,833 - DEBUG - Average survival reward: 0.009899
+2019-11-04 19:41:51,833 - DEBUG - Average joint efficiency reward: -0.007723
+2019-11-04 19:44:57,098 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:57: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-11-04 19:44:57,098 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:66: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-11-04 19:44:57,177 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:115: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-04 19:44:57,178 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/input.py:25: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-04 19:44:57,181 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:560: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-04 19:44:57,198 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3c740877b8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3c740877b8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 19:44:57,203 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/a2c/utils.py:156: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2019-11-04 19:44:57,451 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3c7404e9b0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3c7404e9b0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 19:44:57,714 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:151: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-04 19:44:57,860 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:189: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-04 19:44:57,891 - WARNING - From /home/antikythera1/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-04 19:55:16,033 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:57: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-11-04 19:55:16,033 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:66: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-11-04 19:55:16,110 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:115: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-04 19:55:16,111 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/input.py:25: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-04 19:55:16,113 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:560: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-04 19:55:16,132 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f5a4e21e828>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f5a4e21e828>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 19:55:16,137 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/a2c/utils.py:156: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2019-11-04 19:55:16,390 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f5a4e1e6a20>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f5a4e1e6a20>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 19:55:16,655 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:151: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-04 19:55:16,801 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:189: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-04 19:55:16,832 - WARNING - From /home/antikythera1/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-04 19:56:02,386 - DEBUG - Episode: 1
+2019-11-04 19:56:02,386 - DEBUG - Total reward in this epsisode: 6.684340
+2019-11-04 19:56:02,386 - DEBUG - Average x reward: 0.019450
+2019-11-04 19:56:02,386 - DEBUG - Average y reward: -0.000008
+2019-11-04 19:56:02,386 - DEBUG - Average z reward: -0.000838
+2019-11-04 19:56:02,386 - DEBUG - Average survival reward: 0.009942
+2019-11-04 19:56:02,386 - DEBUG - Average joint efficiency reward: -0.009114
+2019-11-04 19:56:51,742 - DEBUG - Episode: 2
+2019-11-04 19:56:51,742 - DEBUG - Total reward in this epsisode: 4.061271
+2019-11-04 19:56:51,742 - DEBUG - Average x reward: 0.020200
+2019-11-04 19:56:51,743 - DEBUG - Average y reward: -0.000010
+2019-11-04 19:56:51,743 - DEBUG - Average z reward: -0.002622
+2019-11-04 19:56:51,743 - DEBUG - Average survival reward: 0.009912
+2019-11-04 19:56:51,743 - DEBUG - Average joint efficiency reward: -0.009668
+2019-11-04 19:57:25,342 - DEBUG - Episode: 3
+2019-11-04 19:57:25,342 - DEBUG - Total reward in this epsisode: -0.762481
+2019-11-04 19:57:25,342 - DEBUG - Average x reward: 0.000736
+2019-11-04 19:57:25,342 - DEBUG - Average y reward: -0.000026
+2019-11-04 19:57:25,342 - DEBUG - Average z reward: -0.003780
+2019-11-04 19:57:25,342 - DEBUG - Average survival reward: 0.009982
+2019-11-04 19:57:25,342 - DEBUG - Average joint efficiency reward: -0.007584
+2019-11-04 19:58:02,976 - DEBUG - Episode: 4
+2019-11-04 19:58:02,977 - DEBUG - Total reward in this epsisode: 7.592844
+2019-11-04 19:58:02,977 - DEBUG - Average x reward: 0.032145
+2019-11-04 19:58:02,977 - DEBUG - Average y reward: -0.000035
+2019-11-04 19:58:02,977 - DEBUG - Average z reward: -0.001626
+2019-11-04 19:58:02,977 - DEBUG - Average survival reward: 0.009917
+2019-11-04 19:58:02,977 - DEBUG - Average joint efficiency reward: -0.009025
+2019-11-04 19:58:34,052 - DEBUG - Episode: 5
+2019-11-04 19:58:34,052 - DEBUG - Total reward in this epsisode: 4.448317
+2019-11-04 19:58:34,053 - DEBUG - Average x reward: 0.021526
+2019-11-04 19:58:34,053 - DEBUG - Average y reward: -0.000065
+2019-11-04 19:58:34,053 - DEBUG - Average z reward: -0.001402
+2019-11-04 19:58:34,053 - DEBUG - Average survival reward: 0.009907
+2019-11-04 19:58:34,053 - DEBUG - Average joint efficiency reward: -0.009179
+2019-11-04 19:59:01,454 - DEBUG - Episode: 6
+2019-11-04 19:59:01,454 - DEBUG - Total reward in this epsisode: 1.413139
+2019-11-04 19:59:01,454 - DEBUG - Average x reward: 0.016607
+2019-11-04 19:59:01,454 - DEBUG - Average y reward: -0.000080
+2019-11-04 19:59:01,454 - DEBUG - Average z reward: -0.001977
+2019-11-04 19:59:01,454 - DEBUG - Average survival reward: 0.009823
+2019-11-04 19:59:01,454 - DEBUG - Average joint efficiency reward: -0.011866
+2019-11-04 19:59:28,686 - DEBUG - Episode: 7
+2019-11-04 19:59:28,686 - DEBUG - Total reward in this epsisode: 1.734615
+2019-11-04 19:59:28,687 - DEBUG - Average x reward: 0.012157
+2019-11-04 19:59:28,687 - DEBUG - Average y reward: -0.000095
+2019-11-04 19:59:28,687 - DEBUG - Average z reward: -0.001679
+2019-11-04 19:59:28,687 - DEBUG - Average survival reward: 0.009894
+2019-11-04 19:59:28,687 - DEBUG - Average joint efficiency reward: -0.011099
+2019-11-04 19:59:53,743 - DEBUG - Episode: 8
+2019-11-04 19:59:53,743 - DEBUG - Total reward in this epsisode: -4.960470
+2019-11-04 19:59:53,743 - DEBUG - Average x reward: -0.020868
+2019-11-04 19:59:53,743 - DEBUG - Average y reward: -0.000044
+2019-11-04 19:59:53,743 - DEBUG - Average z reward: -0.001029
+2019-11-04 19:59:53,743 - DEBUG - Average survival reward: 0.009902
+2019-11-04 19:59:53,743 - DEBUG - Average joint efficiency reward: -0.012159
+2019-11-04 20:00:22,146 - DEBUG - Episode: 9
+2019-11-04 20:00:22,146 - DEBUG - Total reward in this epsisode: 0.873910
+2019-11-04 20:00:22,146 - DEBUG - Average x reward: 0.005527
+2019-11-04 20:00:22,146 - DEBUG - Average y reward: -0.000037
+2019-11-04 20:00:22,146 - DEBUG - Average z reward: -0.001095
+2019-11-04 20:00:22,146 - DEBUG - Average survival reward: 0.009924
+2019-11-04 20:00:22,146 - DEBUG - Average joint efficiency reward: -0.011010
+2019-11-04 20:00:54,342 - DEBUG - Episode: 10
+2019-11-04 20:00:54,342 - DEBUG - Total reward in this epsisode: 3.251235
+2019-11-04 20:00:54,342 - DEBUG - Average x reward: 0.027785
+2019-11-04 20:00:54,342 - DEBUG - Average y reward: -0.000090
+2019-11-04 20:00:54,342 - DEBUG - Average z reward: -0.001655
+2019-11-04 20:00:54,342 - DEBUG - Average survival reward: 0.009845
+2019-11-04 20:00:54,342 - DEBUG - Average joint efficiency reward: -0.010682
+2019-11-04 20:01:21,755 - DEBUG - Episode: 11
+2019-11-04 20:01:21,755 - DEBUG - Total reward in this epsisode: 3.702922
+2019-11-04 20:01:21,755 - DEBUG - Average x reward: 0.022214
+2019-11-04 20:01:21,755 - DEBUG - Average y reward: -0.000045
+2019-11-04 20:01:21,755 - DEBUG - Average z reward: -0.001423
+2019-11-04 20:01:21,755 - DEBUG - Average survival reward: 0.009897
+2019-11-04 20:01:21,755 - DEBUG - Average joint efficiency reward: -0.011555
+2019-11-04 20:01:46,880 - DEBUG - Episode: 12
+2019-11-04 20:01:46,880 - DEBUG - Total reward in this epsisode: 1.852755
+2019-11-04 20:01:46,880 - DEBUG - Average x reward: 0.019683
+2019-11-04 20:01:46,880 - DEBUG - Average y reward: -0.000100
+2019-11-04 20:01:46,880 - DEBUG - Average z reward: -0.001617
+2019-11-04 20:01:46,880 - DEBUG - Average survival reward: 0.009829
+2019-11-04 20:01:46,880 - DEBUG - Average joint efficiency reward: -0.011960
+2019-11-04 20:02:12,725 - DEBUG - Episode: 13
+2019-11-04 20:02:12,725 - DEBUG - Total reward in this epsisode: 2.910458
+2019-11-04 20:02:12,725 - DEBUG - Average x reward: 0.021731
+2019-11-04 20:02:12,725 - DEBUG - Average y reward: -0.000068
+2019-11-04 20:02:12,725 - DEBUG - Average z reward: -0.001588
+2019-11-04 20:02:12,725 - DEBUG - Average survival reward: 0.009879
+2019-11-04 20:02:12,725 - DEBUG - Average joint efficiency reward: -0.012315
+2019-11-04 20:02:39,746 - DEBUG - Episode: 14
+2019-11-04 20:02:39,746 - DEBUG - Total reward in this epsisode: 3.842344
+2019-11-04 20:02:39,746 - DEBUG - Average x reward: 0.026834
+2019-11-04 20:02:39,746 - DEBUG - Average y reward: -0.000037
+2019-11-04 20:02:39,746 - DEBUG - Average z reward: -0.001809
+2019-11-04 20:02:39,746 - DEBUG - Average survival reward: 0.009873
+2019-11-04 20:02:39,746 - DEBUG - Average joint efficiency reward: -0.010543
+2019-11-04 20:03:06,115 - DEBUG - Episode: 15
+2019-11-04 20:03:06,116 - DEBUG - Total reward in this epsisode: -4.782673
+2019-11-04 20:03:06,116 - DEBUG - Average x reward: -0.021745
+2019-11-04 20:03:06,116 - DEBUG - Average y reward: -0.000077
+2019-11-04 20:03:06,116 - DEBUG - Average z reward: -0.001186
+2019-11-04 20:03:06,116 - DEBUG - Average survival reward: 0.009899
+2019-11-04 20:03:06,116 - DEBUG - Average joint efficiency reward: -0.011045
+2019-11-04 20:03:32,174 - DEBUG - Episode: 16
+2019-11-04 20:03:32,175 - DEBUG - Total reward in this epsisode: 1.930827
+2019-11-04 20:03:32,175 - DEBUG - Average x reward: 0.013480
+2019-11-04 20:03:32,175 - DEBUG - Average y reward: -0.000020
+2019-11-04 20:03:32,175 - DEBUG - Average z reward: -0.001227
+2019-11-04 20:03:32,175 - DEBUG - Average survival reward: 0.009892
+2019-11-04 20:03:32,175 - DEBUG - Average joint efficiency reward: -0.011744
+2019-11-04 20:03:58,218 - DEBUG - Episode: 17
+2019-11-04 20:03:58,218 - DEBUG - Total reward in this epsisode: 2.508935
+2019-11-04 20:03:58,218 - DEBUG - Average x reward: 0.017605
+2019-11-04 20:03:58,218 - DEBUG - Average y reward: -0.000059
+2019-11-04 20:03:58,218 - DEBUG - Average z reward: -0.001418
+2019-11-04 20:03:58,218 - DEBUG - Average survival reward: 0.009880
+2019-11-04 20:03:58,218 - DEBUG - Average joint efficiency reward: -0.010893
+2019-11-04 20:04:22,703 - DEBUG - Episode: 18
+2019-11-04 20:04:22,703 - DEBUG - Total reward in this epsisode: 1.408967
+2019-11-04 20:04:22,703 - DEBUG - Average x reward: 0.003796
+2019-11-04 20:04:22,703 - DEBUG - Average y reward: -0.000004
+2019-11-04 20:04:22,703 - DEBUG - Average z reward: -0.000575
+2019-11-04 20:04:22,703 - DEBUG - Average survival reward: 0.009959
+2019-11-04 20:04:22,703 - DEBUG - Average joint efficiency reward: -0.010289
+2019-11-04 20:04:48,159 - DEBUG - Episode: 19
+2019-11-04 20:04:48,159 - DEBUG - Total reward in this epsisode: 3.902332
+2019-11-04 20:04:48,159 - DEBUG - Average x reward: 0.027337
+2019-11-04 20:04:48,159 - DEBUG - Average y reward: -0.000060
+2019-11-04 20:04:48,159 - DEBUG - Average z reward: -0.001864
+2019-11-04 20:04:48,159 - DEBUG - Average survival reward: 0.009878
+2019-11-04 20:04:48,159 - DEBUG - Average joint efficiency reward: -0.011496
+2019-11-04 20:05:16,092 - DEBUG - Episode: 20
+2019-11-04 20:05:16,092 - DEBUG - Total reward in this epsisode: -5.052772
+2019-11-04 20:05:16,092 - DEBUG - Average x reward: -0.024601
+2019-11-04 20:05:16,092 - DEBUG - Average y reward: -0.000071
+2019-11-04 20:05:16,092 - DEBUG - Average z reward: -0.001234
+2019-11-04 20:05:16,092 - DEBUG - Average survival reward: 0.009893
+2019-11-04 20:05:16,092 - DEBUG - Average joint efficiency reward: -0.011007
+2019-11-04 20:05:42,867 - DEBUG - Episode: 21
+2019-11-04 20:05:42,867 - DEBUG - Total reward in this epsisode: 2.676495
+2019-11-04 20:05:42,867 - DEBUG - Average x reward: 0.022231
+2019-11-04 20:05:42,867 - DEBUG - Average y reward: -0.000017
+2019-11-04 20:05:42,867 - DEBUG - Average z reward: -0.001397
+2019-11-04 20:05:42,867 - DEBUG - Average survival reward: 0.009858
+2019-11-04 20:05:42,868 - DEBUG - Average joint efficiency reward: -0.011693
+2019-11-04 20:06:06,862 - DEBUG - Episode: 22
+2019-11-04 20:06:06,862 - DEBUG - Total reward in this epsisode: 6.336619
+2019-11-04 20:06:06,862 - DEBUG - Average x reward: 0.010051
+2019-11-04 20:06:06,862 - DEBUG - Average y reward: -0.000043
+2019-11-04 20:06:06,862 - DEBUG - Average z reward: -0.001325
+2019-11-04 20:06:06,863 - DEBUG - Average survival reward: 0.009971
+2019-11-04 20:06:06,863 - DEBUG - Average joint efficiency reward: -0.009349
+2019-11-04 20:06:32,813 - DEBUG - Episode: 23
+2019-11-04 20:06:32,813 - DEBUG - Total reward in this epsisode: 2.675934
+2019-11-04 20:06:32,813 - DEBUG - Average x reward: 0.024030
+2019-11-04 20:06:32,813 - DEBUG - Average y reward: -0.000057
+2019-11-04 20:06:32,813 - DEBUG - Average z reward: -0.001948
+2019-11-04 20:06:32,813 - DEBUG - Average survival reward: 0.009853
+2019-11-04 20:06:32,813 - DEBUG - Average joint efficiency reward: -0.012203
+2019-11-04 20:06:59,478 - DEBUG - Episode: 24
+2019-11-04 20:06:59,478 - DEBUG - Total reward in this epsisode: 2.661933
+2019-11-04 20:06:59,478 - DEBUG - Average x reward: 0.023738
+2019-11-04 20:06:59,478 - DEBUG - Average y reward: -0.000073
+2019-11-04 20:06:59,478 - DEBUG - Average z reward: -0.001571
+2019-11-04 20:06:59,478 - DEBUG - Average survival reward: 0.009854
+2019-11-04 20:06:59,479 - DEBUG - Average joint efficiency reward: -0.012518
+2019-11-04 20:07:28,321 - DEBUG - Episode: 25
+2019-11-04 20:07:28,321 - DEBUG - Total reward in this epsisode: -3.363006
+2019-11-04 20:07:28,321 - DEBUG - Average x reward: -0.021202
+2019-11-04 20:07:28,321 - DEBUG - Average y reward: -0.000051
+2019-11-04 20:07:28,321 - DEBUG - Average z reward: -0.001551
+2019-11-04 20:07:28,321 - DEBUG - Average survival reward: 0.009853
+2019-11-04 20:07:28,321 - DEBUG - Average joint efficiency reward: -0.011777
+2019-11-04 20:07:53,859 - DEBUG - Episode: 26
+2019-11-04 20:07:53,859 - DEBUG - Total reward in this epsisode: 4.477411
+2019-11-04 20:07:53,859 - DEBUG - Average x reward: 0.034045
+2019-11-04 20:07:53,860 - DEBUG - Average y reward: -0.000030
+2019-11-04 20:07:53,860 - DEBUG - Average z reward: -0.001302
+2019-11-04 20:07:53,860 - DEBUG - Average survival reward: 0.009860
+2019-11-04 20:07:53,860 - DEBUG - Average joint efficiency reward: -0.011262
+2019-11-04 20:08:19,868 - DEBUG - Episode: 27
+2019-11-04 20:08:19,868 - DEBUG - Total reward in this epsisode: -3.933103
+2019-11-04 20:08:19,868 - DEBUG - Average x reward: -0.028607
+2019-11-04 20:08:19,868 - DEBUG - Average y reward: -0.000029
+2019-11-04 20:08:19,868 - DEBUG - Average z reward: -0.001458
+2019-11-04 20:08:19,868 - DEBUG - Average survival reward: 0.009832
+2019-11-04 20:08:19,868 - DEBUG - Average joint efficiency reward: -0.012790
+2019-11-04 20:08:42,540 - DEBUG - Episode: 28
+2019-11-04 20:08:42,540 - DEBUG - Total reward in this epsisode: 1.646925
+2019-11-04 20:08:42,540 - DEBUG - Average x reward: 0.011839
+2019-11-04 20:08:42,540 - DEBUG - Average y reward: -0.000015
+2019-11-04 20:08:42,540 - DEBUG - Average z reward: -0.002195
+2019-11-04 20:08:42,540 - DEBUG - Average survival reward: 0.009900
+2019-11-04 20:08:42,540 - DEBUG - Average joint efficiency reward: -0.011294
+2019-11-04 20:09:07,092 - DEBUG - Episode: 29
+2019-11-04 20:09:07,092 - DEBUG - Total reward in this epsisode: 5.670052
+2019-11-04 20:09:07,092 - DEBUG - Average x reward: 0.010730
+2019-11-04 20:09:07,092 - DEBUG - Average y reward: -0.000040
+2019-11-04 20:09:07,092 - DEBUG - Average z reward: -0.000666
+2019-11-04 20:09:07,092 - DEBUG - Average survival reward: 0.009962
+2019-11-04 20:09:07,092 - DEBUG - Average joint efficiency reward: -0.009103
+2019-11-04 20:09:33,244 - DEBUG - Episode: 30
+2019-11-04 20:09:33,244 - DEBUG - Total reward in this epsisode: 3.774411
+2019-11-04 20:09:33,244 - DEBUG - Average x reward: 0.005526
+2019-11-04 20:09:33,244 - DEBUG - Average y reward: -0.000027
+2019-11-04 20:09:33,244 - DEBUG - Average z reward: -0.000673
+2019-11-04 20:09:33,244 - DEBUG - Average survival reward: 0.009967
+2019-11-04 20:09:33,244 - DEBUG - Average joint efficiency reward: -0.008636
+2019-11-04 20:09:58,170 - DEBUG - Episode: 31
+2019-11-04 20:09:58,170 - DEBUG - Total reward in this epsisode: -3.470313
+2019-11-04 20:09:58,170 - DEBUG - Average x reward: -0.025560
+2019-11-04 20:09:58,170 - DEBUG - Average y reward: -0.000025
+2019-11-04 20:09:58,170 - DEBUG - Average z reward: -0.001322
+2019-11-04 20:09:58,170 - DEBUG - Average survival reward: 0.009836
+2019-11-04 20:09:58,170 - DEBUG - Average joint efficiency reward: -0.011375
+2019-11-04 20:10:23,872 - DEBUG - Episode: 32
+2019-11-04 20:10:23,872 - DEBUG - Total reward in this epsisode: 2.730007
+2019-11-04 20:10:23,872 - DEBUG - Average x reward: 0.025733
+2019-11-04 20:10:23,872 - DEBUG - Average y reward: -0.000064
+2019-11-04 20:10:23,872 - DEBUG - Average z reward: -0.001622
+2019-11-04 20:10:23,872 - DEBUG - Average survival reward: 0.009840
+2019-11-04 20:10:23,872 - DEBUG - Average joint efficiency reward: -0.012047
+2019-11-04 20:10:49,389 - DEBUG - Episode: 33
+2019-11-04 20:10:49,389 - DEBUG - Total reward in this epsisode: 3.986531
+2019-11-04 20:10:49,389 - DEBUG - Average x reward: 0.025377
+2019-11-04 20:10:49,389 - DEBUG - Average y reward: -0.000005
+2019-11-04 20:10:49,389 - DEBUG - Average z reward: -0.001761
+2019-11-04 20:10:49,389 - DEBUG - Average survival reward: 0.009891
+2019-11-04 20:10:49,389 - DEBUG - Average joint efficiency reward: -0.011718
+2019-11-04 20:11:12,170 - DEBUG - Episode: 34
+2019-11-04 20:11:12,170 - DEBUG - Total reward in this epsisode: 2.499944
+2019-11-04 20:11:12,170 - DEBUG - Average x reward: 0.019316
+2019-11-04 20:11:12,170 - DEBUG - Average y reward: -0.000004
+2019-11-04 20:11:12,170 - DEBUG - Average z reward: -0.001251
+2019-11-04 20:11:12,170 - DEBUG - Average survival reward: 0.009865
+2019-11-04 20:11:12,171 - DEBUG - Average joint efficiency reward: -0.011035
+2019-11-04 20:11:36,781 - DEBUG - Episode: 35
+2019-11-04 20:11:36,781 - DEBUG - Total reward in this epsisode: 3.080615
+2019-11-04 20:11:36,781 - DEBUG - Average x reward: 0.020503
+2019-11-04 20:11:36,781 - DEBUG - Average y reward: -0.000003
+2019-11-04 20:11:36,781 - DEBUG - Average z reward: -0.001730
+2019-11-04 20:11:36,781 - DEBUG - Average survival reward: 0.009888
+2019-11-04 20:11:36,781 - DEBUG - Average joint efficiency reward: -0.011448
+2019-11-04 20:12:05,383 - DEBUG - Episode: 36
+2019-11-04 20:12:05,384 - DEBUG - Total reward in this epsisode: -2.555209
+2019-11-04 20:12:05,384 - DEBUG - Average x reward: -0.021453
+2019-11-04 20:12:05,384 - DEBUG - Average y reward: -0.000064
+2019-11-04 20:12:05,384 - DEBUG - Average z reward: -0.001551
+2019-11-04 20:12:05,384 - DEBUG - Average survival reward: 0.009806
+2019-11-04 20:12:05,384 - DEBUG - Average joint efficiency reward: -0.011546
+2019-11-04 20:12:31,417 - DEBUG - Episode: 37
+2019-11-04 20:12:31,417 - DEBUG - Total reward in this epsisode: 3.826318
+2019-11-04 20:12:31,417 - DEBUG - Average x reward: 0.024900
+2019-11-04 20:12:31,417 - DEBUG - Average y reward: -0.000049
+2019-11-04 20:12:31,417 - DEBUG - Average z reward: -0.002047
+2019-11-04 20:12:31,417 - DEBUG - Average survival reward: 0.009887
+2019-11-04 20:12:31,417 - DEBUG - Average joint efficiency reward: -0.011073
+2019-11-04 20:12:58,360 - DEBUG - Episode: 38
+2019-11-04 20:12:58,360 - DEBUG - Total reward in this epsisode: 2.129672
+2019-11-04 20:12:58,374 - DEBUG - Average x reward: 0.022216
+2019-11-04 20:12:58,374 - DEBUG - Average y reward: -0.000037
+2019-11-04 20:12:58,374 - DEBUG - Average z reward: -0.001640
+2019-11-04 20:12:58,374 - DEBUG - Average survival reward: 0.009823
+2019-11-04 20:12:58,374 - DEBUG - Average joint efficiency reward: -0.011516
+2019-11-04 20:13:24,424 - DEBUG - Episode: 39
+2019-11-04 20:13:24,424 - DEBUG - Total reward in this epsisode: 3.961749
+2019-11-04 20:13:24,424 - DEBUG - Average x reward: 0.027665
+2019-11-04 20:13:24,424 - DEBUG - Average y reward: -0.000004
+2019-11-04 20:13:24,424 - DEBUG - Average z reward: -0.001337
+2019-11-04 20:13:24,424 - DEBUG - Average survival reward: 0.009878
+2019-11-04 20:13:24,424 - DEBUG - Average joint efficiency reward: -0.012046
+2019-11-04 20:13:50,639 - DEBUG - Episode: 40
+2019-11-04 20:13:50,639 - DEBUG - Total reward in this epsisode: 2.726569
+2019-11-04 20:13:50,639 - DEBUG - Average x reward: 0.019323
+2019-11-04 20:13:50,639 - DEBUG - Average y reward: -0.000089
+2019-11-04 20:13:50,639 - DEBUG - Average z reward: -0.001682
+2019-11-04 20:13:50,639 - DEBUG - Average survival reward: 0.009880
+2019-11-04 20:13:50,639 - DEBUG - Average joint efficiency reward: -0.011006
+2019-11-04 20:14:15,993 - DEBUG - Episode: 41
+2019-11-04 20:14:15,993 - DEBUG - Total reward in this epsisode: 5.852625
+2019-11-04 20:14:15,993 - DEBUG - Average x reward: 0.035467
+2019-11-04 20:14:15,993 - DEBUG - Average y reward: -0.000037
+2019-11-04 20:14:15,993 - DEBUG - Average z reward: -0.001194
+2019-11-04 20:14:15,993 - DEBUG - Average survival reward: 0.009886
+2019-11-04 20:14:15,993 - DEBUG - Average joint efficiency reward: -0.010868
+2019-11-04 20:14:44,967 - DEBUG - Episode: 42
+2019-11-04 20:14:44,967 - DEBUG - Total reward in this epsisode: 2.425767
+2019-11-04 20:14:44,967 - DEBUG - Average x reward: 0.020376
+2019-11-04 20:14:44,967 - DEBUG - Average y reward: -0.000039
+2019-11-04 20:14:44,967 - DEBUG - Average z reward: -0.001417
+2019-11-04 20:14:44,967 - DEBUG - Average survival reward: 0.009858
+2019-11-04 20:14:44,967 - DEBUG - Average joint efficiency reward: -0.011574
+2019-11-04 20:15:13,918 - DEBUG - Episode: 43
+2019-11-04 20:15:13,918 - DEBUG - Total reward in this epsisode: 2.894746
+2019-11-04 20:15:13,918 - DEBUG - Average x reward: 0.023251
+2019-11-04 20:15:13,918 - DEBUG - Average y reward: -0.000024
+2019-11-04 20:15:13,918 - DEBUG - Average z reward: -0.001301
+2019-11-04 20:15:13,918 - DEBUG - Average survival reward: 0.009854
+2019-11-04 20:15:13,918 - DEBUG - Average joint efficiency reward: -0.010650
+2019-11-04 20:15:41,398 - DEBUG - Episode: 44
+2019-11-04 20:15:41,398 - DEBUG - Total reward in this epsisode: 1.276433
+2019-11-04 20:15:41,398 - DEBUG - Average x reward: 0.018846
+2019-11-04 20:15:41,398 - DEBUG - Average y reward: -0.000070
+2019-11-04 20:15:41,398 - DEBUG - Average z reward: -0.001672
+2019-11-04 20:15:41,398 - DEBUG - Average survival reward: 0.009780
+2019-11-04 20:15:41,398 - DEBUG - Average joint efficiency reward: -0.012858
+2019-11-04 20:16:05,762 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f5a89bd88d0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f5a89bd88d0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 20:16:06,009 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59d08ffc88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59d08ffc88>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 20:16:36,531 - DEBUG - Episode: 1
+2019-11-04 20:16:36,531 - DEBUG - Total reward in this epsisode: 4.686463
+2019-11-04 20:16:36,531 - DEBUG - Average x reward: 0.024413
+2019-11-04 20:16:36,531 - DEBUG - Average y reward: -0.000072
+2019-11-04 20:16:36,531 - DEBUG - Average z reward: -0.001253
+2019-11-04 20:16:36,531 - DEBUG - Average survival reward: 0.009907
+2019-11-04 20:16:36,531 - DEBUG - Average joint efficiency reward: -0.011096
+2019-11-04 20:17:10,747 - DEBUG - Episode: 2
+2019-11-04 20:17:10,747 - DEBUG - Total reward in this epsisode: 2.161808
+2019-11-04 20:17:10,747 - DEBUG - Average x reward: 0.015245
+2019-11-04 20:17:10,747 - DEBUG - Average y reward: -0.000043
+2019-11-04 20:17:10,747 - DEBUG - Average z reward: -0.001582
+2019-11-04 20:17:10,747 - DEBUG - Average survival reward: 0.009899
+2019-11-04 20:17:10,747 - DEBUG - Average joint efficiency reward: -0.012656
+2019-11-04 20:17:40,049 - DEBUG - Episode: 3
+2019-11-04 20:17:40,049 - DEBUG - Total reward in this epsisode: 3.985096
+2019-11-04 20:17:40,049 - DEBUG - Average x reward: 0.019205
+2019-11-04 20:17:40,049 - DEBUG - Average y reward: -0.000096
+2019-11-04 20:17:40,049 - DEBUG - Average z reward: -0.002266
+2019-11-04 20:17:40,049 - DEBUG - Average survival reward: 0.009925
+2019-11-04 20:17:40,049 - DEBUG - Average joint efficiency reward: -0.011899
+2019-11-04 20:18:04,995 - DEBUG - Episode: 4
+2019-11-04 20:18:04,995 - DEBUG - Total reward in this epsisode: 2.073613
+2019-11-04 20:18:04,995 - DEBUG - Average x reward: 0.018997
+2019-11-04 20:18:04,995 - DEBUG - Average y reward: -0.000064
+2019-11-04 20:18:04,995 - DEBUG - Average z reward: -0.001233
+2019-11-04 20:18:04,995 - DEBUG - Average survival reward: 0.009866
+2019-11-04 20:18:04,995 - DEBUG - Average joint efficiency reward: -0.013649
+2019-11-04 20:18:33,326 - DEBUG - Episode: 5
+2019-11-04 20:18:33,326 - DEBUG - Total reward in this epsisode: 3.096360
+2019-11-04 20:18:33,326 - DEBUG - Average x reward: 0.022580
+2019-11-04 20:18:33,326 - DEBUG - Average y reward: -0.000036
+2019-11-04 20:18:33,326 - DEBUG - Average z reward: -0.001714
+2019-11-04 20:18:33,326 - DEBUG - Average survival reward: 0.009886
+2019-11-04 20:18:33,326 - DEBUG - Average joint efficiency reward: -0.013122
+2019-11-04 20:19:01,268 - DEBUG - Episode: 6
+2019-11-04 20:19:01,268 - DEBUG - Total reward in this epsisode: 2.928704
+2019-11-04 20:19:01,268 - DEBUG - Average x reward: 0.020494
+2019-11-04 20:19:01,269 - DEBUG - Average y reward: -0.000055
+2019-11-04 20:19:01,269 - DEBUG - Average z reward: -0.001391
+2019-11-04 20:19:01,269 - DEBUG - Average survival reward: 0.009892
+2019-11-04 20:19:01,269 - DEBUG - Average joint efficiency reward: -0.013194
+2019-11-04 20:19:33,538 - DEBUG - Episode: 7
+2019-11-04 20:19:33,538 - DEBUG - Total reward in this epsisode: 2.621281
+2019-11-04 20:19:33,538 - DEBUG - Average x reward: 0.016180
+2019-11-04 20:19:33,538 - DEBUG - Average y reward: -0.000026
+2019-11-04 20:19:33,538 - DEBUG - Average z reward: -0.001520
+2019-11-04 20:19:33,538 - DEBUG - Average survival reward: 0.009906
+2019-11-04 20:19:33,538 - DEBUG - Average joint efficiency reward: -0.012175
+2019-11-04 20:20:08,314 - DEBUG - Episode: 8
+2019-11-04 20:20:08,314 - DEBUG - Total reward in this epsisode: -0.429027
+2019-11-04 20:20:08,314 - DEBUG - Average x reward: 0.000134
+2019-11-04 20:20:08,314 - DEBUG - Average y reward: -0.000008
+2019-11-04 20:20:08,314 - DEBUG - Average z reward: -0.000806
+2019-11-04 20:20:08,314 - DEBUG - Average survival reward: 0.009963
+2019-11-04 20:20:08,314 - DEBUG - Average joint efficiency reward: -0.010083
+2019-11-04 20:20:36,949 - DEBUG - Episode: 9
+2019-11-04 20:20:36,949 - DEBUG - Total reward in this epsisode: 3.160031
+2019-11-04 20:20:36,949 - DEBUG - Average x reward: 0.024108
+2019-11-04 20:20:36,949 - DEBUG - Average y reward: -0.000033
+2019-11-04 20:20:36,949 - DEBUG - Average z reward: -0.001239
+2019-11-04 20:20:36,949 - DEBUG - Average survival reward: 0.009876
+2019-11-04 20:20:36,949 - DEBUG - Average joint efficiency reward: -0.013084
+2019-11-04 20:21:13,412 - DEBUG - Episode: 10
+2019-11-04 20:21:13,412 - DEBUG - Total reward in this epsisode: 2.538655
+2019-11-04 20:21:13,412 - DEBUG - Average x reward: 0.025447
+2019-11-04 20:21:13,412 - DEBUG - Average y reward: -0.000061
+2019-11-04 20:21:13,412 - DEBUG - Average z reward: -0.001441
+2019-11-04 20:21:13,412 - DEBUG - Average survival reward: 0.009832
+2019-11-04 20:21:13,412 - DEBUG - Average joint efficiency reward: -0.012444
+2019-11-04 20:21:43,219 - DEBUG - Episode: 11
+2019-11-04 20:21:43,219 - DEBUG - Total reward in this epsisode: 3.470157
+2019-11-04 20:21:43,219 - DEBUG - Average x reward: 0.019440
+2019-11-04 20:21:43,219 - DEBUG - Average y reward: -0.000064
+2019-11-04 20:21:43,219 - DEBUG - Average z reward: -0.001259
+2019-11-04 20:21:43,219 - DEBUG - Average survival reward: 0.009900
+2019-11-04 20:21:43,219 - DEBUG - Average joint efficiency reward: -0.010753
+2019-11-04 20:22:07,463 - DEBUG - Episode: 12
+2019-11-04 20:22:07,464 - DEBUG - Total reward in this epsisode: 5.890040
+2019-11-04 20:22:07,464 - DEBUG - Average x reward: 0.027877
+2019-11-04 20:22:07,464 - DEBUG - Average y reward: -0.000058
+2019-11-04 20:22:07,464 - DEBUG - Average z reward: -0.001384
+2019-11-04 20:22:07,464 - DEBUG - Average survival reward: 0.009907
+2019-11-04 20:22:07,464 - DEBUG - Average joint efficiency reward: -0.008946
+2019-11-04 20:22:40,120 - DEBUG - Episode: 13
+2019-11-04 20:22:40,120 - DEBUG - Total reward in this epsisode: 3.401585
+2019-11-04 20:22:40,120 - DEBUG - Average x reward: 0.022611
+2019-11-04 20:22:40,120 - DEBUG - Average y reward: -0.000038
+2019-11-04 20:22:40,120 - DEBUG - Average z reward: -0.001286
+2019-11-04 20:22:40,120 - DEBUG - Average survival reward: 0.009879
+2019-11-04 20:22:40,120 - DEBUG - Average joint efficiency reward: -0.010550
+2019-11-04 20:23:11,957 - DEBUG - Episode: 14
+2019-11-04 20:23:11,957 - DEBUG - Total reward in this epsisode: 3.254482
+2019-11-04 20:23:11,957 - DEBUG - Average x reward: 0.015176
+2019-11-04 20:23:11,957 - DEBUG - Average y reward: -0.000070
+2019-11-04 20:23:11,957 - DEBUG - Average z reward: -0.002001
+2019-11-04 20:23:11,957 - DEBUG - Average survival reward: 0.009920
+2019-11-04 20:23:11,957 - DEBUG - Average joint efficiency reward: -0.010060
+2019-11-04 20:23:39,426 - DEBUG - Episode: 15
+2019-11-04 20:23:39,426 - DEBUG - Total reward in this epsisode: 4.402595
+2019-11-04 20:23:39,426 - DEBUG - Average x reward: 0.024531
+2019-11-04 20:23:39,426 - DEBUG - Average y reward: -0.000001
+2019-11-04 20:23:39,427 - DEBUG - Average z reward: -0.001163
+2019-11-04 20:23:39,427 - DEBUG - Average survival reward: 0.009898
+2019-11-04 20:23:39,427 - DEBUG - Average joint efficiency reward: -0.010918
+2019-11-04 20:24:05,609 - DEBUG - Episode: 16
+2019-11-04 20:24:05,609 - DEBUG - Total reward in this epsisode: 2.320072
+2019-11-04 20:24:05,609 - DEBUG - Average x reward: 0.024108
+2019-11-04 20:24:05,609 - DEBUG - Average y reward: -0.000031
+2019-11-04 20:24:05,609 - DEBUG - Average z reward: -0.001542
+2019-11-04 20:24:05,609 - DEBUG - Average survival reward: 0.009815
+2019-11-04 20:24:05,609 - DEBUG - Average joint efficiency reward: -0.010868
+2019-11-04 20:24:31,006 - DEBUG - Episode: 17
+2019-11-04 20:24:31,006 - DEBUG - Total reward in this epsisode: 3.282413
+2019-11-04 20:24:31,006 - DEBUG - Average x reward: 0.019345
+2019-11-04 20:24:31,006 - DEBUG - Average y reward: -0.000077
+2019-11-04 20:24:31,006 - DEBUG - Average z reward: -0.001564
+2019-11-04 20:24:31,006 - DEBUG - Average survival reward: 0.009890
+2019-11-04 20:24:31,006 - DEBUG - Average joint efficiency reward: -0.009559
+2019-11-04 20:25:20,001 - DEBUG - Episode: 18
+2019-11-04 20:25:20,001 - DEBUG - Total reward in this epsisode: 3.444423
+2019-11-04 20:25:20,001 - DEBUG - Average x reward: 0.025264
+2019-11-04 20:25:20,001 - DEBUG - Average y reward: -0.000048
+2019-11-04 20:25:20,002 - DEBUG - Average z reward: -0.001382
+2019-11-04 20:25:20,002 - DEBUG - Average survival reward: 0.009863
+2019-11-04 20:25:20,002 - DEBUG - Average joint efficiency reward: -0.010105
+2019-11-04 20:25:52,619 - DEBUG - Episode: 19
+2019-11-04 20:25:52,619 - DEBUG - Total reward in this epsisode: 2.675131
+2019-11-04 20:25:52,619 - DEBUG - Average x reward: 0.019827
+2019-11-04 20:25:52,619 - DEBUG - Average y reward: -0.000047
+2019-11-04 20:25:52,619 - DEBUG - Average z reward: -0.001382
+2019-11-04 20:25:52,619 - DEBUG - Average survival reward: 0.009860
+2019-11-04 20:25:52,619 - DEBUG - Average joint efficiency reward: -0.009551
+2019-11-04 20:26:29,008 - DEBUG - Episode: 20
+2019-11-04 20:26:29,008 - DEBUG - Total reward in this epsisode: -0.636737
+2019-11-04 20:26:29,008 - DEBUG - Average x reward: -0.004026
+2019-11-04 20:26:29,008 - DEBUG - Average y reward: -0.000004
+2019-11-04 20:26:29,008 - DEBUG - Average z reward: -0.000380
+2019-11-04 20:26:29,008 - DEBUG - Average survival reward: 0.009983
+2019-11-04 20:26:29,008 - DEBUG - Average joint efficiency reward: -0.006110
+2019-11-04 20:26:53,889 - DEBUG - Episode: 21
+2019-11-04 20:26:53,889 - DEBUG - Total reward in this epsisode: 1.396737
+2019-11-04 20:26:53,889 - DEBUG - Average x reward: 0.020050
+2019-11-04 20:26:53,889 - DEBUG - Average y reward: -0.000002
+2019-11-04 20:26:53,889 - DEBUG - Average z reward: -0.001654
+2019-11-04 20:26:53,889 - DEBUG - Average survival reward: 0.009780
+2019-11-04 20:26:53,889 - DEBUG - Average joint efficiency reward: -0.012826
+2019-11-04 20:27:39,008 - DEBUG - Episode: 22
+2019-11-04 20:27:39,008 - DEBUG - Total reward in this epsisode: -9.032525
+2019-11-04 20:27:39,008 - DEBUG - Average x reward: -0.034930
+2019-11-04 20:27:39,008 - DEBUG - Average y reward: -0.000062
+2019-11-04 20:27:39,008 - DEBUG - Average z reward: -0.001398
+2019-11-04 20:27:39,009 - DEBUG - Average survival reward: 0.009918
+2019-11-04 20:27:39,009 - DEBUG - Average joint efficiency reward: -0.010546
+2019-11-04 20:28:11,316 - DEBUG - Episode: 23
+2019-11-04 20:28:11,317 - DEBUG - Total reward in this epsisode: -4.568523
+2019-11-04 20:28:11,317 - DEBUG - Average x reward: -0.019936
+2019-11-04 20:28:11,317 - DEBUG - Average y reward: -0.000008
+2019-11-04 20:28:11,317 - DEBUG - Average z reward: -0.001013
+2019-11-04 20:28:11,317 - DEBUG - Average survival reward: 0.009905
+2019-11-04 20:28:11,317 - DEBUG - Average joint efficiency reward: -0.010703
+2019-11-04 20:28:43,209 - DEBUG - Episode: 24
+2019-11-04 20:28:43,209 - DEBUG - Total reward in this epsisode: 4.974895
+2019-11-04 20:28:43,209 - DEBUG - Average x reward: 0.022569
+2019-11-04 20:28:43,209 - DEBUG - Average y reward: -0.000043
+2019-11-04 20:28:43,209 - DEBUG - Average z reward: -0.001335
+2019-11-04 20:28:43,209 - DEBUG - Average survival reward: 0.009913
+2019-11-04 20:28:43,209 - DEBUG - Average joint efficiency reward: -0.009474
+2019-11-04 20:29:17,302 - DEBUG - Episode: 25
+2019-11-04 20:29:17,302 - DEBUG - Total reward in this epsisode: 2.090971
+2019-11-04 20:29:17,302 - DEBUG - Average x reward: 0.020228
+2019-11-04 20:29:17,302 - DEBUG - Average y reward: -0.000024
+2019-11-04 20:29:17,302 - DEBUG - Average z reward: -0.001618
+2019-11-04 20:29:17,302 - DEBUG - Average survival reward: 0.009825
+2019-11-04 20:29:17,302 - DEBUG - Average joint efficiency reward: -0.010069
+2019-11-04 20:29:44,856 - DEBUG - Episode: 26
+2019-11-04 20:29:44,856 - DEBUG - Total reward in this epsisode: 6.282025
+2019-11-04 20:29:44,856 - DEBUG - Average x reward: 0.017216
+2019-11-04 20:29:44,856 - DEBUG - Average y reward: -0.000108
+2019-11-04 20:29:44,856 - DEBUG - Average z reward: -0.001928
+2019-11-04 20:29:44,856 - DEBUG - Average survival reward: 0.009947
+2019-11-04 20:29:44,856 - DEBUG - Average joint efficiency reward: -0.008329
+2019-11-04 20:30:15,031 - DEBUG - Episode: 27
+2019-11-04 20:30:15,031 - DEBUG - Total reward in this epsisode: 3.235445
+2019-11-04 20:30:15,031 - DEBUG - Average x reward: 0.023839
+2019-11-04 20:30:15,031 - DEBUG - Average y reward: -0.000019
+2019-11-04 20:30:15,031 - DEBUG - Average z reward: -0.001399
+2019-11-04 20:30:15,031 - DEBUG - Average survival reward: 0.009857
+2019-11-04 20:30:15,031 - DEBUG - Average joint efficiency reward: -0.009168
+2019-11-04 20:30:44,881 - DEBUG - Episode: 28
+2019-11-04 20:30:44,881 - DEBUG - Total reward in this epsisode: 6.025944
+2019-11-04 20:30:44,881 - DEBUG - Average x reward: 0.017261
+2019-11-04 20:30:44,881 - DEBUG - Average y reward: -0.000064
+2019-11-04 20:30:44,881 - DEBUG - Average z reward: -0.001869
+2019-11-04 20:30:44,881 - DEBUG - Average survival reward: 0.009942
+2019-11-04 20:30:44,881 - DEBUG - Average joint efficiency reward: -0.007752
+2019-11-04 20:31:14,118 - DEBUG - Episode: 29
+2019-11-04 20:31:14,118 - DEBUG - Total reward in this epsisode: 3.325536
+2019-11-04 20:31:14,118 - DEBUG - Average x reward: 0.026156
+2019-11-04 20:31:14,118 - DEBUG - Average y reward: -0.000090
+2019-11-04 20:31:14,118 - DEBUG - Average z reward: -0.001782
+2019-11-04 20:31:14,118 - DEBUG - Average survival reward: 0.009855
+2019-11-04 20:31:14,118 - DEBUG - Average joint efficiency reward: -0.010041
+2019-11-04 20:31:51,319 - DEBUG - Episode: 30
+2019-11-04 20:31:51,320 - DEBUG - Total reward in this epsisode: 4.492550
+2019-11-04 20:31:51,320 - DEBUG - Average x reward: 0.031044
+2019-11-04 20:31:51,320 - DEBUG - Average y reward: -0.000045
+2019-11-04 20:31:51,320 - DEBUG - Average z reward: -0.001222
+2019-11-04 20:31:51,320 - DEBUG - Average survival reward: 0.009868
+2019-11-04 20:31:51,320 - DEBUG - Average joint efficiency reward: -0.010089
+2019-11-04 20:32:24,172 - DEBUG - Episode: 31
+2019-11-04 20:32:24,172 - DEBUG - Total reward in this epsisode: -4.047613
+2019-11-04 20:32:24,172 - DEBUG - Average x reward: -0.027107
+2019-11-04 20:32:24,172 - DEBUG - Average y reward: -0.000019
+2019-11-04 20:32:24,172 - DEBUG - Average z reward: -0.001267
+2019-11-04 20:32:24,172 - DEBUG - Average survival reward: 0.009857
+2019-11-04 20:32:24,173 - DEBUG - Average joint efficiency reward: -0.010376
+2019-11-04 20:33:04,773 - DEBUG - Episode: 32
+2019-11-04 20:33:04,773 - DEBUG - Total reward in this epsisode: -5.967224
+2019-11-04 20:33:04,773 - DEBUG - Average x reward: -0.008104
+2019-11-04 20:33:04,773 - DEBUG - Average y reward: -0.000018
+2019-11-04 20:33:04,773 - DEBUG - Average z reward: -0.000619
+2019-11-04 20:33:04,773 - DEBUG - Average survival reward: 0.009978
+2019-11-04 20:33:04,773 - DEBUG - Average joint efficiency reward: -0.007730
+2019-11-04 20:33:34,807 - DEBUG - Episode: 33
+2019-11-04 20:33:34,807 - DEBUG - Total reward in this epsisode: 4.217627
+2019-11-04 20:33:34,807 - DEBUG - Average x reward: 0.026180
+2019-11-04 20:33:34,807 - DEBUG - Average y reward: -0.000052
+2019-11-04 20:33:34,807 - DEBUG - Average z reward: -0.001730
+2019-11-04 20:33:34,807 - DEBUG - Average survival reward: 0.009884
+2019-11-04 20:33:34,808 - DEBUG - Average joint efficiency reward: -0.009761
+2019-11-04 20:34:05,843 - DEBUG - Episode: 34
+2019-11-04 20:34:05,843 - DEBUG - Total reward in this epsisode: 2.292400
+2019-11-04 20:34:05,843 - DEBUG - Average x reward: 0.022761
+2019-11-04 20:34:05,843 - DEBUG - Average y reward: -0.000043
+2019-11-04 20:34:05,843 - DEBUG - Average z reward: -0.001465
+2019-11-04 20:34:05,843 - DEBUG - Average survival reward: 0.009825
+2019-11-04 20:34:05,844 - DEBUG - Average joint efficiency reward: -0.010969
+2019-11-04 20:34:33,004 - DEBUG - Episode: 35
+2019-11-04 20:34:33,004 - DEBUG - Total reward in this epsisode: 5.051687
+2019-11-04 20:34:33,004 - DEBUG - Average x reward: 0.028772
+2019-11-04 20:34:33,004 - DEBUG - Average y reward: -0.000029
+2019-11-04 20:34:33,004 - DEBUG - Average z reward: -0.001329
+2019-11-04 20:34:33,004 - DEBUG - Average survival reward: 0.009888
+2019-11-04 20:34:33,004 - DEBUG - Average joint efficiency reward: -0.009080
+2019-11-04 20:35:01,528 - DEBUG - Episode: 36
+2019-11-04 20:35:01,528 - DEBUG - Total reward in this epsisode: 6.774757
+2019-11-04 20:35:01,528 - DEBUG - Average x reward: 0.031309
+2019-11-04 20:35:01,528 - DEBUG - Average y reward: -0.000031
+2019-11-04 20:35:01,528 - DEBUG - Average z reward: -0.001157
+2019-11-04 20:35:01,528 - DEBUG - Average survival reward: 0.009910
+2019-11-04 20:35:01,528 - DEBUG - Average joint efficiency reward: -0.009651
+2019-11-04 20:35:33,341 - DEBUG - Episode: 37
+2019-11-04 20:35:33,341 - DEBUG - Total reward in this epsisode: 3.905252
+2019-11-04 20:35:33,341 - DEBUG - Average x reward: 0.029227
+2019-11-04 20:35:33,341 - DEBUG - Average y reward: -0.000023
+2019-11-04 20:35:33,341 - DEBUG - Average z reward: -0.001406
+2019-11-04 20:35:33,341 - DEBUG - Average survival reward: 0.009854
+2019-11-04 20:35:33,341 - DEBUG - Average joint efficiency reward: -0.009147
+2019-11-04 20:35:59,200 - DEBUG - Episode: 38
+2019-11-04 20:35:59,200 - DEBUG - Total reward in this epsisode: 5.152503
+2019-11-04 20:35:59,200 - DEBUG - Average x reward: 0.025570
+2019-11-04 20:35:59,200 - DEBUG - Average y reward: -0.000029
+2019-11-04 20:35:59,200 - DEBUG - Average z reward: -0.001181
+2019-11-04 20:35:59,200 - DEBUG - Average survival reward: 0.009906
+2019-11-04 20:35:59,200 - DEBUG - Average joint efficiency reward: -0.009961
+2019-11-04 20:36:28,730 - DEBUG - Episode: 39
+2019-11-04 20:36:28,730 - DEBUG - Total reward in this epsisode: 3.885170
+2019-11-04 20:36:28,730 - DEBUG - Average x reward: 0.023028
+2019-11-04 20:36:28,730 - DEBUG - Average y reward: -0.000059
+2019-11-04 20:36:28,730 - DEBUG - Average z reward: -0.001240
+2019-11-04 20:36:28,730 - DEBUG - Average survival reward: 0.009884
+2019-11-04 20:36:28,730 - DEBUG - Average joint efficiency reward: -0.009156
+2019-11-04 20:36:56,597 - DEBUG - Episode: 40
+2019-11-04 20:36:56,597 - DEBUG - Total reward in this epsisode: 3.797247
+2019-11-04 20:36:56,597 - DEBUG - Average x reward: 0.021141
+2019-11-04 20:36:56,597 - DEBUG - Average y reward: -0.000015
+2019-11-04 20:36:56,598 - DEBUG - Average z reward: -0.001167
+2019-11-04 20:36:56,598 - DEBUG - Average survival reward: 0.009894
+2019-11-04 20:36:56,598 - DEBUG - Average joint efficiency reward: -0.009654
+2019-11-04 20:37:02,049 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59c6ef8c18>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59c6ef8c18>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 20:37:02,281 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59c6e20a20>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59c6e20a20>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 20:37:33,633 - DEBUG - Episode: 1
+2019-11-04 20:37:33,634 - DEBUG - Total reward in this epsisode: 3.064672
+2019-11-04 20:37:33,634 - DEBUG - Average x reward: 0.023070
+2019-11-04 20:37:33,634 - DEBUG - Average y reward: -0.000011
+2019-11-04 20:37:33,634 - DEBUG - Average z reward: -0.001408
+2019-11-04 20:37:33,634 - DEBUG - Average survival reward: 0.009861
+2019-11-04 20:37:33,634 - DEBUG - Average joint efficiency reward: -0.010230
+2019-11-04 20:38:06,272 - DEBUG - Episode: 2
+2019-11-04 20:38:06,272 - DEBUG - Total reward in this epsisode: 2.814286
+2019-11-04 20:38:06,272 - DEBUG - Average x reward: 0.019181
+2019-11-04 20:38:06,272 - DEBUG - Average y reward: -0.000023
+2019-11-04 20:38:06,272 - DEBUG - Average z reward: -0.001270
+2019-11-04 20:38:06,272 - DEBUG - Average survival reward: 0.009873
+2019-11-04 20:38:06,272 - DEBUG - Average joint efficiency reward: -0.009950
+2019-11-04 20:38:39,409 - DEBUG - Episode: 3
+2019-11-04 20:38:39,409 - DEBUG - Total reward in this epsisode: 2.754456
+2019-11-04 20:38:39,409 - DEBUG - Average x reward: 0.022063
+2019-11-04 20:38:39,409 - DEBUG - Average y reward: -0.000086
+2019-11-04 20:38:39,409 - DEBUG - Average z reward: -0.001669
+2019-11-04 20:38:39,409 - DEBUG - Average survival reward: 0.009855
+2019-11-04 20:38:39,409 - DEBUG - Average joint efficiency reward: -0.010203
+2019-11-04 20:39:09,852 - DEBUG - Episode: 4
+2019-11-04 20:39:09,852 - DEBUG - Total reward in this epsisode: 6.045346
+2019-11-04 20:39:09,852 - DEBUG - Average x reward: 0.019464
+2019-11-04 20:39:09,852 - DEBUG - Average y reward: -0.000074
+2019-11-04 20:39:09,852 - DEBUG - Average z reward: -0.001953
+2019-11-04 20:39:09,852 - DEBUG - Average survival reward: 0.009940
+2019-11-04 20:39:09,852 - DEBUG - Average joint efficiency reward: -0.009112
+2019-11-04 20:39:42,056 - DEBUG - Episode: 5
+2019-11-04 20:39:42,057 - DEBUG - Total reward in this epsisode: 4.865355
+2019-11-04 20:39:42,057 - DEBUG - Average x reward: 0.032400
+2019-11-04 20:39:42,057 - DEBUG - Average y reward: -0.000062
+2019-11-04 20:39:42,057 - DEBUG - Average z reward: -0.001681
+2019-11-04 20:39:42,057 - DEBUG - Average survival reward: 0.009871
+2019-11-04 20:39:42,057 - DEBUG - Average joint efficiency reward: -0.009138
+2019-11-04 20:40:15,643 - DEBUG - Episode: 6
+2019-11-04 20:40:15,643 - DEBUG - Total reward in this epsisode: 3.118173
+2019-11-04 20:40:15,643 - DEBUG - Average x reward: 0.023755
+2019-11-04 20:40:15,643 - DEBUG - Average y reward: -0.000040
+2019-11-04 20:40:15,643 - DEBUG - Average z reward: -0.001370
+2019-11-04 20:40:15,643 - DEBUG - Average survival reward: 0.009858
+2019-11-04 20:40:15,643 - DEBUG - Average joint efficiency reward: -0.010088
+2019-11-04 20:40:46,911 - DEBUG - Episode: 7
+2019-11-04 20:40:46,911 - DEBUG - Total reward in this epsisode: 1.612197
+2019-11-04 20:40:46,911 - DEBUG - Average x reward: 0.016479
+2019-11-04 20:40:46,911 - DEBUG - Average y reward: -0.000099
+2019-11-04 20:40:46,911 - DEBUG - Average z reward: -0.001670
+2019-11-04 20:40:46,911 - DEBUG - Average survival reward: 0.009835
+2019-11-04 20:40:46,911 - DEBUG - Average joint efficiency reward: -0.011220
+2019-11-04 20:41:20,998 - DEBUG - Episode: 8
+2019-11-04 20:41:20,998 - DEBUG - Total reward in this epsisode: 2.455129
+2019-11-04 20:41:20,999 - DEBUG - Average x reward: 0.014463
+2019-11-04 20:41:20,999 - DEBUG - Average y reward: -0.000012
+2019-11-04 20:41:20,999 - DEBUG - Average z reward: -0.001179
+2019-11-04 20:41:20,999 - DEBUG - Average survival reward: 0.009905
+2019-11-04 20:41:20,999 - DEBUG - Average joint efficiency reward: -0.011486
+2019-11-04 20:41:51,313 - DEBUG - Episode: 9
+2019-11-04 20:41:51,313 - DEBUG - Total reward in this epsisode: 4.337365
+2019-11-04 20:41:51,313 - DEBUG - Average x reward: 0.027058
+2019-11-04 20:41:51,313 - DEBUG - Average y reward: -0.000001
+2019-11-04 20:41:51,314 - DEBUG - Average z reward: -0.001193
+2019-11-04 20:41:51,314 - DEBUG - Average survival reward: 0.009888
+2019-11-04 20:41:51,314 - DEBUG - Average joint efficiency reward: -0.011385
+2019-11-04 20:42:28,441 - DEBUG - Episode: 10
+2019-11-04 20:42:28,442 - DEBUG - Total reward in this epsisode: 0.971144
+2019-11-04 20:42:28,442 - DEBUG - Average x reward: 0.001878
+2019-11-04 20:42:28,442 - DEBUG - Average y reward: -0.000009
+2019-11-04 20:42:28,442 - DEBUG - Average z reward: -0.002158
+2019-11-04 20:42:28,442 - DEBUG - Average survival reward: 0.009976
+2019-11-04 20:42:28,442 - DEBUG - Average joint efficiency reward: -0.008536
+2019-11-04 20:42:57,324 - DEBUG - Episode: 11
+2019-11-04 20:42:57,324 - DEBUG - Total reward in this epsisode: 1.932765
+2019-11-04 20:42:57,324 - DEBUG - Average x reward: 0.011642
+2019-11-04 20:42:57,324 - DEBUG - Average y reward: -0.000006
+2019-11-04 20:42:57,324 - DEBUG - Average z reward: -0.001284
+2019-11-04 20:42:57,324 - DEBUG - Average survival reward: 0.009899
+2019-11-04 20:42:57,324 - DEBUG - Average joint efficiency reward: -0.010540
+2019-11-04 20:43:28,396 - DEBUG - Episode: 12
+2019-11-04 20:43:28,396 - DEBUG - Total reward in this epsisode: -3.149693
+2019-11-04 20:43:28,396 - DEBUG - Average x reward: -0.022966
+2019-11-04 20:43:28,396 - DEBUG - Average y reward: -0.000057
+2019-11-04 20:43:28,396 - DEBUG - Average z reward: -0.001343
+2019-11-04 20:43:28,396 - DEBUG - Average survival reward: 0.009832
+2019-11-04 20:43:28,396 - DEBUG - Average joint efficiency reward: -0.011933
+2019-11-04 20:43:55,607 - DEBUG - Episode: 13
+2019-11-04 20:43:55,607 - DEBUG - Total reward in this epsisode: 3.530074
+2019-11-04 20:43:55,607 - DEBUG - Average x reward: 0.023038
+2019-11-04 20:43:55,607 - DEBUG - Average y reward: -0.000013
+2019-11-04 20:43:55,607 - DEBUG - Average z reward: -0.001698
+2019-11-04 20:43:55,607 - DEBUG - Average survival reward: 0.009886
+2019-11-04 20:43:55,607 - DEBUG - Average joint efficiency reward: -0.011156
+2019-11-04 20:44:23,010 - DEBUG - Episode: 14
+2019-11-04 20:44:23,010 - DEBUG - Total reward in this epsisode: 3.122453
+2019-11-04 20:44:23,010 - DEBUG - Average x reward: 0.022699
+2019-11-04 20:44:23,010 - DEBUG - Average y reward: -0.000059
+2019-11-04 20:44:23,010 - DEBUG - Average z reward: -0.001749
+2019-11-04 20:44:23,010 - DEBUG - Average survival reward: 0.009878
+2019-11-04 20:44:23,010 - DEBUG - Average joint efficiency reward: -0.011731
+2019-11-04 20:44:51,186 - DEBUG - Episode: 15
+2019-11-04 20:44:51,186 - DEBUG - Total reward in this epsisode: -21.355658
+2019-11-04 20:44:51,186 - DEBUG - Average x reward: -0.035955
+2019-11-04 20:44:51,186 - DEBUG - Average y reward: -0.000024
+2019-11-04 20:44:51,186 - DEBUG - Average z reward: -0.001997
+2019-11-04 20:44:51,186 - DEBUG - Average survival reward: 0.009962
+2019-11-04 20:44:51,186 - DEBUG - Average joint efficiency reward: -0.012432
+2019-11-04 20:45:19,670 - DEBUG - Episode: 16
+2019-11-04 20:45:19,671 - DEBUG - Total reward in this epsisode: 0.072053
+2019-11-04 20:45:19,671 - DEBUG - Average x reward: 0.005175
+2019-11-04 20:45:19,671 - DEBUG - Average y reward: -0.000153
+2019-11-04 20:45:19,671 - DEBUG - Average z reward: -0.001155
+2019-11-04 20:45:19,671 - DEBUG - Average survival reward: 0.009894
+2019-11-04 20:45:19,671 - DEBUG - Average joint efficiency reward: -0.013379
+2019-11-04 20:45:55,485 - DEBUG - Episode: 17
+2019-11-04 20:45:55,486 - DEBUG - Total reward in this epsisode: 1.701959
+2019-11-04 20:45:55,486 - DEBUG - Average x reward: 0.006241
+2019-11-04 20:45:55,486 - DEBUG - Average y reward: -0.000076
+2019-11-04 20:45:55,486 - DEBUG - Average z reward: -0.001395
+2019-11-04 20:45:55,486 - DEBUG - Average survival reward: 0.009944
+2019-11-04 20:45:55,486 - DEBUG - Average joint efficiency reward: -0.009947
+2019-11-04 20:46:30,465 - DEBUG - Episode: 18
+2019-11-04 20:46:30,466 - DEBUG - Total reward in this epsisode: 3.351106
+2019-11-04 20:46:30,466 - DEBUG - Average x reward: 0.024288
+2019-11-04 20:46:30,466 - DEBUG - Average y reward: -0.000087
+2019-11-04 20:46:30,466 - DEBUG - Average z reward: -0.001956
+2019-11-04 20:46:30,466 - DEBUG - Average survival reward: 0.009873
+2019-11-04 20:46:30,466 - DEBUG - Average joint efficiency reward: -0.010774
+2019-11-04 20:47:13,092 - DEBUG - Episode: 19
+2019-11-04 20:47:13,092 - DEBUG - Total reward in this epsisode: 2.581918
+2019-11-04 20:47:13,092 - DEBUG - Average x reward: 0.022601
+2019-11-04 20:47:13,092 - DEBUG - Average y reward: -0.000034
+2019-11-04 20:47:13,092 - DEBUG - Average z reward: -0.001409
+2019-11-04 20:47:13,092 - DEBUG - Average survival reward: 0.009856
+2019-11-04 20:47:13,092 - DEBUG - Average joint efficiency reward: -0.012439
+2019-11-04 20:47:43,093 - DEBUG - Episode: 20
+2019-11-04 20:47:43,093 - DEBUG - Total reward in this epsisode: 2.711015
+2019-11-04 20:47:43,094 - DEBUG - Average x reward: 0.021540
+2019-11-04 20:47:43,094 - DEBUG - Average y reward: -0.000000
+2019-11-04 20:47:43,094 - DEBUG - Average z reward: -0.002138
+2019-11-04 20:47:43,094 - DEBUG - Average survival reward: 0.009882
+2019-11-04 20:47:43,094 - DEBUG - Average joint efficiency reward: -0.013242
+2019-11-04 20:48:09,436 - DEBUG - Episode: 21
+2019-11-04 20:48:09,436 - DEBUG - Total reward in this epsisode: 3.511695
+2019-11-04 20:48:09,436 - DEBUG - Average x reward: 0.025591
+2019-11-04 20:48:09,436 - DEBUG - Average y reward: -0.000011
+2019-11-04 20:48:09,437 - DEBUG - Average z reward: -0.001326
+2019-11-04 20:48:09,437 - DEBUG - Average survival reward: 0.009873
+2019-11-04 20:48:09,437 - DEBUG - Average joint efficiency reward: -0.011758
+2019-11-04 20:48:37,922 - DEBUG - Episode: 22
+2019-11-04 20:48:37,922 - DEBUG - Total reward in this epsisode: 2.686866
+2019-11-04 20:48:37,922 - DEBUG - Average x reward: 0.023298
+2019-11-04 20:48:37,922 - DEBUG - Average y reward: -0.000004
+2019-11-04 20:48:37,922 - DEBUG - Average z reward: -0.001417
+2019-11-04 20:48:37,923 - DEBUG - Average survival reward: 0.009861
+2019-11-04 20:48:37,923 - DEBUG - Average joint efficiency reward: -0.013079
+2019-11-04 20:49:07,573 - DEBUG - Episode: 23
+2019-11-04 20:49:07,574 - DEBUG - Total reward in this epsisode: 3.364052
+2019-11-04 20:49:07,574 - DEBUG - Average x reward: 0.018222
+2019-11-04 20:49:07,574 - DEBUG - Average y reward: -0.000042
+2019-11-04 20:49:07,574 - DEBUG - Average z reward: -0.001031
+2019-11-04 20:49:07,574 - DEBUG - Average survival reward: 0.009908
+2019-11-04 20:49:07,574 - DEBUG - Average joint efficiency reward: -0.011554
+2019-11-04 20:49:37,205 - DEBUG - Episode: 24
+2019-11-04 20:49:37,205 - DEBUG - Total reward in this epsisode: 2.920240
+2019-11-04 20:49:37,219 - DEBUG - Average x reward: 0.023649
+2019-11-04 20:49:37,219 - DEBUG - Average y reward: -0.000003
+2019-11-04 20:49:37,219 - DEBUG - Average z reward: -0.001524
+2019-11-04 20:49:37,219 - DEBUG - Average survival reward: 0.009862
+2019-11-04 20:49:37,219 - DEBUG - Average joint efficiency reward: -0.011844
+2019-11-04 20:50:03,837 - DEBUG - Episode: 25
+2019-11-04 20:50:03,837 - DEBUG - Total reward in this epsisode: -3.904179
+2019-11-04 20:50:03,837 - DEBUG - Average x reward: -0.027666
+2019-11-04 20:50:03,837 - DEBUG - Average y reward: -0.000061
+2019-11-04 20:50:03,837 - DEBUG - Average z reward: -0.001599
+2019-11-04 20:50:03,837 - DEBUG - Average survival reward: 0.009833
+2019-11-04 20:50:03,837 - DEBUG - Average joint efficiency reward: -0.013043
+2019-11-04 20:50:33,329 - DEBUG - Episode: 26
+2019-11-04 20:50:33,329 - DEBUG - Total reward in this epsisode: -3.519858
+2019-11-04 20:50:33,329 - DEBUG - Average x reward: -0.020574
+2019-11-04 20:50:33,329 - DEBUG - Average y reward: -0.000014
+2019-11-04 20:50:33,329 - DEBUG - Average z reward: -0.001221
+2019-11-04 20:50:33,329 - DEBUG - Average survival reward: 0.009870
+2019-11-04 20:50:33,329 - DEBUG - Average joint efficiency reward: -0.010917
+2019-11-04 20:51:03,092 - DEBUG - Episode: 27
+2019-11-04 20:51:03,092 - DEBUG - Total reward in this epsisode: 2.236985
+2019-11-04 20:51:03,092 - DEBUG - Average x reward: 0.012613
+2019-11-04 20:51:03,092 - DEBUG - Average y reward: -0.000074
+2019-11-04 20:51:03,092 - DEBUG - Average z reward: -0.001210
+2019-11-04 20:51:03,092 - DEBUG - Average survival reward: 0.009913
+2019-11-04 20:51:03,092 - DEBUG - Average joint efficiency reward: -0.011559
+2019-11-04 20:51:31,180 - DEBUG - Episode: 28
+2019-11-04 20:51:31,180 - DEBUG - Total reward in this epsisode: 3.164811
+2019-11-04 20:51:31,180 - DEBUG - Average x reward: 0.026273
+2019-11-04 20:51:31,180 - DEBUG - Average y reward: -0.000044
+2019-11-04 20:51:31,180 - DEBUG - Average z reward: -0.001484
+2019-11-04 20:51:31,180 - DEBUG - Average survival reward: 0.009852
+2019-11-04 20:51:31,180 - DEBUG - Average joint efficiency reward: -0.011154
+2019-11-04 20:51:56,971 - DEBUG - Episode: 29
+2019-11-04 20:51:56,971 - DEBUG - Total reward in this epsisode: 4.240414
+2019-11-04 20:51:56,971 - DEBUG - Average x reward: 0.019248
+2019-11-04 20:51:56,971 - DEBUG - Average y reward: -0.000065
+2019-11-04 20:51:56,971 - DEBUG - Average z reward: -0.001275
+2019-11-04 20:51:56,971 - DEBUG - Average survival reward: 0.009921
+2019-11-04 20:51:56,971 - DEBUG - Average joint efficiency reward: -0.011001
+2019-11-04 20:52:25,695 - DEBUG - Episode: 30
+2019-11-04 20:52:25,695 - DEBUG - Total reward in this epsisode: 2.180133
+2019-11-04 20:52:25,695 - DEBUG - Average x reward: 0.021973
+2019-11-04 20:52:25,695 - DEBUG - Average y reward: -0.000085
+2019-11-04 20:52:25,695 - DEBUG - Average z reward: -0.001477
+2019-11-04 20:52:25,695 - DEBUG - Average survival reward: 0.009833
+2019-11-04 20:52:25,695 - DEBUG - Average joint efficiency reward: -0.012076
+2019-11-04 20:52:55,627 - DEBUG - Episode: 31
+2019-11-04 20:52:55,628 - DEBUG - Total reward in this epsisode: 4.958974
+2019-11-04 20:52:55,628 - DEBUG - Average x reward: 0.027463
+2019-11-04 20:52:55,628 - DEBUG - Average y reward: -0.000053
+2019-11-04 20:52:55,628 - DEBUG - Average z reward: -0.001330
+2019-11-04 20:52:55,628 - DEBUG - Average survival reward: 0.009900
+2019-11-04 20:52:55,628 - DEBUG - Average joint efficiency reward: -0.011185
+2019-11-04 20:53:28,799 - DEBUG - Episode: 32
+2019-11-04 20:53:28,799 - DEBUG - Total reward in this epsisode: 1.627464
+2019-11-04 20:53:28,799 - DEBUG - Average x reward: 0.019479
+2019-11-04 20:53:28,799 - DEBUG - Average y reward: -0.000101
+2019-11-04 20:53:28,799 - DEBUG - Average z reward: -0.001655
+2019-11-04 20:53:28,799 - DEBUG - Average survival reward: 0.009811
+2019-11-04 20:53:28,799 - DEBUG - Average joint efficiency reward: -0.012181
+2019-11-04 20:53:54,493 - DEBUG - Episode: 33
+2019-11-04 20:53:54,493 - DEBUG - Total reward in this epsisode: 1.863109
+2019-11-04 20:53:54,493 - DEBUG - Average x reward: 0.021884
+2019-11-04 20:53:54,493 - DEBUG - Average y reward: -0.000075
+2019-11-04 20:53:54,493 - DEBUG - Average z reward: -0.001544
+2019-11-04 20:53:54,493 - DEBUG - Average survival reward: 0.009815
+2019-11-04 20:53:54,493 - DEBUG - Average joint efficiency reward: -0.012829
+2019-11-04 20:54:25,181 - DEBUG - Episode: 34
+2019-11-04 20:54:25,181 - DEBUG - Total reward in this epsisode: -7.072781
+2019-11-04 20:54:25,181 - DEBUG - Average x reward: -0.029435
+2019-11-04 20:54:25,181 - DEBUG - Average y reward: -0.000071
+2019-11-04 20:54:25,181 - DEBUG - Average z reward: -0.001203
+2019-11-04 20:54:25,181 - DEBUG - Average survival reward: 0.009908
+2019-11-04 20:54:25,181 - DEBUG - Average joint efficiency reward: -0.011792
+2019-11-04 20:54:53,715 - DEBUG - Episode: 35
+2019-11-04 20:54:53,715 - DEBUG - Total reward in this epsisode: 5.635713
+2019-11-04 20:54:53,715 - DEBUG - Average x reward: 0.026938
+2019-11-04 20:54:53,715 - DEBUG - Average y reward: -0.000033
+2019-11-04 20:54:53,715 - DEBUG - Average z reward: -0.001390
+2019-11-04 20:54:53,715 - DEBUG - Average survival reward: 0.009913
+2019-11-04 20:54:53,715 - DEBUG - Average joint efficiency reward: -0.010925
+2019-11-04 20:55:22,205 - DEBUG - Episode: 36
+2019-11-04 20:55:22,205 - DEBUG - Total reward in this epsisode: 2.619616
+2019-11-04 20:55:22,205 - DEBUG - Average x reward: 0.024516
+2019-11-04 20:55:22,205 - DEBUG - Average y reward: -0.000023
+2019-11-04 20:55:22,205 - DEBUG - Average z reward: -0.001585
+2019-11-04 20:55:22,205 - DEBUG - Average survival reward: 0.009835
+2019-11-04 20:55:22,205 - DEBUG - Average joint efficiency reward: -0.011093
+2019-11-04 20:55:49,604 - DEBUG - Episode: 37
+2019-11-04 20:55:49,604 - DEBUG - Total reward in this epsisode: 4.126048
+2019-11-04 20:55:49,604 - DEBUG - Average x reward: 0.022144
+2019-11-04 20:55:49,604 - DEBUG - Average y reward: -0.000074
+2019-11-04 20:55:49,604 - DEBUG - Average z reward: -0.001881
+2019-11-04 20:55:49,604 - DEBUG - Average survival reward: 0.009901
+2019-11-04 20:55:49,604 - DEBUG - Average joint efficiency reward: -0.009664
+2019-11-04 20:56:17,685 - DEBUG - Episode: 38
+2019-11-04 20:56:17,685 - DEBUG - Total reward in this epsisode: 3.756528
+2019-11-04 20:56:17,685 - DEBUG - Average x reward: 0.019489
+2019-11-04 20:56:17,686 - DEBUG - Average y reward: -0.000078
+2019-11-04 20:56:17,686 - DEBUG - Average z reward: -0.001399
+2019-11-04 20:56:17,686 - DEBUG - Average survival reward: 0.009899
+2019-11-04 20:56:17,686 - DEBUG - Average joint efficiency reward: -0.009035
+2019-11-04 20:56:44,901 - DEBUG - Episode: 39
+2019-11-04 20:56:44,901 - DEBUG - Total reward in this epsisode: -0.025089
+2019-11-04 20:56:44,901 - DEBUG - Average x reward: -0.000513
+2019-11-04 20:56:44,901 - DEBUG - Average y reward: -0.000014
+2019-11-04 20:56:44,901 - DEBUG - Average z reward: -0.000544
+2019-11-04 20:56:44,901 - DEBUG - Average survival reward: 0.009968
+2019-11-04 20:56:44,902 - DEBUG - Average joint efficiency reward: -0.008937
+2019-11-04 20:57:13,439 - DEBUG - Episode: 40
+2019-11-04 20:57:13,439 - DEBUG - Total reward in this epsisode: -3.023121
+2019-11-04 20:57:13,439 - DEBUG - Average x reward: -0.021983
+2019-11-04 20:57:13,439 - DEBUG - Average y reward: -0.000071
+2019-11-04 20:57:13,439 - DEBUG - Average z reward: -0.001438
+2019-11-04 20:57:13,439 - DEBUG - Average survival reward: 0.009833
+2019-11-04 20:57:13,439 - DEBUG - Average joint efficiency reward: -0.011533
+2019-11-04 20:57:41,753 - DEBUG - Episode: 41
+2019-11-04 20:57:41,753 - DEBUG - Total reward in this epsisode: 3.972836
+2019-11-04 20:57:41,753 - DEBUG - Average x reward: 0.025181
+2019-11-04 20:57:41,753 - DEBUG - Average y reward: -0.000038
+2019-11-04 20:57:41,753 - DEBUG - Average z reward: -0.001207
+2019-11-04 20:57:41,753 - DEBUG - Average survival reward: 0.009886
+2019-11-04 20:57:41,753 - DEBUG - Average joint efficiency reward: -0.011249
+2019-11-04 20:57:55,215 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59c39e3908>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59c39e3908>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 20:57:55,447 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59c3918e48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59c3918e48>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 20:58:27,966 - DEBUG - Episode: 1
+2019-11-04 20:58:27,966 - DEBUG - Total reward in this epsisode: 2.914660
+2019-11-04 20:58:27,966 - DEBUG - Average x reward: 0.027822
+2019-11-04 20:58:27,966 - DEBUG - Average y reward: -0.000035
+2019-11-04 20:58:27,966 - DEBUG - Average z reward: -0.001516
+2019-11-04 20:58:27,966 - DEBUG - Average survival reward: 0.009828
+2019-11-04 20:58:27,966 - DEBUG - Average joint efficiency reward: -0.010972
+2019-11-04 20:58:59,689 - DEBUG - Episode: 2
+2019-11-04 20:58:59,689 - DEBUG - Total reward in this epsisode: 3.108061
+2019-11-04 20:58:59,689 - DEBUG - Average x reward: 0.021290
+2019-11-04 20:58:59,689 - DEBUG - Average y reward: -0.000003
+2019-11-04 20:58:59,689 - DEBUG - Average z reward: -0.001227
+2019-11-04 20:58:59,689 - DEBUG - Average survival reward: 0.009884
+2019-11-04 20:58:59,689 - DEBUG - Average joint efficiency reward: -0.011979
+2019-11-04 20:59:34,736 - DEBUG - Episode: 3
+2019-11-04 20:59:34,736 - DEBUG - Total reward in this epsisode: -4.413137
+2019-11-04 20:59:34,737 - DEBUG - Average x reward: -0.025358
+2019-11-04 20:59:34,737 - DEBUG - Average y reward: -0.000049
+2019-11-04 20:59:34,737 - DEBUG - Average z reward: -0.001247
+2019-11-04 20:59:34,737 - DEBUG - Average survival reward: 0.009861
+2019-11-04 20:59:34,737 - DEBUG - Average joint efficiency reward: -0.013854
+2019-11-04 21:00:02,501 - DEBUG - Episode: 4
+2019-11-04 21:00:02,502 - DEBUG - Total reward in this epsisode: 1.721638
+2019-11-04 21:00:02,502 - DEBUG - Average x reward: 0.011645
+2019-11-04 21:00:02,502 - DEBUG - Average y reward: -0.000007
+2019-11-04 21:00:02,502 - DEBUG - Average z reward: -0.001236
+2019-11-04 21:00:02,502 - DEBUG - Average survival reward: 0.009900
+2019-11-04 21:00:02,502 - DEBUG - Average joint efficiency reward: -0.011693
+2019-11-04 21:00:39,347 - DEBUG - Episode: 5
+2019-11-04 21:00:39,347 - DEBUG - Total reward in this epsisode: 4.441009
+2019-11-04 21:00:39,347 - DEBUG - Average x reward: 0.019687
+2019-11-04 21:00:39,347 - DEBUG - Average y reward: -0.000066
+2019-11-04 21:00:39,347 - DEBUG - Average z reward: -0.001942
+2019-11-04 21:00:39,347 - DEBUG - Average survival reward: 0.009927
+2019-11-04 21:00:39,348 - DEBUG - Average joint efficiency reward: -0.011398
+2019-11-04 21:01:07,476 - DEBUG - Episode: 6
+2019-11-04 21:01:07,476 - DEBUG - Total reward in this epsisode: -3.605528
+2019-11-04 21:01:07,476 - DEBUG - Average x reward: -0.025432
+2019-11-04 21:01:07,476 - DEBUG - Average y reward: -0.000066
+2019-11-04 21:01:07,476 - DEBUG - Average z reward: -0.001508
+2019-11-04 21:01:07,476 - DEBUG - Average survival reward: 0.009833
+2019-11-04 21:01:07,476 - DEBUG - Average joint efficiency reward: -0.012873
+2019-11-04 21:01:36,045 - DEBUG - Episode: 7
+2019-11-04 21:01:36,045 - DEBUG - Total reward in this epsisode: -3.796726
+2019-11-04 21:01:36,045 - DEBUG - Average x reward: -0.028749
+2019-11-04 21:01:36,045 - DEBUG - Average y reward: -0.000029
+2019-11-04 21:01:36,045 - DEBUG - Average z reward: -0.001426
+2019-11-04 21:01:36,045 - DEBUG - Average survival reward: 0.009825
+2019-11-04 21:01:36,045 - DEBUG - Average joint efficiency reward: -0.012926
+2019-11-04 21:02:02,707 - DEBUG - Episode: 8
+2019-11-04 21:02:02,708 - DEBUG - Total reward in this epsisode: 3.000178
+2019-11-04 21:02:02,708 - DEBUG - Average x reward: 0.022462
+2019-11-04 21:02:02,708 - DEBUG - Average y reward: -0.000024
+2019-11-04 21:02:02,708 - DEBUG - Average z reward: -0.001344
+2019-11-04 21:02:02,708 - DEBUG - Average survival reward: 0.009869
+2019-11-04 21:02:02,708 - DEBUG - Average joint efficiency reward: -0.011353
+2019-11-04 21:02:33,040 - DEBUG - Episode: 9
+2019-11-04 21:02:33,040 - DEBUG - Total reward in this epsisode: 1.390320
+2019-11-04 21:02:33,040 - DEBUG - Average x reward: 0.018715
+2019-11-04 21:02:33,040 - DEBUG - Average y reward: -0.000040
+2019-11-04 21:02:33,040 - DEBUG - Average z reward: -0.001535
+2019-11-04 21:02:33,040 - DEBUG - Average survival reward: 0.009802
+2019-11-04 21:02:33,040 - DEBUG - Average joint efficiency reward: -0.013176
+2019-11-04 21:03:02,964 - DEBUG - Episode: 10
+2019-11-04 21:03:02,964 - DEBUG - Total reward in this epsisode: -2.031489
+2019-11-04 21:03:02,964 - DEBUG - Average x reward: -0.003561
+2019-11-04 21:03:02,964 - DEBUG - Average y reward: -0.000074
+2019-11-04 21:03:02,965 - DEBUG - Average z reward: -0.001539
+2019-11-04 21:03:02,965 - DEBUG - Average survival reward: 0.009935
+2019-11-04 21:03:02,965 - DEBUG - Average joint efficiency reward: -0.011378
+2019-11-04 21:03:31,129 - DEBUG - Episode: 11
+2019-11-04 21:03:31,129 - DEBUG - Total reward in this epsisode: 3.776483
+2019-11-04 21:03:31,129 - DEBUG - Average x reward: 0.022857
+2019-11-04 21:03:31,129 - DEBUG - Average y reward: -0.000034
+2019-11-04 21:03:31,129 - DEBUG - Average z reward: -0.001537
+2019-11-04 21:03:31,129 - DEBUG - Average survival reward: 0.009899
+2019-11-04 21:03:31,129 - DEBUG - Average joint efficiency reward: -0.012208
+2019-11-04 21:03:57,577 - DEBUG - Episode: 12
+2019-11-04 21:03:57,578 - DEBUG - Total reward in this epsisode: 3.642891
+2019-11-04 21:03:57,578 - DEBUG - Average x reward: 0.026954
+2019-11-04 21:03:57,578 - DEBUG - Average y reward: -0.000030
+2019-11-04 21:03:57,578 - DEBUG - Average z reward: -0.001548
+2019-11-04 21:03:57,578 - DEBUG - Average survival reward: 0.009879
+2019-11-04 21:03:57,578 - DEBUG - Average joint efficiency reward: -0.013176
+2019-11-04 21:04:42,154 - DEBUG - Episode: 13
+2019-11-04 21:04:42,154 - DEBUG - Total reward in this epsisode: 1.063791
+2019-11-04 21:04:42,154 - DEBUG - Average x reward: 0.015559
+2019-11-04 21:04:42,154 - DEBUG - Average y reward: -0.000097
+2019-11-04 21:04:42,154 - DEBUG - Average z reward: -0.002208
+2019-11-04 21:04:42,154 - DEBUG - Average survival reward: 0.009852
+2019-11-04 21:04:42,154 - DEBUG - Average joint efficiency reward: -0.015226
+2019-11-04 21:05:22,272 - DEBUG - Episode: 14
+2019-11-04 21:05:22,272 - DEBUG - Total reward in this epsisode: 2.429388
+2019-11-04 21:05:22,272 - DEBUG - Average x reward: 0.018835
+2019-11-04 21:05:22,272 - DEBUG - Average y reward: -0.000012
+2019-11-04 21:05:22,272 - DEBUG - Average z reward: -0.001175
+2019-11-04 21:05:22,272 - DEBUG - Average survival reward: 0.009887
+2019-11-04 21:05:22,272 - DEBUG - Average joint efficiency reward: -0.013810
+2019-11-04 21:05:56,178 - DEBUG - Episode: 15
+2019-11-04 21:05:56,179 - DEBUG - Total reward in this epsisode: 3.555975
+2019-11-04 21:05:56,179 - DEBUG - Average x reward: 0.023337
+2019-11-04 21:05:56,179 - DEBUG - Average y reward: -0.000051
+2019-11-04 21:05:56,179 - DEBUG - Average z reward: -0.001321
+2019-11-04 21:05:56,179 - DEBUG - Average survival reward: 0.009895
+2019-11-04 21:05:56,179 - DEBUG - Average joint efficiency reward: -0.013243
+2019-11-04 21:06:22,383 - DEBUG - Episode: 16
+2019-11-04 21:06:22,383 - DEBUG - Total reward in this epsisode: 2.613734
+2019-11-04 21:06:22,383 - DEBUG - Average x reward: 0.023709
+2019-11-04 21:06:22,383 - DEBUG - Average y reward: -0.000063
+2019-11-04 21:06:22,383 - DEBUG - Average z reward: -0.001364
+2019-11-04 21:06:22,383 - DEBUG - Average survival reward: 0.009860
+2019-11-04 21:06:22,383 - DEBUG - Average joint efficiency reward: -0.013864
+2019-11-04 21:06:49,548 - DEBUG - Episode: 17
+2019-11-04 21:06:49,548 - DEBUG - Total reward in this epsisode: -4.905147
+2019-11-04 21:06:49,548 - DEBUG - Average x reward: -0.008260
+2019-11-04 21:06:49,549 - DEBUG - Average y reward: -0.000022
+2019-11-04 21:06:49,549 - DEBUG - Average z reward: -0.000905
+2019-11-04 21:06:49,549 - DEBUG - Average survival reward: 0.009954
+2019-11-04 21:06:49,549 - DEBUG - Average joint efficiency reward: -0.012148
+2019-11-04 21:07:16,962 - DEBUG - Episode: 18
+2019-11-04 21:07:16,962 - DEBUG - Total reward in this epsisode: -4.180928
+2019-11-04 21:07:16,962 - DEBUG - Average x reward: -0.026710
+2019-11-04 21:07:16,963 - DEBUG - Average y reward: -0.000026
+2019-11-04 21:07:16,963 - DEBUG - Average z reward: -0.001433
+2019-11-04 21:07:16,963 - DEBUG - Average survival reward: 0.009835
+2019-11-04 21:07:16,963 - DEBUG - Average joint efficiency reward: -0.016219
+2019-11-04 21:07:44,205 - DEBUG - Episode: 19
+2019-11-04 21:07:44,205 - DEBUG - Total reward in this epsisode: 2.752684
+2019-11-04 21:07:44,205 - DEBUG - Average x reward: 0.021167
+2019-11-04 21:07:44,205 - DEBUG - Average y reward: -0.000035
+2019-11-04 21:07:44,205 - DEBUG - Average z reward: -0.001173
+2019-11-04 21:07:44,205 - DEBUG - Average survival reward: 0.009887
+2019-11-04 21:07:44,205 - DEBUG - Average joint efficiency reward: -0.014294
+2019-11-04 21:08:10,194 - DEBUG - Episode: 20
+2019-11-04 21:08:10,194 - DEBUG - Total reward in this epsisode: 2.998230
+2019-11-04 21:08:10,194 - DEBUG - Average x reward: 0.024057
+2019-11-04 21:08:10,195 - DEBUG - Average y reward: -0.000001
+2019-11-04 21:08:10,195 - DEBUG - Average z reward: -0.001277
+2019-11-04 21:08:10,195 - DEBUG - Average survival reward: 0.009873
+2019-11-04 21:08:10,195 - DEBUG - Average joint efficiency reward: -0.013555
+2019-11-04 21:08:37,875 - DEBUG - Episode: 21
+2019-11-04 21:08:37,876 - DEBUG - Total reward in this epsisode: 3.178832
+2019-11-04 21:08:37,876 - DEBUG - Average x reward: 0.022026
+2019-11-04 21:08:37,876 - DEBUG - Average y reward: -0.000051
+2019-11-04 21:08:37,876 - DEBUG - Average z reward: -0.001249
+2019-11-04 21:08:37,876 - DEBUG - Average survival reward: 0.009891
+2019-11-04 21:08:37,876 - DEBUG - Average joint efficiency reward: -0.013245
+2019-11-04 21:09:18,211 - DEBUG - Episode: 22
+2019-11-04 21:09:18,211 - DEBUG - Total reward in this epsisode: -4.263601
+2019-11-04 21:09:18,211 - DEBUG - Average x reward: -0.026300
+2019-11-04 21:09:18,211 - DEBUG - Average y reward: -0.000078
+2019-11-04 21:09:18,211 - DEBUG - Average z reward: -0.001380
+2019-11-04 21:09:18,211 - DEBUG - Average survival reward: 0.009841
+2019-11-04 21:09:18,211 - DEBUG - Average joint efficiency reward: -0.015922
+2019-11-04 21:09:49,094 - DEBUG - Episode: 23
+2019-11-04 21:09:49,094 - DEBUG - Total reward in this epsisode: 1.066510
+2019-11-04 21:09:49,094 - DEBUG - Average x reward: 0.016608
+2019-11-04 21:09:49,094 - DEBUG - Average y reward: -0.000044
+2019-11-04 21:09:49,094 - DEBUG - Average z reward: -0.001646
+2019-11-04 21:09:49,094 - DEBUG - Average survival reward: 0.009787
+2019-11-04 21:09:49,094 - DEBUG - Average joint efficiency reward: -0.013359
+2019-11-04 21:10:27,931 - DEBUG - Episode: 24
+2019-11-04 21:10:27,931 - DEBUG - Total reward in this epsisode: -3.191360
+2019-11-04 21:10:27,931 - DEBUG - Average x reward: -0.022848
+2019-11-04 21:10:27,931 - DEBUG - Average y reward: -0.000019
+2019-11-04 21:10:27,931 - DEBUG - Average z reward: -0.001507
+2019-11-04 21:10:27,931 - DEBUG - Average survival reward: 0.009825
+2019-11-04 21:10:27,931 - DEBUG - Average joint efficiency reward: -0.013445
+2019-11-04 21:10:58,241 - DEBUG - Episode: 25
+2019-11-04 21:10:58,241 - DEBUG - Total reward in this epsisode: 1.967919
+2019-11-04 21:10:58,241 - DEBUG - Average x reward: 0.021401
+2019-11-04 21:10:58,241 - DEBUG - Average y reward: -0.000025
+2019-11-04 21:10:58,241 - DEBUG - Average z reward: -0.001453
+2019-11-04 21:10:58,241 - DEBUG - Average survival reward: 0.009843
+2019-11-04 21:10:58,241 - DEBUG - Average joint efficiency reward: -0.014270
+2019-11-04 21:11:29,623 - DEBUG - Episode: 26
+2019-11-04 21:11:29,623 - DEBUG - Total reward in this epsisode: 1.354882
+2019-11-04 21:11:29,623 - DEBUG - Average x reward: 0.014034
+2019-11-04 21:11:29,623 - DEBUG - Average y reward: -0.000015
+2019-11-04 21:11:29,623 - DEBUG - Average z reward: -0.001318
+2019-11-04 21:11:29,623 - DEBUG - Average survival reward: 0.009870
+2019-11-04 21:11:29,623 - DEBUG - Average joint efficiency reward: -0.013773
+2019-11-04 21:11:54,769 - DEBUG - Episode: 27
+2019-11-04 21:11:54,769 - DEBUG - Total reward in this epsisode: -4.591007
+2019-11-04 21:11:54,769 - DEBUG - Average x reward: -0.022296
+2019-11-04 21:11:54,769 - DEBUG - Average y reward: -0.000026
+2019-11-04 21:11:54,769 - DEBUG - Average z reward: -0.001312
+2019-11-04 21:11:54,769 - DEBUG - Average survival reward: 0.009879
+2019-11-04 21:11:54,769 - DEBUG - Average joint efficiency reward: -0.014068
+2019-11-04 21:12:20,495 - DEBUG - Episode: 28
+2019-11-04 21:12:20,495 - DEBUG - Total reward in this epsisode: -7.177512
+2019-11-04 21:12:20,495 - DEBUG - Average x reward: -0.026831
+2019-11-04 21:12:20,495 - DEBUG - Average y reward: -0.000051
+2019-11-04 21:12:20,495 - DEBUG - Average z reward: -0.001231
+2019-11-04 21:12:20,495 - DEBUG - Average survival reward: 0.009915
+2019-11-04 21:12:20,495 - DEBUG - Average joint efficiency reward: -0.012474
+2019-11-04 21:12:54,052 - DEBUG - Episode: 29
+2019-11-04 21:12:54,052 - DEBUG - Total reward in this epsisode: 5.561848
+2019-11-04 21:12:54,052 - DEBUG - Average x reward: 0.033766
+2019-11-04 21:12:54,052 - DEBUG - Average y reward: -0.000032
+2019-11-04 21:12:54,053 - DEBUG - Average z reward: -0.001197
+2019-11-04 21:12:54,053 - DEBUG - Average survival reward: 0.009891
+2019-11-04 21:12:54,053 - DEBUG - Average joint efficiency reward: -0.012035
+2019-11-04 21:13:23,014 - DEBUG - Episode: 30
+2019-11-04 21:13:23,014 - DEBUG - Total reward in this epsisode: 5.266440
+2019-11-04 21:13:23,014 - DEBUG - Average x reward: 0.017658
+2019-11-04 21:13:23,014 - DEBUG - Average y reward: -0.000045
+2019-11-04 21:13:23,015 - DEBUG - Average z reward: -0.001010
+2019-11-04 21:13:23,015 - DEBUG - Average survival reward: 0.009944
+2019-11-04 21:13:23,015 - DEBUG - Average joint efficiency reward: -0.011879
+2019-11-04 21:13:56,788 - DEBUG - Episode: 31
+2019-11-04 21:13:56,788 - DEBUG - Total reward in this epsisode: 2.128933
+2019-11-04 21:13:56,788 - DEBUG - Average x reward: 0.016257
+2019-11-04 21:13:56,788 - DEBUG - Average y reward: -0.000058
+2019-11-04 21:13:56,788 - DEBUG - Average z reward: -0.001838
+2019-11-04 21:13:56,788 - DEBUG - Average survival reward: 0.009889
+2019-11-04 21:13:56,788 - DEBUG - Average joint efficiency reward: -0.012423
+2019-11-04 21:14:29,607 - DEBUG - Episode: 32
+2019-11-04 21:14:29,607 - DEBUG - Total reward in this epsisode: -4.140028
+2019-11-04 21:14:29,607 - DEBUG - Average x reward: -0.030181
+2019-11-04 21:14:29,607 - DEBUG - Average y reward: -0.000019
+2019-11-04 21:14:29,608 - DEBUG - Average z reward: -0.001428
+2019-11-04 21:14:29,608 - DEBUG - Average survival reward: 0.009826
+2019-11-04 21:14:29,608 - DEBUG - Average joint efficiency reward: -0.014197
+2019-11-04 21:14:58,258 - DEBUG - Episode: 33
+2019-11-04 21:14:58,258 - DEBUG - Total reward in this epsisode: -4.385253
+2019-11-04 21:14:58,272 - DEBUG - Average x reward: -0.030034
+2019-11-04 21:14:58,272 - DEBUG - Average y reward: -0.000038
+2019-11-04 21:14:58,272 - DEBUG - Average z reward: -0.001435
+2019-11-04 21:14:58,272 - DEBUG - Average survival reward: 0.009833
+2019-11-04 21:14:58,272 - DEBUG - Average joint efficiency reward: -0.014870
+2019-11-04 21:15:30,111 - DEBUG - Episode: 34
+2019-11-04 21:15:30,111 - DEBUG - Total reward in this epsisode: -4.909197
+2019-11-04 21:15:30,111 - DEBUG - Average x reward: -0.015853
+2019-11-04 21:15:30,111 - DEBUG - Average y reward: -0.000043
+2019-11-04 21:15:30,111 - DEBUG - Average z reward: -0.000964
+2019-11-04 21:15:30,111 - DEBUG - Average survival reward: 0.009915
+2019-11-04 21:15:30,111 - DEBUG - Average joint efficiency reward: -0.013857
+2019-11-04 21:16:00,203 - DEBUG - Episode: 35
+2019-11-04 21:16:00,203 - DEBUG - Total reward in this epsisode: -5.271631
+2019-11-04 21:16:00,203 - DEBUG - Average x reward: -0.021746
+2019-11-04 21:16:00,203 - DEBUG - Average y reward: -0.000057
+2019-11-04 21:16:00,203 - DEBUG - Average z reward: -0.001150
+2019-11-04 21:16:00,203 - DEBUG - Average survival reward: 0.009896
+2019-11-04 21:16:00,203 - DEBUG - Average joint efficiency reward: -0.014257
+2019-11-04 21:16:32,820 - DEBUG - Episode: 36
+2019-11-04 21:16:32,820 - DEBUG - Total reward in this epsisode: 2.983806
+2019-11-04 21:16:32,821 - DEBUG - Average x reward: 0.021861
+2019-11-04 21:16:32,821 - DEBUG - Average y reward: -0.000028
+2019-11-04 21:16:32,821 - DEBUG - Average z reward: -0.001253
+2019-11-04 21:16:32,821 - DEBUG - Average survival reward: 0.009878
+2019-11-04 21:16:32,821 - DEBUG - Average joint efficiency reward: -0.012264
+2019-11-04 21:17:01,475 - DEBUG - Episode: 37
+2019-11-04 21:17:01,475 - DEBUG - Total reward in this epsisode: 3.042713
+2019-11-04 21:17:01,475 - DEBUG - Average x reward: 0.023659
+2019-11-04 21:17:01,475 - DEBUG - Average y reward: -0.000091
+2019-11-04 21:17:01,475 - DEBUG - Average z reward: -0.001284
+2019-11-04 21:17:01,475 - DEBUG - Average survival reward: 0.009874
+2019-11-04 21:17:01,475 - DEBUG - Average joint efficiency reward: -0.013022
+2019-11-04 21:17:34,532 - DEBUG - Episode: 38
+2019-11-04 21:17:34,532 - DEBUG - Total reward in this epsisode: 2.416722
+2019-11-04 21:17:34,532 - DEBUG - Average x reward: 0.015974
+2019-11-04 21:17:34,532 - DEBUG - Average y reward: -0.000023
+2019-11-04 21:17:34,532 - DEBUG - Average z reward: -0.001192
+2019-11-04 21:17:34,532 - DEBUG - Average survival reward: 0.009894
+2019-11-04 21:17:34,532 - DEBUG - Average joint efficiency reward: -0.011797
+2019-11-04 21:18:03,213 - DEBUG - Episode: 39
+2019-11-04 21:18:03,213 - DEBUG - Total reward in this epsisode: 2.808753
+2019-11-04 21:18:03,213 - DEBUG - Average x reward: 0.024499
+2019-11-04 21:18:03,213 - DEBUG - Average y reward: -0.000035
+2019-11-04 21:18:03,213 - DEBUG - Average z reward: -0.001463
+2019-11-04 21:18:03,213 - DEBUG - Average survival reward: 0.009853
+2019-11-04 21:18:03,213 - DEBUG - Average joint efficiency reward: -0.012201
+2019-11-04 21:18:32,268 - DEBUG - Episode: 40
+2019-11-04 21:18:32,268 - DEBUG - Total reward in this epsisode: 4.531961
+2019-11-04 21:18:32,268 - DEBUG - Average x reward: 0.024689
+2019-11-04 21:18:32,268 - DEBUG - Average y reward: -0.000032
+2019-11-04 21:18:32,269 - DEBUG - Average z reward: -0.001088
+2019-11-04 21:18:32,269 - DEBUG - Average survival reward: 0.009903
+2019-11-04 21:18:32,269 - DEBUG - Average joint efficiency reward: -0.011472
+2019-11-04 21:18:45,010 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59985c6b00>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59985c6b00>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 21:18:45,241 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59984efe48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59984efe48>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 21:19:13,868 - DEBUG - Episode: 1
+2019-11-04 21:19:13,868 - DEBUG - Total reward in this epsisode: 1.225925
+2019-11-04 21:19:13,868 - DEBUG - Average x reward: 0.012611
+2019-11-04 21:19:13,868 - DEBUG - Average y reward: -0.000079
+2019-11-04 21:19:13,868 - DEBUG - Average z reward: -0.001627
+2019-11-04 21:19:13,868 - DEBUG - Average survival reward: 0.009901
+2019-11-04 21:19:13,868 - DEBUG - Average joint efficiency reward: -0.014767
+2019-11-04 21:19:45,160 - DEBUG - Episode: 2
+2019-11-04 21:19:45,161 - DEBUG - Total reward in this epsisode: 3.663338
+2019-11-04 21:19:45,161 - DEBUG - Average x reward: 0.024151
+2019-11-04 21:19:45,161 - DEBUG - Average y reward: -0.000009
+2019-11-04 21:19:45,161 - DEBUG - Average z reward: -0.001177
+2019-11-04 21:19:45,161 - DEBUG - Average survival reward: 0.009893
+2019-11-04 21:19:45,161 - DEBUG - Average joint efficiency reward: -0.013268
+2019-11-04 21:20:12,429 - DEBUG - Episode: 3
+2019-11-04 21:20:12,429 - DEBUG - Total reward in this epsisode: 2.823838
+2019-11-04 21:20:12,429 - DEBUG - Average x reward: 0.020796
+2019-11-04 21:20:12,429 - DEBUG - Average y reward: -0.000026
+2019-11-04 21:20:12,429 - DEBUG - Average z reward: -0.001862
+2019-11-04 21:20:12,429 - DEBUG - Average survival reward: 0.009894
+2019-11-04 21:20:12,429 - DEBUG - Average joint efficiency reward: -0.013862
+2019-11-04 21:20:41,247 - DEBUG - Episode: 4
+2019-11-04 21:20:41,247 - DEBUG - Total reward in this epsisode: 2.649928
+2019-11-04 21:20:41,247 - DEBUG - Average x reward: 0.021820
+2019-11-04 21:20:41,247 - DEBUG - Average y reward: -0.000048
+2019-11-04 21:20:41,247 - DEBUG - Average z reward: -0.001319
+2019-11-04 21:20:41,247 - DEBUG - Average survival reward: 0.009874
+2019-11-04 21:20:41,247 - DEBUG - Average joint efficiency reward: -0.013661
+2019-11-04 21:21:06,173 - DEBUG - Episode: 5
+2019-11-04 21:21:06,173 - DEBUG - Total reward in this epsisode: -3.199018
+2019-11-04 21:21:06,173 - DEBUG - Average x reward: -0.022688
+2019-11-04 21:21:06,173 - DEBUG - Average y reward: -0.000037
+2019-11-04 21:21:06,173 - DEBUG - Average z reward: -0.001612
+2019-11-04 21:21:06,174 - DEBUG - Average survival reward: 0.009792
+2019-11-04 21:21:06,174 - DEBUG - Average joint efficiency reward: -0.018778
+2019-11-04 21:21:31,876 - DEBUG - Episode: 6
+2019-11-04 21:21:31,876 - DEBUG - Total reward in this epsisode: 2.808975
+2019-11-04 21:21:31,876 - DEBUG - Average x reward: 0.026562
+2019-11-04 21:21:31,877 - DEBUG - Average y reward: -0.000013
+2019-11-04 21:21:31,877 - DEBUG - Average z reward: -0.001354
+2019-11-04 21:21:31,877 - DEBUG - Average survival reward: 0.009852
+2019-11-04 21:21:31,877 - DEBUG - Average joint efficiency reward: -0.014240
+2019-11-04 21:21:58,349 - DEBUG - Episode: 7
+2019-11-04 21:21:58,349 - DEBUG - Total reward in this epsisode: 3.481484
+2019-11-04 21:21:58,349 - DEBUG - Average x reward: 0.025626
+2019-11-04 21:21:58,349 - DEBUG - Average y reward: -0.000008
+2019-11-04 21:21:58,349 - DEBUG - Average z reward: -0.001174
+2019-11-04 21:21:58,349 - DEBUG - Average survival reward: 0.009884
+2019-11-04 21:21:58,349 - DEBUG - Average joint efficiency reward: -0.014204
+2019-11-04 21:22:23,745 - DEBUG - Episode: 8
+2019-11-04 21:22:23,745 - DEBUG - Total reward in this epsisode: 0.452678
+2019-11-04 21:22:23,745 - DEBUG - Average x reward: 0.007487
+2019-11-04 21:22:23,745 - DEBUG - Average y reward: -0.000059
+2019-11-04 21:22:23,745 - DEBUG - Average z reward: -0.002119
+2019-11-04 21:22:23,745 - DEBUG - Average survival reward: 0.009920
+2019-11-04 21:22:23,745 - DEBUG - Average joint efficiency reward: -0.013418
+2019-11-04 21:22:52,390 - DEBUG - Episode: 9
+2019-11-04 21:22:52,390 - DEBUG - Total reward in this epsisode: 2.963726
+2019-11-04 21:22:52,390 - DEBUG - Average x reward: 0.023399
+2019-11-04 21:22:52,390 - DEBUG - Average y reward: -0.000018
+2019-11-04 21:22:52,390 - DEBUG - Average z reward: -0.002454
+2019-11-04 21:22:52,390 - DEBUG - Average survival reward: 0.009883
+2019-11-04 21:22:52,390 - DEBUG - Average joint efficiency reward: -0.013478
+2019-11-04 21:23:21,214 - DEBUG - Episode: 10
+2019-11-04 21:23:21,214 - DEBUG - Total reward in this epsisode: -4.828375
+2019-11-04 21:23:21,214 - DEBUG - Average x reward: -0.006277
+2019-11-04 21:23:21,214 - DEBUG - Average y reward: -0.000016
+2019-11-04 21:23:21,214 - DEBUG - Average z reward: -0.000817
+2019-11-04 21:23:21,214 - DEBUG - Average survival reward: 0.009953
+2019-11-04 21:23:21,214 - DEBUG - Average joint efficiency reward: -0.014072
+2019-11-04 21:23:50,156 - DEBUG - Episode: 11
+2019-11-04 21:23:50,156 - DEBUG - Total reward in this epsisode: 2.884408
+2019-11-04 21:23:50,156 - DEBUG - Average x reward: 0.019627
+2019-11-04 21:23:50,156 - DEBUG - Average y reward: -0.000011
+2019-11-04 21:23:50,156 - DEBUG - Average z reward: -0.001094
+2019-11-04 21:23:50,156 - DEBUG - Average survival reward: 0.009914
+2019-11-04 21:23:50,156 - DEBUG - Average joint efficiency reward: -0.016002
+2019-11-04 21:24:21,702 - DEBUG - Episode: 12
+2019-11-04 21:24:21,702 - DEBUG - Total reward in this epsisode: 2.104587
+2019-11-04 21:24:21,702 - DEBUG - Average x reward: 0.018172
+2019-11-04 21:24:21,702 - DEBUG - Average y reward: -0.000058
+2019-11-04 21:24:21,702 - DEBUG - Average z reward: -0.001542
+2019-11-04 21:24:21,702 - DEBUG - Average survival reward: 0.009882
+2019-11-04 21:24:21,702 - DEBUG - Average joint efficiency reward: -0.014074
+2019-11-04 21:24:54,283 - DEBUG - Episode: 13
+2019-11-04 21:24:54,283 - DEBUG - Total reward in this epsisode: 1.418218
+2019-11-04 21:24:54,283 - DEBUG - Average x reward: 0.015672
+2019-11-04 21:24:54,283 - DEBUG - Average y reward: -0.000016
+2019-11-04 21:24:54,283 - DEBUG - Average z reward: -0.001605
+2019-11-04 21:24:54,283 - DEBUG - Average survival reward: 0.009882
+2019-11-04 21:24:54,283 - DEBUG - Average joint efficiency reward: -0.015590
+2019-11-04 21:25:23,741 - DEBUG - Episode: 14
+2019-11-04 21:25:23,741 - DEBUG - Total reward in this epsisode: 1.641697
+2019-11-04 21:25:23,741 - DEBUG - Average x reward: 0.014958
+2019-11-04 21:25:23,741 - DEBUG - Average y reward: -0.000027
+2019-11-04 21:25:23,741 - DEBUG - Average z reward: -0.001037
+2019-11-04 21:25:23,742 - DEBUG - Average survival reward: 0.009898
+2019-11-04 21:25:23,742 - DEBUG - Average joint efficiency reward: -0.015459
+2019-11-04 21:25:59,136 - DEBUG - Episode: 15
+2019-11-04 21:25:59,136 - DEBUG - Total reward in this epsisode: -1.519043
+2019-11-04 21:25:59,136 - DEBUG - Average x reward: 0.003475
+2019-11-04 21:25:59,136 - DEBUG - Average y reward: -0.000031
+2019-11-04 21:25:59,136 - DEBUG - Average z reward: -0.004121
+2019-11-04 21:25:59,136 - DEBUG - Average survival reward: 0.009992
+2019-11-04 21:25:59,137 - DEBUG - Average joint efficiency reward: -0.009945
+2019-11-04 21:26:25,255 - DEBUG - Episode: 16
+2019-11-04 21:26:25,255 - DEBUG - Total reward in this epsisode: 7.827960
+2019-11-04 21:26:25,255 - DEBUG - Average x reward: 0.028425
+2019-11-04 21:26:25,255 - DEBUG - Average y reward: -0.000096
+2019-11-04 21:26:25,255 - DEBUG - Average z reward: -0.001664
+2019-11-04 21:26:25,255 - DEBUG - Average survival reward: 0.009943
+2019-11-04 21:26:25,255 - DEBUG - Average joint efficiency reward: -0.014112
+2019-11-04 21:26:54,888 - DEBUG - Episode: 17
+2019-11-04 21:26:54,888 - DEBUG - Total reward in this epsisode: -1.098883
+2019-11-04 21:26:54,888 - DEBUG - Average x reward: 0.004884
+2019-11-04 21:26:54,888 - DEBUG - Average y reward: -0.000043
+2019-11-04 21:26:54,888 - DEBUG - Average z reward: -0.002397
+2019-11-04 21:26:54,888 - DEBUG - Average survival reward: 0.009923
+2019-11-04 21:26:54,889 - DEBUG - Average joint efficiency reward: -0.016610
+2019-11-04 21:27:21,382 - DEBUG - Episode: 18
+2019-11-04 21:27:21,382 - DEBUG - Total reward in this epsisode: 1.991958
+2019-11-04 21:27:21,382 - DEBUG - Average x reward: 0.021250
+2019-11-04 21:27:21,382 - DEBUG - Average y reward: -0.000054
+2019-11-04 21:27:21,382 - DEBUG - Average z reward: -0.001531
+2019-11-04 21:27:21,382 - DEBUG - Average survival reward: 0.009871
+2019-11-04 21:27:21,382 - DEBUG - Average joint efficiency reward: -0.016686
+2019-11-04 21:27:47,086 - DEBUG - Episode: 19
+2019-11-04 21:27:47,087 - DEBUG - Total reward in this epsisode: 2.461582
+2019-11-04 21:27:47,087 - DEBUG - Average x reward: 0.025370
+2019-11-04 21:27:47,087 - DEBUG - Average y reward: -0.000024
+2019-11-04 21:27:47,087 - DEBUG - Average z reward: -0.001437
+2019-11-04 21:27:47,087 - DEBUG - Average survival reward: 0.009848
+2019-11-04 21:27:47,087 - DEBUG - Average joint efficiency reward: -0.015110
+2019-11-04 21:28:12,468 - DEBUG - Episode: 20
+2019-11-04 21:28:12,468 - DEBUG - Total reward in this epsisode: 1.760981
+2019-11-04 21:28:12,468 - DEBUG - Average x reward: 0.019403
+2019-11-04 21:28:12,468 - DEBUG - Average y reward: -0.000025
+2019-11-04 21:28:12,468 - DEBUG - Average z reward: -0.001621
+2019-11-04 21:28:12,468 - DEBUG - Average survival reward: 0.009868
+2019-11-04 21:28:12,468 - DEBUG - Average joint efficiency reward: -0.015962
+2019-11-04 21:28:41,066 - DEBUG - Episode: 21
+2019-11-04 21:28:41,067 - DEBUG - Total reward in this epsisode: 1.127299
+2019-11-04 21:28:41,067 - DEBUG - Average x reward: 0.007307
+2019-11-04 21:28:41,067 - DEBUG - Average y reward: -0.000042
+2019-11-04 21:28:41,067 - DEBUG - Average z reward: -0.002202
+2019-11-04 21:28:41,067 - DEBUG - Average survival reward: 0.009965
+2019-11-04 21:28:41,067 - DEBUG - Average joint efficiency reward: -0.013071
+2019-11-04 21:29:05,973 - DEBUG - Episode: 22
+2019-11-04 21:29:05,973 - DEBUG - Total reward in this epsisode: 1.602247
+2019-11-04 21:29:05,973 - DEBUG - Average x reward: 0.018694
+2019-11-04 21:29:05,973 - DEBUG - Average y reward: -0.000008
+2019-11-04 21:29:05,973 - DEBUG - Average z reward: -0.001343
+2019-11-04 21:29:05,973 - DEBUG - Average survival reward: 0.009861
+2019-11-04 21:29:05,973 - DEBUG - Average joint efficiency reward: -0.016078
+2019-11-04 21:29:31,107 - DEBUG - Episode: 23
+2019-11-04 21:29:31,107 - DEBUG - Total reward in this epsisode: 0.519022
+2019-11-04 21:29:31,107 - DEBUG - Average x reward: 0.009549
+2019-11-04 21:29:31,107 - DEBUG - Average y reward: -0.000060
+2019-11-04 21:29:31,107 - DEBUG - Average z reward: -0.001081
+2019-11-04 21:29:31,107 - DEBUG - Average survival reward: 0.009913
+2019-11-04 21:29:31,107 - DEBUG - Average joint efficiency reward: -0.016074
+2019-11-04 21:29:58,905 - DEBUG - Episode: 24
+2019-11-04 21:29:58,905 - DEBUG - Total reward in this epsisode: 2.496103
+2019-11-04 21:29:58,905 - DEBUG - Average x reward: 0.011113
+2019-11-04 21:29:58,905 - DEBUG - Average y reward: -0.000045
+2019-11-04 21:29:58,905 - DEBUG - Average z reward: -0.002186
+2019-11-04 21:29:58,906 - DEBUG - Average survival reward: 0.009960
+2019-11-04 21:29:58,906 - DEBUG - Average joint efficiency reward: -0.013900
+2019-11-04 21:30:25,954 - DEBUG - Episode: 25
+2019-11-04 21:30:25,954 - DEBUG - Total reward in this epsisode: 0.983195
+2019-11-04 21:30:25,954 - DEBUG - Average x reward: 0.017725
+2019-11-04 21:30:25,954 - DEBUG - Average y reward: -0.000083
+2019-11-04 21:30:25,954 - DEBUG - Average z reward: -0.001574
+2019-11-04 21:30:25,954 - DEBUG - Average survival reward: 0.009794
+2019-11-04 21:30:25,954 - DEBUG - Average joint efficiency reward: -0.015726
+2019-11-04 21:30:52,090 - DEBUG - Episode: 26
+2019-11-04 21:30:52,090 - DEBUG - Total reward in this epsisode: 3.607366
+2019-11-04 21:30:52,090 - DEBUG - Average x reward: 0.025815
+2019-11-04 21:30:52,090 - DEBUG - Average y reward: -0.000035
+2019-11-04 21:30:52,090 - DEBUG - Average z reward: -0.001228
+2019-11-04 21:30:52,090 - DEBUG - Average survival reward: 0.009891
+2019-11-04 21:30:52,090 - DEBUG - Average joint efficiency reward: -0.014730
+2019-11-04 21:31:22,913 - DEBUG - Episode: 27
+2019-11-04 21:31:22,913 - DEBUG - Total reward in this epsisode: -12.704421
+2019-11-04 21:31:22,913 - DEBUG - Average x reward: -0.003909
+2019-11-04 21:31:22,913 - DEBUG - Average y reward: -0.000067
+2019-11-04 21:31:22,913 - DEBUG - Average z reward: -0.004323
+2019-11-04 21:31:22,913 - DEBUG - Average survival reward: 0.009985
+2019-11-04 21:31:22,913 - DEBUG - Average joint efficiency reward: -0.011118
+2019-11-04 21:31:51,450 - DEBUG - Episode: 28
+2019-11-04 21:31:51,450 - DEBUG - Total reward in this epsisode: 3.636759
+2019-11-04 21:31:51,450 - DEBUG - Average x reward: 0.029294
+2019-11-04 21:31:51,450 - DEBUG - Average y reward: -0.000014
+2019-11-04 21:31:51,450 - DEBUG - Average z reward: -0.001210
+2019-11-04 21:31:51,450 - DEBUG - Average survival reward: 0.009877
+2019-11-04 21:31:51,450 - DEBUG - Average joint efficiency reward: -0.015498
+2019-11-04 21:32:16,993 - DEBUG - Episode: 29
+2019-11-04 21:32:16,993 - DEBUG - Total reward in this epsisode: 1.918394
+2019-11-04 21:32:16,993 - DEBUG - Average x reward: 0.019191
+2019-11-04 21:32:16,994 - DEBUG - Average y reward: -0.000043
+2019-11-04 21:32:16,994 - DEBUG - Average z reward: -0.001356
+2019-11-04 21:32:16,994 - DEBUG - Average survival reward: 0.009878
+2019-11-04 21:32:16,994 - DEBUG - Average joint efficiency reward: -0.015973
+2019-11-04 21:32:42,002 - DEBUG - Episode: 30
+2019-11-04 21:32:42,002 - DEBUG - Total reward in this epsisode: 2.702293
+2019-11-04 21:32:42,002 - DEBUG - Average x reward: 0.029831
+2019-11-04 21:32:42,002 - DEBUG - Average y reward: -0.000015
+2019-11-04 21:32:42,002 - DEBUG - Average z reward: -0.001353
+2019-11-04 21:32:42,002 - DEBUG - Average survival reward: 0.009835
+2019-11-04 21:32:42,002 - DEBUG - Average joint efficiency reward: -0.015965
+2019-11-04 21:33:08,465 - DEBUG - Episode: 31
+2019-11-04 21:33:08,465 - DEBUG - Total reward in this epsisode: 1.519591
+2019-11-04 21:33:08,465 - DEBUG - Average x reward: 0.022616
+2019-11-04 21:33:08,465 - DEBUG - Average y reward: -0.000023
+2019-11-04 21:33:08,465 - DEBUG - Average z reward: -0.001524
+2019-11-04 21:33:08,465 - DEBUG - Average survival reward: 0.009810
+2019-11-04 21:33:08,465 - DEBUG - Average joint efficiency reward: -0.016406
+2019-11-04 21:33:35,300 - DEBUG - Episode: 32
+2019-11-04 21:33:35,300 - DEBUG - Total reward in this epsisode: 1.853120
+2019-11-04 21:33:35,300 - DEBUG - Average x reward: 0.019872
+2019-11-04 21:33:35,300 - DEBUG - Average y reward: -0.000042
+2019-11-04 21:33:35,300 - DEBUG - Average z reward: -0.001524
+2019-11-04 21:33:35,300 - DEBUG - Average survival reward: 0.009868
+2019-11-04 21:33:35,300 - DEBUG - Average joint efficiency reward: -0.015983
+2019-11-04 21:34:01,015 - DEBUG - Episode: 33
+2019-11-04 21:34:01,015 - DEBUG - Total reward in this epsisode: 3.126771
+2019-11-04 21:34:01,015 - DEBUG - Average x reward: 0.012413
+2019-11-04 21:34:01,015 - DEBUG - Average y reward: -0.000033
+2019-11-04 21:34:01,016 - DEBUG - Average z reward: -0.002587
+2019-11-04 21:34:01,016 - DEBUG - Average survival reward: 0.009955
+2019-11-04 21:34:01,016 - DEBUG - Average joint efficiency reward: -0.012657
+2019-11-04 21:34:26,219 - DEBUG - Episode: 34
+2019-11-04 21:34:26,219 - DEBUG - Total reward in this epsisode: 1.438425
+2019-11-04 21:34:26,219 - DEBUG - Average x reward: 0.017624
+2019-11-04 21:34:26,219 - DEBUG - Average y reward: -0.000024
+2019-11-04 21:34:26,219 - DEBUG - Average z reward: -0.001502
+2019-11-04 21:34:26,219 - DEBUG - Average survival reward: 0.009860
+2019-11-04 21:34:26,219 - DEBUG - Average joint efficiency reward: -0.015899
+2019-11-04 21:34:51,326 - DEBUG - Episode: 35
+2019-11-04 21:34:51,326 - DEBUG - Total reward in this epsisode: -6.806550
+2019-11-04 21:34:51,326 - DEBUG - Average x reward: -0.021085
+2019-11-04 21:34:51,326 - DEBUG - Average y reward: -0.000054
+2019-11-04 21:34:51,326 - DEBUG - Average z reward: -0.001457
+2019-11-04 21:34:51,326 - DEBUG - Average survival reward: 0.009910
+2019-11-04 21:34:51,326 - DEBUG - Average joint efficiency reward: -0.018112
+2019-11-04 21:35:15,786 - DEBUG - Episode: 36
+2019-11-04 21:35:15,786 - DEBUG - Total reward in this epsisode: 3.203724
+2019-11-04 21:35:15,786 - DEBUG - Average x reward: 0.012889
+2019-11-04 21:35:15,786 - DEBUG - Average y reward: -0.000038
+2019-11-04 21:35:15,787 - DEBUG - Average z reward: -0.002315
+2019-11-04 21:35:15,787 - DEBUG - Average survival reward: 0.009954
+2019-11-04 21:35:15,787 - DEBUG - Average joint efficiency reward: -0.013176
+2019-11-04 21:35:41,298 - DEBUG - Episode: 37
+2019-11-04 21:35:41,298 - DEBUG - Total reward in this epsisode: -4.944247
+2019-11-04 21:35:41,298 - DEBUG - Average x reward: -0.015701
+2019-11-04 21:35:41,298 - DEBUG - Average y reward: -0.000075
+2019-11-04 21:35:41,298 - DEBUG - Average z reward: -0.001049
+2019-11-04 21:35:41,299 - DEBUG - Average survival reward: 0.009908
+2019-11-04 21:35:41,299 - DEBUG - Average joint efficiency reward: -0.015868
+2019-11-04 21:36:08,178 - DEBUG - Episode: 38
+2019-11-04 21:36:08,178 - DEBUG - Total reward in this epsisode: 3.984419
+2019-11-04 21:36:08,178 - DEBUG - Average x reward: 0.023212
+2019-11-04 21:36:08,178 - DEBUG - Average y reward: -0.000058
+2019-11-04 21:36:08,179 - DEBUG - Average z reward: -0.001464
+2019-11-04 21:36:08,179 - DEBUG - Average survival reward: 0.009921
+2019-11-04 21:36:08,179 - DEBUG - Average joint efficiency reward: -0.015800
+2019-11-04 21:36:34,732 - DEBUG - Episode: 39
+2019-11-04 21:36:34,732 - DEBUG - Total reward in this epsisode: 4.247306
+2019-11-04 21:36:34,732 - DEBUG - Average x reward: 0.028987
+2019-11-04 21:36:34,732 - DEBUG - Average y reward: -0.000018
+2019-11-04 21:36:34,732 - DEBUG - Average z reward: -0.001223
+2019-11-04 21:36:34,732 - DEBUG - Average survival reward: 0.009891
+2019-11-04 21:36:34,732 - DEBUG - Average joint efficiency reward: -0.014428
+2019-11-04 21:37:00,520 - DEBUG - Episode: 40
+2019-11-04 21:37:00,520 - DEBUG - Total reward in this epsisode: 1.095352
+2019-11-04 21:37:00,520 - DEBUG - Average x reward: 0.011471
+2019-11-04 21:37:00,520 - DEBUG - Average y reward: -0.000015
+2019-11-04 21:37:00,520 - DEBUG - Average z reward: -0.001115
+2019-11-04 21:37:00,520 - DEBUG - Average survival reward: 0.009908
+2019-11-04 21:37:00,520 - DEBUG - Average joint efficiency reward: -0.015202
+2019-11-04 21:37:26,763 - DEBUG - Episode: 41
+2019-11-04 21:37:26,763 - DEBUG - Total reward in this epsisode: 2.871886
+2019-11-04 21:37:26,763 - DEBUG - Average x reward: 0.022386
+2019-11-04 21:37:26,763 - DEBUG - Average y reward: -0.000022
+2019-11-04 21:37:26,763 - DEBUG - Average z reward: -0.001546
+2019-11-04 21:37:26,763 - DEBUG - Average survival reward: 0.009896
+2019-11-04 21:37:26,763 - DEBUG - Average joint efficiency reward: -0.015757
+2019-11-04 21:37:52,081 - DEBUG - Episode: 42
+2019-11-04 21:37:52,082 - DEBUG - Total reward in this epsisode: 3.280521
+2019-11-04 21:37:52,082 - DEBUG - Average x reward: 0.023572
+2019-11-04 21:37:52,082 - DEBUG - Average y reward: -0.000047
+2019-11-04 21:37:52,082 - DEBUG - Average z reward: -0.001704
+2019-11-04 21:37:52,082 - DEBUG - Average survival reward: 0.009909
+2019-11-04 21:37:52,082 - DEBUG - Average joint efficiency reward: -0.016818
+2019-11-04 21:38:14,419 - DEBUG - Episode: 43
+2019-11-04 21:38:14,419 - DEBUG - Total reward in this epsisode: 3.211125
+2019-11-04 21:38:14,419 - DEBUG - Average x reward: 0.019180
+2019-11-04 21:38:14,419 - DEBUG - Average y reward: -0.000085
+2019-11-04 21:38:14,420 - DEBUG - Average z reward: -0.002481
+2019-11-04 21:38:14,420 - DEBUG - Average survival reward: 0.009931
+2019-11-04 21:38:14,420 - DEBUG - Average joint efficiency reward: -0.015434
+2019-11-04 21:38:39,602 - DEBUG - Episode: 44
+2019-11-04 21:38:39,602 - DEBUG - Total reward in this epsisode: 1.961806
+2019-11-04 21:38:39,602 - DEBUG - Average x reward: 0.017374
+2019-11-04 21:38:39,602 - DEBUG - Average y reward: -0.000040
+2019-11-04 21:38:39,602 - DEBUG - Average z reward: -0.001415
+2019-11-04 21:38:39,602 - DEBUG - Average survival reward: 0.009899
+2019-11-04 21:38:39,602 - DEBUG - Average joint efficiency reward: -0.015910
+2019-11-04 21:39:04,895 - DEBUG - Episode: 45
+2019-11-04 21:39:04,895 - DEBUG - Total reward in this epsisode: 2.116627
+2019-11-04 21:39:04,895 - DEBUG - Average x reward: 0.017867
+2019-11-04 21:39:04,895 - DEBUG - Average y reward: -0.000058
+2019-11-04 21:39:04,895 - DEBUG - Average z reward: -0.001495
+2019-11-04 21:39:04,895 - DEBUG - Average survival reward: 0.009899
+2019-11-04 21:39:04,895 - DEBUG - Average joint efficiency reward: -0.015523
+2019-11-04 21:39:29,537 - DEBUG - Episode: 46
+2019-11-04 21:39:29,537 - DEBUG - Total reward in this epsisode: -4.021987
+2019-11-04 21:39:29,537 - DEBUG - Average x reward: -0.024616
+2019-11-04 21:39:29,537 - DEBUG - Average y reward: -0.000057
+2019-11-04 21:39:29,537 - DEBUG - Average z reward: -0.001517
+2019-11-04 21:39:29,537 - DEBUG - Average survival reward: 0.009823
+2019-11-04 21:39:29,537 - DEBUG - Average joint efficiency reward: -0.019226
+2019-11-04 21:39:49,652 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59981449b0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f59981449b0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 21:39:49,884 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f599806cbe0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f599806cbe0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-04 21:40:17,310 - DEBUG - Episode: 1
+2019-11-04 21:40:17,310 - DEBUG - Total reward in this epsisode: 2.092361
+2019-11-04 21:40:17,310 - DEBUG - Average x reward: 0.017518
+2019-11-04 21:40:17,310 - DEBUG - Average y reward: -0.000020
+2019-11-04 21:40:17,310 - DEBUG - Average z reward: -0.002363
+2019-11-04 21:40:17,310 - DEBUG - Average survival reward: 0.009905
+2019-11-04 21:40:17,310 - DEBUG - Average joint efficiency reward: -0.015076
+2019-11-04 21:40:44,346 - DEBUG - Episode: 2
+2019-11-04 21:40:44,346 - DEBUG - Total reward in this epsisode: 1.508419
+2019-11-04 21:40:44,346 - DEBUG - Average x reward: 0.011630
+2019-11-04 21:40:44,346 - DEBUG - Average y reward: -0.000005
+2019-11-04 21:40:44,346 - DEBUG - Average z reward: -0.001220
+2019-11-04 21:40:44,346 - DEBUG - Average survival reward: 0.009935
+2019-11-04 21:40:44,346 - DEBUG - Average joint efficiency reward: -0.015410
+2019-11-04 21:41:16,230 - DEBUG - Episode: 3
+2019-11-04 21:41:16,230 - DEBUG - Total reward in this epsisode: 3.209478
+2019-11-04 21:41:16,230 - DEBUG - Average x reward: 0.020642
+2019-11-04 21:41:16,230 - DEBUG - Average y reward: -0.000045
+2019-11-04 21:41:16,230 - DEBUG - Average z reward: -0.001000
+2019-11-04 21:41:16,230 - DEBUG - Average survival reward: 0.009919
+2019-11-04 21:41:16,230 - DEBUG - Average joint efficiency reward: -0.016469
+2019-11-04 21:41:53,869 - DEBUG - Episode: 4
+2019-11-04 21:41:53,869 - DEBUG - Total reward in this epsisode: 1.727465
+2019-11-04 21:41:53,869 - DEBUG - Average x reward: 0.017450
+2019-11-04 21:41:53,869 - DEBUG - Average y reward: -0.000029
+2019-11-04 21:41:53,869 - DEBUG - Average z reward: -0.001231
+2019-11-04 21:41:53,869 - DEBUG - Average survival reward: 0.009894
+2019-11-04 21:41:53,869 - DEBUG - Average joint efficiency reward: -0.016944
+2019-11-04 21:42:25,583 - DEBUG - Episode: 5
+2019-11-04 21:42:25,583 - DEBUG - Total reward in this epsisode: 1.315779
+2019-11-04 21:42:25,583 - DEBUG - Average x reward: 0.013521
+2019-11-04 21:42:25,583 - DEBUG - Average y reward: -0.000072
+2019-11-04 21:42:25,583 - DEBUG - Average z reward: -0.001845
+2019-11-04 21:42:25,583 - DEBUG - Average survival reward: 0.009925
+2019-11-04 21:42:25,583 - DEBUG - Average joint efficiency reward: -0.016583
+2019-11-04 21:43:33,095 - DEBUG - Episode: 6
+2019-11-04 21:43:33,095 - DEBUG - Total reward in this epsisode: 1.237234
+2019-11-04 21:43:33,095 - DEBUG - Average x reward: 0.017662
+2019-11-04 21:43:33,095 - DEBUG - Average y reward: -0.000020
+2019-11-04 21:43:33,095 - DEBUG - Average z reward: -0.002140
+2019-11-04 21:43:33,095 - DEBUG - Average survival reward: 0.009873
+2019-11-04 21:43:33,095 - DEBUG - Average joint efficiency reward: -0.017546
+2019-11-04 21:44:45,184 - DEBUG - Episode: 7
+2019-11-04 21:44:45,184 - DEBUG - Total reward in this epsisode: 0.136866
+2019-11-04 21:44:45,184 - DEBUG - Average x reward: 0.009640
+2019-11-04 21:44:45,184 - DEBUG - Average y reward: -0.000046
+2019-11-04 21:44:45,184 - DEBUG - Average z reward: -0.001869
+2019-11-04 21:44:45,184 - DEBUG - Average survival reward: 0.009915
+2019-11-04 21:44:45,184 - DEBUG - Average joint efficiency reward: -0.017061
+2019-11-05 14:00:45,897 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:57: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-11-05 14:00:45,897 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:66: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-11-05 14:00:45,985 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:115: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-05 14:00:45,985 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/input.py:25: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-05 14:00:45,987 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:560: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-05 14:00:46,000 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fb3bd2ac828>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fb3bd2ac828>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-05 14:00:46,005 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/a2c/utils.py:156: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2019-11-05 14:00:46,226 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fb3bab49da0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fb3bab49da0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-05 14:00:46,482 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:151: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-05 14:00:46,623 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:189: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-05 14:00:46,652 - WARNING - From /home/antikythera1/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-05 14:01:11,140 - DEBUG - Episode: 1
+2019-11-05 14:01:11,140 - DEBUG - Total reward in this epsisode: -5.144928
+2019-11-05 14:01:11,140 - DEBUG - Average x reward: -0.011175
+2019-11-05 14:01:11,140 - DEBUG - Average y reward: -0.000009
+2019-11-05 14:01:11,140 - DEBUG - Average z reward: -0.001358
+2019-11-05 14:01:11,140 - DEBUG - Average survival reward: 0.009933
+2019-11-05 14:01:11,140 - DEBUG - Average joint efficiency reward: -0.014541
+2019-11-05 14:01:33,436 - DEBUG - Episode: 2
+2019-11-05 14:01:33,436 - DEBUG - Total reward in this epsisode: 2.526553
+2019-11-05 14:01:33,436 - DEBUG - Average x reward: 0.024197
+2019-11-05 14:01:33,436 - DEBUG - Average y reward: -0.000067
+2019-11-05 14:01:33,436 - DEBUG - Average z reward: -0.001425
+2019-11-05 14:01:33,436 - DEBUG - Average survival reward: 0.009854
+2019-11-05 14:01:33,436 - DEBUG - Average joint efficiency reward: -0.014118
+2019-11-05 14:02:00,442 - DEBUG - Episode: 3
+2019-11-05 14:02:00,442 - DEBUG - Total reward in this epsisode: 2.030475
+2019-11-05 14:02:00,442 - DEBUG - Average x reward: 0.019347
+2019-11-05 14:02:00,442 - DEBUG - Average y reward: -0.000024
+2019-11-05 14:02:00,442 - DEBUG - Average z reward: -0.001262
+2019-11-05 14:02:00,442 - DEBUG - Average survival reward: 0.009880
+2019-11-05 14:02:00,443 - DEBUG - Average joint efficiency reward: -0.015708
+2019-11-05 14:02:23,870 - DEBUG - Episode: 4
+2019-11-05 14:02:23,870 - DEBUG - Total reward in this epsisode: 2.691169
+2019-11-05 14:02:23,870 - DEBUG - Average x reward: 0.020718
+2019-11-05 14:02:23,870 - DEBUG - Average y reward: -0.000063
+2019-11-05 14:02:23,870 - DEBUG - Average z reward: -0.001928
+2019-11-05 14:02:23,870 - DEBUG - Average survival reward: 0.009905
+2019-11-05 14:02:23,870 - DEBUG - Average joint efficiency reward: -0.015817
+2019-11-05 14:02:51,321 - DEBUG - Episode: 5
+2019-11-05 14:02:51,321 - DEBUG - Total reward in this epsisode: -7.134940
+2019-11-05 14:02:51,321 - DEBUG - Average x reward: -0.020885
+2019-11-05 14:02:51,321 - DEBUG - Average y reward: -0.000035
+2019-11-05 14:02:51,321 - DEBUG - Average z reward: -0.001325
+2019-11-05 14:02:51,321 - DEBUG - Average survival reward: 0.009922
+2019-11-05 14:02:51,321 - DEBUG - Average joint efficiency reward: -0.015332
+2019-11-05 14:03:20,120 - DEBUG - Episode: 6
+2019-11-05 14:03:20,120 - DEBUG - Total reward in this epsisode: 0.830631
+2019-11-05 14:03:20,120 - DEBUG - Average x reward: 0.006817
+2019-11-05 14:03:20,120 - DEBUG - Average y reward: -0.000056
+2019-11-05 14:03:20,120 - DEBUG - Average z reward: -0.002196
+2019-11-05 14:03:20,120 - DEBUG - Average survival reward: 0.009953
+2019-11-05 14:03:20,120 - DEBUG - Average joint efficiency reward: -0.012569
+2019-11-05 14:03:45,854 - DEBUG - Episode: 7
+2019-11-05 14:03:45,855 - DEBUG - Total reward in this epsisode: 1.660988
+2019-11-05 14:03:45,855 - DEBUG - Average x reward: 0.016196
+2019-11-05 14:03:45,855 - DEBUG - Average y reward: -0.000022
+2019-11-05 14:03:45,855 - DEBUG - Average z reward: -0.002551
+2019-11-05 14:03:45,855 - DEBUG - Average survival reward: 0.009903
+2019-11-05 14:03:45,855 - DEBUG - Average joint efficiency reward: -0.015503
+2019-11-05 14:04:11,607 - DEBUG - Episode: 8
+2019-11-05 14:04:11,608 - DEBUG - Total reward in this epsisode: 1.191584
+2019-11-05 14:04:11,608 - DEBUG - Average x reward: 0.017006
+2019-11-05 14:04:11,608 - DEBUG - Average y reward: -0.000007
+2019-11-05 14:04:11,608 - DEBUG - Average z reward: -0.001376
+2019-11-05 14:04:11,608 - DEBUG - Average survival reward: 0.009851
+2019-11-05 14:04:11,608 - DEBUG - Average joint efficiency reward: -0.016582
+2019-11-05 14:04:38,701 - DEBUG - Episode: 9
+2019-11-05 14:04:38,701 - DEBUG - Total reward in this epsisode: 1.753037
+2019-11-05 14:04:38,701 - DEBUG - Average x reward: 0.008382
+2019-11-05 14:04:38,701 - DEBUG - Average y reward: -0.000032
+2019-11-05 14:04:38,701 - DEBUG - Average z reward: -0.002030
+2019-11-05 14:04:38,701 - DEBUG - Average survival reward: 0.009962
+2019-11-05 14:04:38,701 - DEBUG - Average joint efficiency reward: -0.012962
+2019-11-05 14:05:06,736 - DEBUG - Episode: 10
+2019-11-05 14:05:06,736 - DEBUG - Total reward in this epsisode: 1.588540
+2019-11-05 14:05:06,736 - DEBUG - Average x reward: 0.023073
+2019-11-05 14:05:06,736 - DEBUG - Average y reward: -0.000043
+2019-11-05 14:05:06,736 - DEBUG - Average z reward: -0.001495
+2019-11-05 14:05:06,736 - DEBUG - Average survival reward: 0.009821
+2019-11-05 14:05:06,736 - DEBUG - Average joint efficiency reward: -0.017172
+2019-11-05 14:05:30,784 - DEBUG - Episode: 11
+2019-11-05 14:05:30,784 - DEBUG - Total reward in this epsisode: -5.009782
+2019-11-05 14:05:30,784 - DEBUG - Average x reward: -0.023740
+2019-11-05 14:05:30,784 - DEBUG - Average y reward: -0.000067
+2019-11-05 14:05:30,784 - DEBUG - Average z reward: -0.001447
+2019-11-05 14:05:30,784 - DEBUG - Average survival reward: 0.009865
+2019-11-05 14:05:30,784 - DEBUG - Average joint efficiency reward: -0.018460
+2019-11-05 14:05:56,639 - DEBUG - Episode: 12
+2019-11-05 14:05:56,639 - DEBUG - Total reward in this epsisode: -3.363797
+2019-11-05 14:05:56,639 - DEBUG - Average x reward: -0.004131
+2019-11-05 14:05:56,639 - DEBUG - Average y reward: -0.000011
+2019-11-05 14:05:56,639 - DEBUG - Average z reward: -0.000853
+2019-11-05 14:05:56,639 - DEBUG - Average survival reward: 0.009935
+2019-11-05 14:05:56,639 - DEBUG - Average joint efficiency reward: -0.015863
+2019-11-05 14:06:23,009 - DEBUG - Episode: 13
+2019-11-05 14:06:23,009 - DEBUG - Total reward in this epsisode: 2.131467
+2019-11-05 14:06:23,009 - DEBUG - Average x reward: 0.018586
+2019-11-05 14:06:23,009 - DEBUG - Average y reward: -0.000009
+2019-11-05 14:06:23,009 - DEBUG - Average z reward: -0.001972
+2019-11-05 14:06:23,009 - DEBUG - Average survival reward: 0.009891
+2019-11-05 14:06:23,010 - DEBUG - Average joint efficiency reward: -0.014912
+2019-11-05 14:06:45,497 - DEBUG - Episode: 14
+2019-11-05 14:06:45,497 - DEBUG - Total reward in this epsisode: 1.354700
+2019-11-05 14:06:45,497 - DEBUG - Average x reward: 0.016420
+2019-11-05 14:06:45,497 - DEBUG - Average y reward: -0.000046
+2019-11-05 14:06:45,497 - DEBUG - Average z reward: -0.002434
+2019-11-05 14:06:45,497 - DEBUG - Average survival reward: 0.009886
+2019-11-05 14:06:45,497 - DEBUG - Average joint efficiency reward: -0.016129
+2019-11-05 14:07:09,141 - DEBUG - Episode: 15
+2019-11-05 14:07:09,141 - DEBUG - Total reward in this epsisode: 0.642176
+2019-11-05 14:07:09,141 - DEBUG - Average x reward: 0.010168
+2019-11-05 14:07:09,141 - DEBUG - Average y reward: -0.000022
+2019-11-05 14:07:09,141 - DEBUG - Average z reward: -0.001087
+2019-11-05 14:07:09,141 - DEBUG - Average survival reward: 0.009926
+2019-11-05 14:07:09,141 - DEBUG - Average joint efficiency reward: -0.016597
+2019-11-05 14:07:33,645 - DEBUG - Episode: 16
+2019-11-05 14:07:33,645 - DEBUG - Total reward in this epsisode: -5.131048
+2019-11-05 14:07:33,645 - DEBUG - Average x reward: -0.026689
+2019-11-05 14:07:33,645 - DEBUG - Average y reward: -0.000034
+2019-11-05 14:07:33,645 - DEBUG - Average z reward: -0.001520
+2019-11-05 14:07:33,646 - DEBUG - Average survival reward: 0.009855
+2019-11-05 14:07:33,646 - DEBUG - Average joint efficiency reward: -0.018794
+2019-11-05 14:07:56,651 - DEBUG - Episode: 17
+2019-11-05 14:07:56,651 - DEBUG - Total reward in this epsisode: 1.846624
+2019-11-05 14:07:56,651 - DEBUG - Average x reward: 0.021367
+2019-11-05 14:07:56,651 - DEBUG - Average y reward: -0.000035
+2019-11-05 14:07:56,651 - DEBUG - Average z reward: -0.001500
+2019-11-05 14:07:56,651 - DEBUG - Average survival reward: 0.009837
+2019-11-05 14:07:56,651 - DEBUG - Average joint efficiency reward: -0.014656
+2019-11-05 14:08:19,681 - DEBUG - Episode: 18
+2019-11-05 14:08:19,681 - DEBUG - Total reward in this epsisode: -5.412188
+2019-11-05 14:08:19,681 - DEBUG - Average x reward: -0.023168
+2019-11-05 14:08:19,681 - DEBUG - Average y reward: -0.000001
+2019-11-05 14:08:19,681 - DEBUG - Average z reward: -0.001189
+2019-11-05 14:08:19,681 - DEBUG - Average survival reward: 0.009883
+2019-11-05 14:08:19,681 - DEBUG - Average joint efficiency reward: -0.017175
+2019-11-05 14:08:44,464 - DEBUG - Episode: 19
+2019-11-05 14:08:44,465 - DEBUG - Total reward in this epsisode: -2.797219
+2019-11-05 14:08:44,465 - DEBUG - Average x reward: -0.016363
+2019-11-05 14:08:44,465 - DEBUG - Average y reward: -0.000094
+2019-11-05 14:08:44,465 - DEBUG - Average z reward: -0.001725
+2019-11-05 14:08:44,465 - DEBUG - Average survival reward: 0.009813
+2019-11-05 14:08:44,465 - DEBUG - Average joint efficiency reward: -0.017773
+2019-11-05 14:09:07,806 - DEBUG - Episode: 20
+2019-11-05 14:09:07,806 - DEBUG - Total reward in this epsisode: -5.054550
+2019-11-05 14:09:07,806 - DEBUG - Average x reward: -0.025274
+2019-11-05 14:09:07,806 - DEBUG - Average y reward: -0.000037
+2019-11-05 14:09:07,806 - DEBUG - Average z reward: -0.001474
+2019-11-05 14:09:07,806 - DEBUG - Average survival reward: 0.009861
+2019-11-05 14:09:07,806 - DEBUG - Average joint efficiency reward: -0.018177
+2019-11-05 14:09:31,669 - DEBUG - Episode: 21
+2019-11-05 14:09:31,669 - DEBUG - Total reward in this epsisode: 0.589294
+2019-11-05 14:09:31,669 - DEBUG - Average x reward: 0.012087
+2019-11-05 14:09:31,669 - DEBUG - Average y reward: -0.000113
+2019-11-05 14:09:31,669 - DEBUG - Average z reward: -0.002074
+2019-11-05 14:09:31,669 - DEBUG - Average survival reward: 0.009850
+2019-11-05 14:09:31,669 - DEBUG - Average joint efficiency reward: -0.015318
+2019-11-05 14:09:56,699 - DEBUG - Episode: 22
+2019-11-05 14:09:56,699 - DEBUG - Total reward in this epsisode: 0.923909
+2019-11-05 14:09:56,699 - DEBUG - Average x reward: 0.010933
+2019-11-05 14:09:56,700 - DEBUG - Average y reward: -0.000034
+2019-11-05 14:09:56,700 - DEBUG - Average z reward: -0.001367
+2019-11-05 14:09:56,700 - DEBUG - Average survival reward: 0.009911
+2019-11-05 14:09:56,700 - DEBUG - Average joint efficiency reward: -0.015319
+2019-11-05 14:10:24,398 - DEBUG - Episode: 23
+2019-11-05 14:10:24,398 - DEBUG - Total reward in this epsisode: -1.179866
+2019-11-05 14:10:24,398 - DEBUG - Average x reward: 0.004027
+2019-11-05 14:10:24,399 - DEBUG - Average y reward: -0.000071
+2019-11-05 14:10:24,399 - DEBUG - Average z reward: -0.002662
+2019-11-05 14:10:24,399 - DEBUG - Average survival reward: 0.009936
+2019-11-05 14:10:24,399 - DEBUG - Average joint efficiency reward: -0.015012
+2019-11-05 14:10:49,761 - DEBUG - Episode: 24
+2019-11-05 14:10:49,761 - DEBUG - Total reward in this epsisode: 1.767970
+2019-11-05 14:10:49,761 - DEBUG - Average x reward: 0.014841
+2019-11-05 14:10:49,761 - DEBUG - Average y reward: -0.000005
+2019-11-05 14:10:49,761 - DEBUG - Average z reward: -0.001181
+2019-11-05 14:10:49,762 - DEBUG - Average survival reward: 0.009908
+2019-11-05 14:10:49,762 - DEBUG - Average joint efficiency reward: -0.015454
+2019-11-05 14:11:15,860 - DEBUG - Episode: 25
+2019-11-05 14:11:15,861 - DEBUG - Total reward in this epsisode: 0.527999
+2019-11-05 14:11:15,861 - DEBUG - Average x reward: 0.008808
+2019-11-05 14:11:15,861 - DEBUG - Average y reward: -0.000083
+2019-11-05 14:11:15,861 - DEBUG - Average z reward: -0.001791
+2019-11-05 14:11:15,861 - DEBUG - Average survival reward: 0.009923
+2019-11-05 14:11:15,861 - DEBUG - Average joint efficiency reward: -0.014835
+2019-11-05 14:11:43,638 - DEBUG - Episode: 26
+2019-11-05 14:11:43,638 - DEBUG - Total reward in this epsisode: 2.532068
+2019-11-05 14:11:43,638 - DEBUG - Average x reward: 0.016843
+2019-11-05 14:11:43,638 - DEBUG - Average y reward: -0.000035
+2019-11-05 14:11:43,639 - DEBUG - Average z reward: -0.001021
+2019-11-05 14:11:43,639 - DEBUG - Average survival reward: 0.009927
+2019-11-05 14:11:43,639 - DEBUG - Average joint efficiency reward: -0.016507
+2019-11-05 14:12:09,335 - DEBUG - Episode: 27
+2019-11-05 14:12:09,335 - DEBUG - Total reward in this epsisode: 1.417532
+2019-11-05 14:12:09,335 - DEBUG - Average x reward: 0.013990
+2019-11-05 14:12:09,335 - DEBUG - Average y reward: -0.000067
+2019-11-05 14:12:09,335 - DEBUG - Average z reward: -0.002497
+2019-11-05 14:12:09,335 - DEBUG - Average survival reward: 0.009924
+2019-11-05 14:12:09,335 - DEBUG - Average joint efficiency reward: -0.015939
+2019-11-05 14:12:35,270 - DEBUG - Episode: 28
+2019-11-05 14:12:35,270 - DEBUG - Total reward in this epsisode: 1.565029
+2019-11-05 14:12:35,270 - DEBUG - Average x reward: 0.016781
+2019-11-05 14:12:35,270 - DEBUG - Average y reward: -0.000098
+2019-11-05 14:12:35,270 - DEBUG - Average z reward: -0.001461
+2019-11-05 14:12:35,270 - DEBUG - Average survival reward: 0.009904
+2019-11-05 14:12:35,270 - DEBUG - Average joint efficiency reward: -0.017602
+2019-11-05 14:12:59,714 - DEBUG - Episode: 29
+2019-11-05 14:12:59,715 - DEBUG - Total reward in this epsisode: 1.400756
+2019-11-05 14:12:59,715 - DEBUG - Average x reward: 0.014584
+2019-11-05 14:12:59,715 - DEBUG - Average y reward: -0.000040
+2019-11-05 14:12:59,715 - DEBUG - Average z reward: -0.002549
+2019-11-05 14:12:59,715 - DEBUG - Average survival reward: 0.009922
+2019-11-05 14:12:59,715 - DEBUG - Average joint efficiency reward: -0.016467
+2019-11-05 14:13:27,105 - DEBUG - Episode: 30
+2019-11-05 14:13:27,105 - DEBUG - Total reward in this epsisode: 2.518413
+2019-11-05 14:13:27,105 - DEBUG - Average x reward: 0.019357
+2019-11-05 14:13:27,105 - DEBUG - Average y reward: -0.000082
+2019-11-05 14:13:27,105 - DEBUG - Average z reward: -0.001887
+2019-11-05 14:13:27,105 - DEBUG - Average survival reward: 0.009918
+2019-11-05 14:13:27,105 - DEBUG - Average joint efficiency reward: -0.016942
+2019-11-05 14:13:53,457 - DEBUG - Episode: 31
+2019-11-05 14:13:53,457 - DEBUG - Total reward in this epsisode: 1.917620
+2019-11-05 14:13:53,457 - DEBUG - Average x reward: 0.012567
+2019-11-05 14:13:53,457 - DEBUG - Average y reward: -0.000034
+2019-11-05 14:13:53,457 - DEBUG - Average z reward: -0.001428
+2019-11-05 14:13:53,457 - DEBUG - Average survival reward: 0.009944
+2019-11-05 14:13:53,457 - DEBUG - Average joint efficiency reward: -0.015632
+2019-11-05 14:14:18,279 - DEBUG - Episode: 32
+2019-11-05 14:14:18,279 - DEBUG - Total reward in this epsisode: 1.798952
+2019-11-05 14:14:18,279 - DEBUG - Average x reward: 0.015136
+2019-11-05 14:14:18,279 - DEBUG - Average y reward: -0.000058
+2019-11-05 14:14:18,279 - DEBUG - Average z reward: -0.001201
+2019-11-05 14:14:18,279 - DEBUG - Average survival reward: 0.009917
+2019-11-05 14:14:18,279 - DEBUG - Average joint efficiency reward: -0.016298
+2019-11-05 14:14:43,201 - DEBUG - Episode: 33
+2019-11-05 14:14:43,202 - DEBUG - Total reward in this epsisode: 2.700213
+2019-11-05 14:14:43,202 - DEBUG - Average x reward: 0.019465
+2019-11-05 14:14:43,202 - DEBUG - Average y reward: -0.000070
+2019-11-05 14:14:43,202 - DEBUG - Average z reward: -0.001928
+2019-11-05 14:14:43,202 - DEBUG - Average survival reward: 0.009921
+2019-11-05 14:14:43,202 - DEBUG - Average joint efficiency reward: -0.016757
+2019-11-05 14:15:07,701 - DEBUG - Episode: 34
+2019-11-05 14:15:07,701 - DEBUG - Total reward in this epsisode: 2.081674
+2019-11-05 14:15:07,701 - DEBUG - Average x reward: 0.018232
+2019-11-05 14:15:07,701 - DEBUG - Average y reward: -0.000029
+2019-11-05 14:15:07,701 - DEBUG - Average z reward: -0.001179
+2019-11-05 14:15:07,702 - DEBUG - Average survival reward: 0.009906
+2019-11-05 14:15:07,702 - DEBUG - Average joint efficiency reward: -0.017111
+2019-11-05 14:15:34,991 - DEBUG - Episode: 35
+2019-11-05 14:15:34,991 - DEBUG - Total reward in this epsisode: 1.616513
+2019-11-05 14:15:34,991 - DEBUG - Average x reward: 0.015750
+2019-11-05 14:15:34,991 - DEBUG - Average y reward: -0.000038
+2019-11-05 14:15:34,991 - DEBUG - Average z reward: -0.002801
+2019-11-05 14:15:34,991 - DEBUG - Average survival reward: 0.009925
+2019-11-05 14:15:34,991 - DEBUG - Average joint efficiency reward: -0.016758
+2019-11-05 14:15:59,384 - DEBUG - Episode: 36
+2019-11-05 14:15:59,384 - DEBUG - Total reward in this epsisode: 0.940479
+2019-11-05 14:15:59,384 - DEBUG - Average x reward: 0.017891
+2019-11-05 14:15:59,384 - DEBUG - Average y reward: -0.000012
+2019-11-05 14:15:59,384 - DEBUG - Average z reward: -0.001474
+2019-11-05 14:15:59,384 - DEBUG - Average survival reward: 0.009828
+2019-11-05 14:15:59,384 - DEBUG - Average joint efficiency reward: -0.018125
+2019-11-05 14:16:23,538 - DEBUG - Episode: 37
+2019-11-05 14:16:23,538 - DEBUG - Total reward in this epsisode: 1.591986
+2019-11-05 14:16:23,538 - DEBUG - Average x reward: 0.019743
+2019-11-05 14:16:23,538 - DEBUG - Average y reward: -0.000005
+2019-11-05 14:16:23,538 - DEBUG - Average z reward: -0.001359
+2019-11-05 14:16:23,538 - DEBUG - Average survival reward: 0.009862
+2019-11-05 14:16:23,538 - DEBUG - Average joint efficiency reward: -0.017262
+2019-11-05 14:16:48,666 - DEBUG - Episode: 38
+2019-11-05 14:16:48,666 - DEBUG - Total reward in this epsisode: 2.535959
+2019-11-05 14:16:48,666 - DEBUG - Average x reward: 0.018251
+2019-11-05 14:16:48,666 - DEBUG - Average y reward: -0.000032
+2019-11-05 14:16:48,666 - DEBUG - Average z reward: -0.001347
+2019-11-05 14:16:48,666 - DEBUG - Average survival reward: 0.009913
+2019-11-05 14:16:48,666 - DEBUG - Average joint efficiency reward: -0.015760
+2019-11-05 14:17:14,115 - DEBUG - Episode: 39
+2019-11-05 14:17:14,115 - DEBUG - Total reward in this epsisode: 0.946686
+2019-11-05 14:17:14,115 - DEBUG - Average x reward: 0.012483
+2019-11-05 14:17:14,115 - DEBUG - Average y reward: -0.000021
+2019-11-05 14:17:14,115 - DEBUG - Average z reward: -0.001194
+2019-11-05 14:17:14,115 - DEBUG - Average survival reward: 0.009913
+2019-11-05 14:17:14,116 - DEBUG - Average joint efficiency reward: -0.017083
+2019-11-05 14:17:39,721 - DEBUG - Episode: 40
+2019-11-05 14:17:39,721 - DEBUG - Total reward in this epsisode: 2.081906
+2019-11-05 14:17:39,721 - DEBUG - Average x reward: 0.018090
+2019-11-05 14:17:39,721 - DEBUG - Average y reward: -0.000049
+2019-11-05 14:17:39,721 - DEBUG - Average z reward: -0.001908
+2019-11-05 14:17:39,721 - DEBUG - Average survival reward: 0.009906
+2019-11-05 14:17:39,721 - DEBUG - Average joint efficiency reward: -0.016265
+2019-11-05 14:18:04,044 - DEBUG - Episode: 41
+2019-11-05 14:18:04,044 - DEBUG - Total reward in this epsisode: 2.224474
+2019-11-05 14:18:04,044 - DEBUG - Average x reward: 0.019057
+2019-11-05 14:18:04,044 - DEBUG - Average y reward: -0.000091
+2019-11-05 14:18:04,044 - DEBUG - Average z reward: -0.001758
+2019-11-05 14:18:04,044 - DEBUG - Average survival reward: 0.009914
+2019-11-05 14:18:04,044 - DEBUG - Average joint efficiency reward: -0.017534
+2019-11-05 14:18:28,217 - DEBUG - Episode: 42
+2019-11-05 14:18:28,217 - DEBUG - Total reward in this epsisode: 2.619804
+2019-11-05 14:18:28,217 - DEBUG - Average x reward: 0.020731
+2019-11-05 14:18:28,217 - DEBUG - Average y reward: -0.000030
+2019-11-05 14:18:28,217 - DEBUG - Average z reward: -0.001036
+2019-11-05 14:18:28,217 - DEBUG - Average survival reward: 0.009912
+2019-11-05 14:18:28,217 - DEBUG - Average joint efficiency reward: -0.017985
+2019-11-05 14:18:54,332 - DEBUG - Episode: 43
+2019-11-05 14:18:54,332 - DEBUG - Total reward in this epsisode: 1.688895
+2019-11-05 14:18:54,332 - DEBUG - Average x reward: 0.018794
+2019-11-05 14:18:54,332 - DEBUG - Average y reward: -0.000076
+2019-11-05 14:18:54,332 - DEBUG - Average z reward: -0.001317
+2019-11-05 14:18:54,332 - DEBUG - Average survival reward: 0.009890
+2019-11-05 14:18:54,332 - DEBUG - Average joint efficiency reward: -0.018012
+2019-11-05 14:19:20,191 - DEBUG - Episode: 44
+2019-11-05 14:19:20,191 - DEBUG - Total reward in this epsisode: -0.994507
+2019-11-05 14:19:20,191 - DEBUG - Average x reward: 0.004828
+2019-11-05 14:19:20,191 - DEBUG - Average y reward: -0.000003
+2019-11-05 14:19:20,192 - DEBUG - Average z reward: -0.001068
+2019-11-05 14:19:20,192 - DEBUG - Average survival reward: 0.009923
+2019-11-05 14:19:20,192 - DEBUG - Average joint efficiency reward: -0.017519
+2019-11-05 14:19:44,880 - DEBUG - Episode: 45
+2019-11-05 14:19:44,880 - DEBUG - Total reward in this epsisode: -6.830097
+2019-11-05 14:19:44,880 - DEBUG - Average x reward: -0.023172
+2019-11-05 14:19:44,880 - DEBUG - Average y reward: -0.000027
+2019-11-05 14:19:44,880 - DEBUG - Average z reward: -0.001868
+2019-11-05 14:19:44,880 - DEBUG - Average survival reward: 0.009899
+2019-11-05 14:19:44,880 - DEBUG - Average joint efficiency reward: -0.019327
+2019-11-05 14:20:09,255 - DEBUG - Episode: 46
+2019-11-05 14:20:09,255 - DEBUG - Total reward in this epsisode: 0.399189
+2019-11-05 14:20:09,255 - DEBUG - Average x reward: 0.013313
+2019-11-05 14:20:09,255 - DEBUG - Average y reward: -0.000053
+2019-11-05 14:20:09,255 - DEBUG - Average z reward: -0.001547
+2019-11-05 14:20:09,255 - DEBUG - Average survival reward: 0.009800
+2019-11-05 14:20:09,255 - DEBUG - Average joint efficiency reward: -0.017521
+2019-11-05 14:20:33,816 - DEBUG - Episode: 47
+2019-11-05 14:20:33,816 - DEBUG - Total reward in this epsisode: 1.740395
+2019-11-05 14:20:33,816 - DEBUG - Average x reward: 0.017743
+2019-11-05 14:20:33,816 - DEBUG - Average y reward: -0.000034
+2019-11-05 14:20:33,816 - DEBUG - Average z reward: -0.001241
+2019-11-05 14:20:33,816 - DEBUG - Average survival reward: 0.009896
+2019-11-05 14:20:33,816 - DEBUG - Average joint efficiency reward: -0.017347
+2019-11-05 14:20:58,021 - DEBUG - Episode: 48
+2019-11-05 14:20:58,021 - DEBUG - Total reward in this epsisode: -0.715009
+2019-11-05 14:20:58,021 - DEBUG - Average x reward: 0.006792
+2019-11-05 14:20:58,021 - DEBUG - Average y reward: -0.000062
+2019-11-05 14:20:58,021 - DEBUG - Average z reward: -0.001386
+2019-11-05 14:20:58,022 - DEBUG - Average survival reward: 0.009917
+2019-11-05 14:20:58,022 - DEBUG - Average joint efficiency reward: -0.018216
+2019-11-05 14:21:22,823 - DEBUG - Episode: 49
+2019-11-05 14:21:22,823 - DEBUG - Total reward in this epsisode: 0.668421
+2019-11-05 14:21:22,823 - DEBUG - Average x reward: 0.015779
+2019-11-05 14:21:22,823 - DEBUG - Average y reward: -0.000045
+2019-11-05 14:21:22,823 - DEBUG - Average z reward: -0.001588
+2019-11-05 14:21:22,823 - DEBUG - Average survival reward: 0.009804
+2019-11-05 14:21:22,823 - DEBUG - Average joint efficiency reward: -0.017396
+2019-11-05 14:21:34,104 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fb3bd2ace48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fb3bd2ace48>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-05 14:21:34,368 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fb3482f3ac8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7fb3482f3ac8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-05 14:21:59,930 - DEBUG - Episode: 1
+2019-11-05 14:21:59,930 - DEBUG - Total reward in this epsisode: 0.486012
+2019-11-05 14:21:59,930 - DEBUG - Average x reward: 0.010965
+2019-11-05 14:21:59,930 - DEBUG - Average y reward: -0.000016
+2019-11-05 14:21:59,931 - DEBUG - Average z reward: -0.001243
+2019-11-05 14:21:59,931 - DEBUG - Average survival reward: 0.009936
+2019-11-05 14:21:59,931 - DEBUG - Average joint efficiency reward: -0.018089
+2019-11-05 14:22:26,030 - DEBUG - Episode: 2
+2019-11-05 14:22:26,030 - DEBUG - Total reward in this epsisode: 4.136608
+2019-11-05 14:22:26,030 - DEBUG - Average x reward: 0.023549
+2019-11-05 14:22:26,030 - DEBUG - Average y reward: -0.000049
+2019-11-05 14:22:26,030 - DEBUG - Average z reward: -0.001336
+2019-11-05 14:22:26,030 - DEBUG - Average survival reward: 0.009923
+2019-11-05 14:22:26,030 - DEBUG - Average joint efficiency reward: -0.016238
+2019-11-05 14:22:55,167 - DEBUG - Episode: 3
+2019-11-05 14:22:55,167 - DEBUG - Total reward in this epsisode: -0.540498
+2019-11-05 14:22:55,167 - DEBUG - Average x reward: 0.006968
+2019-11-05 14:22:55,167 - DEBUG - Average y reward: -0.000029
+2019-11-05 14:22:55,167 - DEBUG - Average z reward: -0.000898
+2019-11-05 14:22:55,167 - DEBUG - Average survival reward: 0.009935
+2019-11-05 14:22:55,167 - DEBUG - Average joint efficiency reward: -0.017720
+2019-11-05 14:23:26,051 - DEBUG - Episode: 4
+2019-11-05 14:23:26,051 - DEBUG - Total reward in this epsisode: 4.155758
+2019-11-05 14:23:26,051 - DEBUG - Average x reward: 0.025790
+2019-11-05 14:23:26,051 - DEBUG - Average y reward: -0.000007
+2019-11-05 14:23:26,051 - DEBUG - Average z reward: -0.001062
+2019-11-05 14:23:26,051 - DEBUG - Average survival reward: 0.009916
+2019-11-05 14:23:26,051 - DEBUG - Average joint efficiency reward: -0.017102
+2019-11-05 14:23:52,826 - DEBUG - Episode: 5
+2019-11-05 14:23:52,826 - DEBUG - Total reward in this epsisode: 1.054537
+2019-11-05 14:23:52,826 - DEBUG - Average x reward: 0.019204
+2019-11-05 14:23:52,826 - DEBUG - Average y reward: -0.000087
+2019-11-05 14:23:52,826 - DEBUG - Average z reward: -0.001439
+2019-11-05 14:23:52,827 - DEBUG - Average survival reward: 0.009833
+2019-11-05 14:23:52,827 - DEBUG - Average joint efficiency reward: -0.018724
+2019-11-05 14:24:21,623 - DEBUG - Episode: 6
+2019-11-05 14:24:21,623 - DEBUG - Total reward in this epsisode: 0.885015
+2019-11-05 14:24:21,623 - DEBUG - Average x reward: 0.019056
+2019-11-05 14:24:21,623 - DEBUG - Average y reward: -0.000067
+2019-11-05 14:24:21,624 - DEBUG - Average z reward: -0.001412
+2019-11-05 14:24:21,624 - DEBUG - Average survival reward: 0.009820
+2019-11-05 14:24:21,624 - DEBUG - Average joint efficiency reward: -0.019424
+2019-11-06 17:42:52,794 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:57: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-11-06 17:42:52,794 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:66: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-11-06 17:42:52,878 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:115: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-06 17:42:52,879 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/input.py:25: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-06 17:42:52,881 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:560: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-06 17:42:52,900 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3193cef7b8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f3193cef7b8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:42:52,906 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/a2c/utils.py:156: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2019-11-06 17:42:53,192 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f31916439b0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f31916439b0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:42:53,611 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:151: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-06 17:42:53,761 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:189: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-06 17:42:53,794 - WARNING - From /home/antikythera1/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-06 17:42:54,082 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f31914fbf98>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f31914fbf98>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:42:54,425 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f318bd52dd8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f318bd52dd8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:42:55,286 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f31914fbef0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7f31914fbef0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:04,454 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:57: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-11-06 17:43:04,454 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/tf_util.py:66: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-11-06 17:43:04,531 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:115: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2019-11-06 17:43:04,532 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/input.py:25: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2019-11-06 17:43:04,534 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/common/policies.py:560: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+2019-11-06 17:43:04,554 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb81c337f0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb81c337f0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:04,559 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/a2c/utils.py:156: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2019-11-06 17:43:04,865 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb78c59940>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb78c59940>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:05,181 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:151: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2019-11-06 17:43:05,327 - WARNING - From /home/antikythera1/workplace/Exoskeleton/stable_baselines/ppo1/pposgd_simple.py:189: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+2019-11-06 17:43:05,358 - WARNING - From /home/antikythera1/.local/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-11-06 17:43:05,631 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb81c33748>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb81c33748>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:05,904 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb13bc3e10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb13bc3e10>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:06,765 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb13c85c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb13c85c50>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:07,095 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb07c09ac8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb07c09ac8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:07,839 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffafb3f7cf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffafb3f7cf8>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:08,090 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffaf8b82da0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffaf8b82da0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:08,801 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb68de5358>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffb68de5358>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:09,201 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffaeeba2c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffaeeba2c50>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:09,949 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffaf3b77f60>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffaf3b77f60>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:10,216 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffac08bf320>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffac08bf320>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:10,924 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffac053fcc0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffac053fcc0>>: AttributeError: module 'gast' has no attribute 'Num'
+2019-11-06 17:43:11,165 - WARNING - Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffac0478e10>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x7ffac0478e10>>: AttributeError: module 'gast' has no attribute 'Num'
